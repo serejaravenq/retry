@@ -1,0 +1,331 @@
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.main-nav-bar .navbar-default .navbar-nav .dropdown .dropdown-toggle{
+
+	border: 2px solid  #ca870e;
+
+}
+
+	.navbar-nav .dropdown{
+	float:left;
+}
+
+.about-h2-wrapper{
+
+		float: none;
+    	margin: 0 auto 2%;
+    	height:76px;
+	}
+
+.about span{
+	display: inline-block;
+    margin: 20px 0 2% 31%;
+    text-align: left;
+}
+
+.about .comments-about{
+
+	display:none;
+}
+
+.description-about:nth-child(1),
+.description-about:nth-last-child(1){
+	
+	margin: 0 31%;
+}
+
+.about .underline{
+	margin: 20px 0 20px 31%;
+
+}
+.description-about{
+
+	margin:0 0 0 31%;
+
+}
+
+.services-wrapper h2{
+	padding-top: 30px;
+}
+
+.services-wrapper h2,
+.description-services,
+.services-wrapper .section-details,
+.services-wrapper img,
+.services-info,
+.services-wrapper h3{
+	margin-left: 25%;
+}
+
+.right{
+	float:none;
+	margin: 10% auto;
+}
+
+.contacts-wrapper h2,
+.contacts-wrapper  form,
+.contacts-wrapper  img{
+	display:block;
+	float:none;
+	margin: 0 0 0 32%;
+}
+
+.contacts-wrapper p{
+
+	margin: 2% 0 2% 32%;
+}
+
+.contacts-wrapper img{
+	display:none;
+} 
+
+.contacts .invisible-block{
+
+	display:inline-block;
+	margin: 0 0 2% 32%;
+}
+
+.footer-title{
+	margin-left: 32%;
+
+}
+
+.footer-list{
+
+	margin-left: 26%;
+}
+.social-icons{
+	float:none;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.navbar .container-fluid .navbar-header .main-title{
+	margin: 4% 0 0 0;
+	width: 55%;
+	}
+
+	.about .section-details{
+		display:none;
+	}
+
+	.navbar-nav .dropdown{
+
+		display:none;
+	}
+
+	.navbar-header .dropdown{
+
+		display:block;
+	}
+
+	.underline{
+		display:none;
+	}
+
+	.section{
+		background-size: 100%;
+	}
+	.section .section-details{
+		display:none;
+	}
+	.section h1{
+		margin:0 4%;
+		font-size: 45px;
+		padding-left: 20px;
+	}
+
+	.description{
+		max-width: 172px;
+		margin-left: 4%;
+		font-size: 25px;
+		padding-left: 20px;
+		width:100%;
+		color:#434242;
+	}
+
+	.about-h2-wrapper{
+
+		float: none;
+    	margin: 0 3% 5%;
+	}
+
+.description-about:nth-child(1),
+.description-about:nth-last-child(1){
+	display:block;
+	margin: 0 3%;
+}
+
+.about .underline{
+	margin: 20px 0 20px 3%;
+
+}
+.description-about{
+
+	margin:0 0 0 3%;
+
+
+}
+
+.about-picture{
+	float:none;
+	margin: 3% 7% 3% 3%;
+}
+
+.about span{
+
+	display: block;
+    margin: 20px 0 2% 3%;
+    text-align: left;
+    float:none;
+    width: 100%;
+    max-width: 234px;
+}
+	
+	.services-wrapper h2{
+
+		margin-left: 25%;
+	}
+
+	.description-services{
+
+		margin-left:  25%;
+	}
+
+	.services-wrapper h2,
+	.description-services,
+	.services-wrapper .section-details,
+	.services-wrapper img,
+	.services-info,
+	.services-wrapper h3{
+
+		margin-left: 3%;
+	}
+
+	.services-wrapper{
+
+		width:100%;
+		margin: 10% 0;
+	}
+
+	.contacts .invisible-block{
+
+	display:inline-block;
+	margin: 0 0 2% 3%;
+}
+	.contacts-wrapper h2,
+.contacts-wrapper  form{
+		margin: 0 0 0 3%;
+	}
+
+	.contacts-wrapper p{
+
+		margin: 2% 0 2% 3%;
+	}
+}
+
+.footer-title{
+	margin-left: 3%;
+
+}
+
+.footer-list{
+	padding:0;
+	margin-left: 3%;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.section {
+
+		background-position: right 105px;
+	}
+
+	.section h1{
+		display:none;
+	}
+	.navbar-header .dropdown .caret{
+		display:none;
+	}
+	.description span{
+		color:#f3f3f3;
+	}
+
+	.about .section-details{
+		display:inline-block;
+		margin: 5% 3%;
+	}
+
+	.about .section-details .underline{
+		
+		margin: -1px 0 0 0;
+	}
+	.invisible-block{
+		display:none;
+	}
+
+	.services-wrapper .description-services{
+		display:none;
+	}
+
+	.contacts-wrapper  form input{
+		max-width: 410px;
+		margin: 0 5px 10px 0;
+	}
+
+	.footer-list{
+
+		display:none;
+	}
+	.footer-title{
+		margin-left:32%;
+	}
+	.social-icons{
+
+		width:100%;
+		text-align:center;
+	}
+}
+
+
+@media only screen and (max-width : 427px) {
+	
+   .navbar .container-fluid .navbar-header .main-title{
+
+		font-size: 18px;
+	}
+
+}
+
+
+@media only screen and (max-width : 375px) {
+
+	
+	.navbar-header .dropdown{
+
+		 padding: 10px 20px;
+		 
+	}
+
+	.description-about{
+
+	
+
+}
+}
