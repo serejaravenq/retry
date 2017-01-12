@@ -75,7 +75,7 @@
 	margin: 0;
 }
 }
-
+/*******slovo-index***/
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -178,8 +178,11 @@
 		width: 108%;
 	}
 }
+/*******slovo-index***/
+
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 484px) {
 
 	.section {
 
@@ -228,9 +231,27 @@
 		display:block;
 		text-align: center;
 	}
+
+
+
+
+
+/*******slovo-index***/
+
+.wrapper-offer{
+
+		text-align: left;
+	}
+
+	.block-offer img{
+		width:100%;
+	}
+
+	.info-block-offer{
+		padding-left: 0;
+		margin-top: 5px;
+	}
 }
-
-
 @media only screen and (max-width : 427px) {
 	
    .navbar .container-fluid .navbar-header .main-title{
@@ -240,6 +261,7 @@
 
 }
 
+/*******slovo-index***/
 
 @media only screen and (max-width : 375px) {
 
@@ -254,3 +276,5 @@
 		font-size: 35px;
 	}
 }
+
+/*******slovo-index***/
