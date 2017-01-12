@@ -9,7 +9,7 @@
 
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 991px) {
 
 	.main-nav-bar .navbar-default .navbar-nav .dropdown .dropdown-toggle{
 
@@ -39,74 +39,40 @@
 	display:none;
 }
 
-.description-about:nth-child(1),
-.description-about:nth-last-child(1){
-	
-	margin: 0 31%;
-}
+.about h2{
 
-.about .underline{
-	margin: 20px 0 20px 31%;
-
-}
-.description-about{
-
-	margin:0 0 0 31%;
-
+	width:100%;
+	float:none;
 }
 
 .services-wrapper h2{
 	padding-top: 30px;
 }
 
-.services-wrapper h2,
-.description-services,
-.services-wrapper .section-details,
-.services-wrapper img,
-.services-info,
-.services-wrapper h3{
-	margin-left: 25%;
+
+.about .description-wrapper-about .invisible-block{
+
+
+    display:inline-block;
+    margin:20px 0;
+    text-align:left;
+
 }
 
-.right{
-	float:none;
-	margin: 10% auto;
-}
+.about .commentaries{
 
-.contacts-wrapper h2,
-.contacts-wrapper  form,
-.contacts-wrapper  img{
-	display:block;
-	float:none;
-	margin: 0 0 0 32%;
-}
-
-.contacts-wrapper p{
-
-	margin: 2% 0 2% 32%;
-}
-
-.contacts-wrapper img{
 	display:none;
-} 
-
-.contacts .invisible-block{
-
-	display:inline-block;
-	margin: 0 0 2% 32%;
+}
+.description-wrapper-about{
+	max-width: 100%;
+    display: block;
+    margin: 6% auto 0;
+    
 }
 
-.footer-title{
-	margin-left: 32%;
+.about-picture{
 
-}
-
-.footer-list{
-
-	margin-left: 26%;
-}
-.social-icons{
-	float:none;
+	margin: 0;
 }
 }
 
@@ -150,7 +116,7 @@
 	}
 
 	.description{
-		max-width: 172px;
+		max-width: 175px;
 		margin-left: 4%;
 		font-size: 25px;
 		padding-left: 20px;
@@ -164,28 +130,6 @@
     	margin: 0 3% 5%;
 	}
 
-.description-about:nth-child(1),
-.description-about:nth-last-child(1){
-	display:block;
-	margin: 0 3%;
-}
-
-.about .underline{
-	margin: 20px 0 20px 3%;
-
-}
-.description-about{
-
-	margin:0 0 0 3%;
-
-
-}
-
-.about-picture{
-	float:none;
-	margin: 3% 7% 3% 3%;
-}
-
 .about span{
 
 	display: block;
@@ -196,59 +140,44 @@
     max-width: 234px;
 }
 	
-	.services-wrapper h2{
-
-		margin-left: 25%;
-	}
-
-	.description-services{
-
-		margin-left:  25%;
-	}
-
-	.services-wrapper h2,
-	.description-services,
-	.services-wrapper .section-details,
-	.services-wrapper img,
-	.services-info,
-	.services-wrapper h3{
-
-		margin-left: 3%;
-	}
-
 	.services-wrapper{
 
 		width:100%;
-		margin: 10% 0;
+		margin: 5% 0;
 	}
 
-	.contacts .invisible-block{
-
-	display:inline-block;
-	margin: 0 0 2% 3%;
-}
-	.contacts-wrapper h2,
-.contacts-wrapper  form{
-		margin: 0 0 0 3%;
-	}
-
-	.contacts-wrapper p{
-
-		margin: 2% 0 2% 3%;
-	}
-}
-
-.footer-title{
-	margin-left: 3%;
-
-}
 
 .footer-list{
 	padding:0;
 	margin-left: 3%;
 }
+.invisible-section{
+    display:none;
+}
 
+.footer-list{
 
+		display:none;
+	}
+
+.about .section-details{
+		display:inline-block;
+		margin: 5% 0;
+		font-size:13px;
+		font-family:"Proximanova-bold";
+	}
+
+	.about .section-details .underline{
+		
+		margin: -1px 0 0 0;
+		max-width: 100%
+	}
+	.contacts-wrapper img{
+		float:none;
+		margin-left: -14px;
+		width: 108%;
+	}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
@@ -267,15 +196,17 @@
 		color:#f3f3f3;
 	}
 
-	.about .section-details{
-		display:inline-block;
-		margin: 5% 3%;
+	
+	.footer-title{
+
+		display:block;
+		text-align: center;
 	}
 
-	.about .section-details .underline{
-		
-		margin: -1px 0 0 0;
+	footer .underline {
+		display:none;
 	}
+	
 	.invisible-block{
 		display:none;
 	}
@@ -289,17 +220,13 @@
 		margin: 0 5px 10px 0;
 	}
 
-	.footer-list{
-
-		display:none;
-	}
-	.footer-title{
-		margin-left:32%;
-	}
+	
 	.social-icons{
 
 		width:100%;
-		text-align:center;
+		margin: 0;
+		display:block;
+		text-align: center;
 	}
 }
 
@@ -308,7 +235,7 @@
 	
    .navbar .container-fluid .navbar-header .main-title{
 
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 }
@@ -323,9 +250,7 @@
 		 
 	}
 
-	.description-about{
-
-	
-
-}
+	.contacts-wrapper h2{
+		font-size: 35px;
+	}
 }
