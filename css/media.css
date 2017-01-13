@@ -66,7 +66,7 @@
 	display:none;
 }
 .description-wrapper-about{
-	max-width: 416px;
+	max-width: 500px;
     display: block;
     margin: 6% auto 0;
     
@@ -91,17 +91,32 @@
 }
 
 .contacts-wrapper{
-	max-width: 513px;
+	
     margin: 2% auto;
+    max-width: 513px;
 }
 
 .services-wrapper{
 	max-width: 500px
 }
 .about-wrapper-h2{
-	max-width: 415px;
+	max-width: 500px;
     margin: 0 auto;
 }
+
+.wrapper-leftside-footer {
+    
+    margin: 0 auto;
+    max-width: 415px;
+}
+.footer-list{
+
+	max-width: 580px;
+	margin: 0 auto;
+}
+.services-wrapper img{
+    	max-width: 500px;
+    }
 }
 /*******slovo-index***/
 
@@ -205,6 +220,7 @@
 	    max-width: 500px;
 	
     }
+
 }
 /*******slovo-index***/
 
@@ -266,10 +282,14 @@
 		text-align: center;
 	}
 
+.services-wrapper{
+	max-width: 500px
+}
 
-
-
-
+.services-wrapper {
+   
+    border-bottom: 1px solid #e6e6e6;
+}
 /*******slovo-index***/
 
 .wrapper-offer{
@@ -285,6 +305,8 @@
 		padding-left: 0;
 		margin-top: 5px;
 	}
+
+
 }
 @media only screen and (max-width : 427px) {
 	

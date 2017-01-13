@@ -13,9 +13,9 @@ header .main-nav-bar nav{
 
 .underline{
 
-	margin: 0 0 0 -40px;
+	margin: 0 0 0 -50px;
 	border:1px solid #b28500;
-    width: 250px;
+    width: 260px;
 }
 
 
@@ -358,6 +358,7 @@ background-image: url(../img/main-bg.png);
 	width:100%;
 	max-width: 435px;
     height:auto;
+    display:block;
 
 }
 
@@ -405,6 +406,7 @@ background-image: url(../img/main-bg.png);
     font-size: 22px;
    font-family: "Proximanova-regular";
    color: #444444;
+   display:inline-block;
 }
 
 .services-info {
@@ -420,7 +422,6 @@ background-image: url(../img/main-bg.png);
 .services-wrapper h3 .underline{
     margin: 0;
     display:block;
-    max-width: 90px;
     width: 100%;
     color: #444444;
 }
@@ -463,7 +464,7 @@ background-image: url(../img/main-bg.png);
 .contacts-wrapper  form input{
 
 	width: 100%;
-    max-width: 206px;
+    max-width: 216px;
     height: 50px;
     font-size: 16px;
     font-family: "Proximanova-semibold";
@@ -489,7 +490,7 @@ background-image: url(../img/main-bg.png);
 .contacts-wrapper  form textarea{
 
 	width: 100%;
-	max-width: 420px;
+	max-width: 438px;
 	background-color: #f3f3f3;
 	border:none;
     color: #888888;
