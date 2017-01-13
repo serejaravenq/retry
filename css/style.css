@@ -91,7 +91,7 @@ header .main-nav-bar nav{
 .navbar .container-fluid .navbar-header .main-title{
 	
 	font-size: 25px;
-    margin: 7% 0 0 13%;
+    margin: 7% 0 0 35px;
     padding: 22px 0;
     color: #434242;
     font-family: "Proximanova-semibold";
@@ -182,7 +182,7 @@ background-image: url(../img/main-bg.png);
 
 .section h1{
 	display: inline-block;
-    margin: 12% 0 0 0%;
+    margin: 12% 0 0 31px;
     font-size: 58px;
     color: #b28500;
     font-family: "Proximanova-regular";
@@ -190,11 +190,11 @@ background-image: url(../img/main-bg.png);
 
 .description {
 
-	    display: block;
     font-size: 22px;
     max-width: 350px;
     font-family: "Proximanova-regular";
     color: #444444;
+    margin-left: 35px;
 }
 
 .section-details,
@@ -206,6 +206,11 @@ background-image: url(../img/main-bg.png);
     font-family:"Proximanova-bold";
     text-transform: uppercase;
     text-decoration: none;
+    margin: 20px 0 0 35px;
+}
+
+.services .section-details{
+    margin: 20px  0 0 0;
 }
 
 .section-details .underline{
@@ -285,7 +290,7 @@ background-image: url(../img/main-bg.png);
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
-    color: #ababab;
+    color: #888888;
     text-align: left;
 }
 
@@ -304,7 +309,7 @@ background-image: url(../img/main-bg.png);
 .about-picture{
 
 	
-    margin: 3% 0 0 5%;
+    margin: 5% 0 0 6%;
     width:100%;
     max-width: 500px;
 }
@@ -333,6 +338,7 @@ background-image: url(../img/main-bg.png);
 .services{
 
 	background-color: #f3f3f3;
+    height: 1100px;
 	
 }
 
@@ -351,13 +357,13 @@ background-image: url(../img/main-bg.png);
 
 	width:100%;
 	max-width: 435px;
-    height:265px;
+    height:auto;
 
 }
 
 .description-services {
 
-    display: block;
+    
     font-size: 22px;
     font-family:"Proximanova-regular";
     width:100%;
@@ -402,18 +408,19 @@ background-image: url(../img/main-bg.png);
 }
 
 .services-info {
-    display:block;
-    font-size: 15px;
+    
+    font-size: 16px;
     font-family: "Proximanova-semibold";
-    color: #6f6969;
+    color: #888888;
     width:100%;
     max-width:420px;
+    margin-top:25px;
 }
 
 .services-wrapper h3 .underline{
     margin: 0;
     display:block;
-    max-width: 120px;
+    max-width: 90px;
     width: 100%;
     color: #444444;
 }
@@ -441,7 +448,7 @@ background-image: url(../img/main-bg.png);
    font-family: "Proximanova-semibold";
     max-width: 465px;
     margin: 3% 0;
-    color: #ababab;
+    color: #888888;
 
 }
 
@@ -449,20 +456,22 @@ background-image: url(../img/main-bg.png);
     margin: 3% 0 0 0;
     width:100%;
     max-width: 465px;
+
     
 }
 
 .contacts-wrapper  form input{
 
 	width: 100%;
-    max-width: 200px;
+    max-width: 206px;
     height: 50px;
     font-size: 16px;
     font-family: "Proximanova-semibold";
-    color: #a5a5a5;
+    color: #888888;
     background-color: #f3f3f3;
-    margin: 5px 5px 10px;
+    margin: 5px 5px 10px 0;
     outline:none;
+    padding: 15px;
 }
   
 
@@ -483,17 +492,18 @@ background-image: url(../img/main-bg.png);
 	max-width: 420px;
 	background-color: #f3f3f3;
 	border:none;
-    color: #adadad;
+    color: #888888;
     font-size: 16px;
     outline:none;
-     font-family: "Proximanova-semibold";
+    font-family: "Proximanova-semibold";
+    padding: 15px;
 }
 
 .contacts-wrapper img{
 
 	display:block;
 	float:right;
-    max-width: 853px;
+    max-width: 513px;
     width:100%;
     margin-right: -52px;
 }
@@ -536,6 +546,7 @@ footer{
 footer .underline{
 	display:inline-block;
 	margin: 0 1% 0;
+    max-width: 17px;
     
 }
 
@@ -552,8 +563,9 @@ footer .underline{
     border-radius: 50%;
     font-size: 13px;
     width: 30px;
-    height: 25px;
-    padding-top: 5px;
+    height: 30px;
+    padding-top: 8px;
+    padding-right: 1px;
     background-color: #b28500;
     color: white;
     text-align: center;
