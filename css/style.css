@@ -573,9 +573,15 @@ footer .underline{
 }
 
 
-.footer-list{
-    padding: 0;
+.footer-category {
+    text-align: right;
 }
+
+.footer-list-category{
+    padding: 0 0 0 40px;
+    text-align: left;
+}
+
 
 .footer-list li{
 
@@ -593,12 +599,182 @@ footer .underline{
 
 /*******slovo-index***/
 
-.catalog{
+.catalog .underline{
 
-    height:324px;
-    background-color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    margin:  0 5px 0 0;
 }
 
+.name-wrapper-catalog{
+    font-size: 40px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Proximanova-regular";
+}
+.catalog{
+
+    background-color: #333333;
+}
+.info-rightside-catalog {
+    color: #fff;
+    font-family: "Proximanova-semibold";
+    font-size: 15px;
+    margin-top: 32px;
+    margin-right: -25px;
+    display: inline-block;
+    float: right;
+}
+
+.wrapper-catalog {
+    max-width: 925px;
+    margin: 0 auto;
+}
+.info-rightside-catalog .number-info-rightside-catalog{
+    margin: 0 5px;
+    text-decoration: underline;
+    font-size: 22px;
+    color: #b28500;
+}
+
+.searcher-catalog{
+    
+    margin: 2% auto;
+    text-align: center;
+}
+.searcher-catalog li{
+    display:inline-block;
+    list-style:none;
+    background-color: #444444;
+    font-family: "Proximanova-semibold";
+    padding:15px;
+    font-size: 15px;
+    color:#fff;
+    margin: 10px 10px 5px 0;
+    height:50px;
+
+}
+.searcher-catalog li select{
+
+    border: none;
+    background-color: #444444;
+    color: #fff;
+    outline: none;
+    width: 100%;
+}
+
+.searcher-catalog li select option{
+
+    outline:none;
+}
+ .buy-field,
+ .room-field{
+    
+    width: 170px;
+    height: 50px;
+}
+
+.size-field input{
+    width: 60px;
+    color: #fff;
+    height: 24px;
+    display: inline-block;
+    background-color: #444444;
+    border: none;
+    outline: none;
+}
+
+
+
+.metro-field input{
+    width: 150px;
+    color: #fff;
+    height: 24px;
+    display: inline-block;
+    background-color: #444444;
+    border: none;
+    outline: none;
+}
+.searcher-catalog .price-field{
+
+    padding: 15px 6px 15px 0;
+}
+
+.price-field input{
+
+   width: 120px;
+    color: #fff;
+    height: 24px;
+    display: inline-block;
+    background-color: #444444;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.price-field span{
+    padding: 10px 15px;
+    background-color: #555555;
+}
+.price-field .field1{
+    border-right: 1px solid #555555;
+}
+
+.invisible-wrapper-catalog{
+
+    display:none;
+}
+
+.parametrs-searcher-catalog {
+    margin: 3% 0;
+}
+ .parametrs-searcher-catalog > a {
+    color: #fff;
+    font-family: "Proximanova-bold";
+    font-size: 16px;
+    border-bottom: 2px solid #b28500;
+   }
+
+.button-searcher-catalog{
+    overflow:hidden;
+    margin: 0 65px 20px 95px;
+    text-align: center;
+}
+.button-searcher-catalog:before,
+.button-searcher-catalog:after{
+    content: '';  
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+    background: #444444;
+    border: solid #333333;
+  border-width: 0 10px;
+    
+}
+.button-searcher-catalog:before{
+
+     margin-left: -100%;
+}
+
+.button-searcher-catalog:after{
+
+     margin-right: -100%;
+}
+
+.button-searcher-catalog > p {
+    display: inline-block;
+    background-color: #b28500;
+    padding: 15px 50px;
+    }
+ .button-searcher-catalog > p> a   {
+    
+    font-family: "Proximanova-bold";
+    color: #fff;
+    font-size: 15px;
+    }
 .offer{
     background-color: #f5f5f5;
 }
@@ -627,8 +803,13 @@ footer .underline{
     display: inline-block;
     padding: 20px;
     border: 1px solid #e6e6e6;
-    margin-left:-5px;
+    margin-left:-3px;
     max-width: 470px;
+}
+
+.block-offer:nth-child(odd){
+
+    border-right:none;
 }
 
 .info-block-offer{
@@ -637,6 +818,7 @@ footer .underline{
     max-width: 224px;
     vertical-align: top;
     text-align:left;
+
 }
 
 .title-info-block-offer {
@@ -677,7 +859,7 @@ footer .underline{
     margin-right: 5px;
 }
 
-.price{
+.price-info-block-offer{
 
     font-family: "Proximanova-semibold";
     margin: 8px 0;
@@ -686,7 +868,7 @@ footer .underline{
 
 }
 
-.date{
+.date-info-block-offer{
 
     font-family: "Proximanova-bold";
     font-size: 14px;

@@ -117,9 +117,32 @@
 .services-wrapper img{
     	max-width: 500px;
     }
-}
+
 /*******slovo-index***/
 
+	.block-offer img{
+		width:100%;
+	}
+
+	.info-block-offer{
+		padding-left: 0;
+		margin-top: 5px;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.date-info-block-offer{
+
+		float:right;
+	}
+	.block-offer:nth-child(odd){
+
+		border-right:  1px solid #e6e6e6;
+	}
+	.info-rightside-catalog{
+		margin-right: 0px;
+	}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 
@@ -220,7 +243,7 @@
 	    max-width: 500px;
 	
     }
-
+    
 }
 /*******slovo-index***/
 
@@ -291,21 +314,45 @@
     border-bottom: 1px solid #e6e6e6;
 }
 /*******slovo-index***/
+.info-rightside-catalog .hide-info-right-side-catalog{
+    display: none;
 
-.wrapper-offer{
+}
+.price-field input {
+    width: 82px;
+}
+.wrapper-catalog{
+	border-bottom: 1px solid #444444;
+}
+.name-wrapper-catalog{
+	font-size: 34px;
+}
+.info-rightside-catalog{
+	margin-top: 27px;
+}
 
-		text-align: left;
-	}
+.invisible-wrapper-catalog{
 
-	.block-offer img{
-		width:100%;
-	}
+	display:block;
+	text-align: center;
 
-	.info-block-offer{
-		padding-left: 0;
-		margin-top: 5px;
-	}
+}
 
+.invisible-wrapper-catalog >a{
+	
+    color: #fff;
+    font-family: "Proximanova-semibold";
+    font-size: 16px;
+    border-bottom: 2px solid #b28500;
+}
+
+.parametrs-searcher-catalog{
+	display:none;
+}
+.button-searcher-catalog  {
+
+    	display:none;
+    }
 
 }
 @media only screen and (max-width : 427px) {
@@ -330,6 +377,9 @@
 
 	.contacts-wrapper h2{
 		font-size: 35px;
+	}
+	.searcher-catalog{
+		text-align: left;
 	}
 }
 
