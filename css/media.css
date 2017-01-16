@@ -244,10 +244,23 @@
 	
     }
     
-}
+
 /*******slovo-index***/
+.field{
+ 	border:none;
+ 	border-top: 1px solid #eeeeee;
+ 	border-bottom: 1px solid #eeeeee;
+ }
 
-
+.info .date{
+	border-right: none;
+}
+.name-contacts{
+	float:none;
+	padding-top: 0;
+	display:block;
+}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
 
@@ -353,6 +366,12 @@
 
     	display:none;
     }
+
+.modal-footer span:nth-child(2){
+
+	display:none;
+}
+ 
 
 }
 @media only screen and (max-width : 427px) {

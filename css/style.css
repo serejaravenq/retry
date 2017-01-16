@@ -183,7 +183,7 @@ background-image: url(../img/main-bg.png);
 .section h1{
 	display: inline-block;
     margin: 12% 0 0 31px;
-    font-size: 58px;
+    font-size: 54px;
     color: #b28500;
     font-family: "Proximanova-regular";
 }
@@ -573,15 +573,6 @@ footer .underline{
 }
 
 
-.footer-category {
-    text-align: right;
-}
-
-.footer-list-category{
-    padding: 0 0 0 40px;
-    text-align: left;
-}
-
 
 .footer-list li{
 
@@ -874,4 +865,112 @@ footer .underline{
     font-size: 14px;
     margin: 0;
     color: #cbcbcb;
+}
+
+ 
+ .modal .modal-dialog {
+    float: right;
+    margin: 0;
+    max-width: 715px;
+    width: 100%;
+}
+
+.map{
+
+    height:370px;
+}
+.gallery {
+    margin-bottom: 10px;
+}
+.gallery img{
+
+    max-width: 100px;
+    margin: 5px;
+}
+.contacts {
+    padding-top: 5px;
+    border-top: 1px solid #eeeeee;
+}
+
+.phone-contacts {
+    font-family: "Proximanova-regular";
+    font-size: 25px;
+    color: #444444;
+}
+.name-contacts {
+    float: right;
+    font-family: "proximanova-semibold";
+    font-size: 17px;
+    padding-top: 8px;
+    color: #444444;
+}
+
+.status-name-contacts {
+    font-family: "proximanova-bold";
+    color: #ababab;
+}
+
+.field {
+    padding: 15px;
+    border: 1px solid #eeeeee;
+    border-right: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 105px;
+   
+}
+.info .date{
+
+    max-width: 137px;
+    border-right: 1px solid #eee;
+}
+
+.firstrow-field-info {
+    font-family: "proximanova-regular";
+    color: #b28500;
+    font-size: 25px;
+    display: block;
+    height:30px;
+
+}
+
+.secondrow-field-info {
+    display: block;
+    font-family: "Proximanova-bold";
+    color: #444444;
+    font-size: 15px;
+}
+
+.details-modal-body {
+    font-size: 16px;
+    font-family: "proximanova-semibold";
+    color: #888888;
+}
+
+.modal-content h4{
+    font-size: 20px;
+    font-family: "Proximanova-semibold";
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+.modal-content .modal-footer{
+    background-color:#333333;
+    color:#fff;
+    text-align:left;
+}
+
+.modal-footer span{
+text-transform: uppercase;
+    font-family: "Proximanova-bold";
+    font-size: 13px;
+    margin: 20px;
+    border-bottom: 2px solid #b28500;
+}
+
+.modal-footer select{
+    text-transform:uppercase;
+    background-color: #333333;
+    border:none;
+    border-bottom: 2px solid #b28500;
 }
