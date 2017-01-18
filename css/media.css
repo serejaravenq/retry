@@ -139,6 +139,10 @@
 
 		border-right:  1px solid #e6e6e6;
 	}
+	.block-offer:nth-child(n+2){
+
+    border-top:none;
+}
 	.info-rightside-catalog{
 		margin-right: 0px;
 	}
@@ -259,7 +263,24 @@
 	float:none;
 	padding-top: 0;
 	display:block;
+
 }
+.block-offer img{
+	border-top:1px solid #e6e6e6;
+	padding-top: 25px;
+}
+.block-offer:nth-child(odd){
+
+    border-right:none;
+}
+.block-offer{
+	padding: 0;
+	border:none;
+	margin-bottom:  15px;
+}
+ .push-modal-body .button-push{
+ 	float:none;
+ }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
@@ -372,7 +393,62 @@
 	display:none;
 }
  
+ .registration-modal-content .registration-modal-footer{
 
+    text-align:left;
+}
+
+.enter-registration-modal-header{
+	font-size: 16px;
+	padding-top: 12px;
+    font-family: "proximanova-bold";
+    color: #b28500;
+}
+
+.registration-modal-header h1{
+	font-size:  30px;
+	margin:  0;
+}
+
+.modal-dialog .registration-modal-content{
+	padding: 20px;
+	margin-top:  75px;
+}
+
+.registration-modal-header .cancel-button{
+	right: 30px;
+}
+.registration-modal-header .underline{
+	width: 17px;
+}
+.registration-form-modal-body span{
+	position:absolute;
+	margin-top: 15px;
+}
+.registration-form-modal-body p{
+	margin-top:  10px;
+	margin-bottom: 5px;
+}
+
+.reg-modal-footer{
+	margin-top:  0;
+}
+.registration-modal-content .registration-modal-body {
+	margin-bottom:  0;
+}
+
+.registration-form-modal-body span .condition {
+     width: 140px;
+ 
+    left: 127px;
+    top: -14px;
+}
+.registration-modal-header h1>span{
+	display:none;
+}
+.forget-modal-header h1{
+	font-size: 29px;
+}
 }
 @media only screen and (max-width : 427px) {
 	

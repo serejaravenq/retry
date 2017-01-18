@@ -24,13 +24,15 @@
         <span class="icon-bar"></span>
       </button>
       <strong class="navbar-brand main-title" href="#">Купеческое слово<hr  class="underline" ></strong>
-          <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b> </a>
+          <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown" >Войти <b class="caret"></b> </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#check">Action</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#registration">Another action</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#details-item">Something else here</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#"  data-toggle="modal" data-target="#push">Separated link</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#enter">Ssad1</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#forget">Ssad23</a></li>
           </ul>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,13 +45,15 @@
             <li class="divider"></li>
             <li><a href="#">контакты</a></li>
             <li class="phone-field"><a href="tel:+7(812)600 00 00">+7(812)600 00 00</a></li>
-          <a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a>
+          <a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown" >Войти <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#check">Action</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#registration">Another action</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#details-item">Something else here</a></li>
             <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#"  data-toggle="modal" data-target="#push">Separated link</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#enter">Ssad1</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#forget">Ssad23</a></li>
           </ul>
       </ul>
       </div> 
@@ -106,7 +110,7 @@
 		</div>
 		<div class="col-md-12">
 			<div class="wrapper-offer">
-				<div class="block-offer " data-toggle="modal" data-target="#myModal">
+				<div class="block-offer " data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -120,7 +124,7 @@
 					</div>
 					
 				</div>
-				<div class="block-offer " data-toggle="modal" data-target="#myModal">
+				<div class="block-offer " data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -133,7 +137,7 @@
 					<p class="date-info-block-offer">31 июля</p>
 					</div>
 				</div>
-					<div class="block-offer" data-toggle="modal" data-target="#myModal">
+					<div class="block-offer" data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -146,7 +150,7 @@
 					<p class="date-info-block-offer">31 июля</p>
 					</div>
 				</div>
-				<div class="block-offer" data-toggle="modal" data-target="#myModal">
+				<div class="block-offer" data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -159,7 +163,7 @@
 					<p class="date-info-block-offer">31 июля</p>
 					</div>
 				</div>
-				<div class="block-offer" data-toggle="modal" data-target="#myModal">
+				<div class="block-offer" data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -172,7 +176,7 @@
 					<p class="date-info-block-offer">31 июля</p>
 					</div>
 				</div>
-				<div class="block-offer" data-toggle="modal" data-target="#myModal">
+				<div class="block-offer" data-toggle="modal" data-target="#details-item">
 					<img src="img/picture1-offer.png">
 					<div class="info-block-offer">
 					<p class="title-info-block-offer">Квартира,2 ком., 66м<sup>2</sup></p>
@@ -223,18 +227,15 @@
 
 <!-- Modal -->
 
-<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+<div class="modal fade " id="details-item" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
-             
-        </div>
-      <div class="modal-body">
       
-        <div class="map">
+             
         
-       
-        </div>
+      <div class="modal-body">
+      <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+        <img href="#" src="img/map.png">
         <div class="gallery">
         	<img  href="#" src="img/picture1-offer.png">
         	<img  href="#" src="img/picture1-offer.png">
@@ -254,7 +255,7 @@
       <div class="field"><span class="firstrow-field-info">8м<sup>2</sup></span><span class="secondrow-field-info">Кухня</span></div>
       <div class="field"><span class="firstrow-field-info">2</span><span class="secondrow-field-info">Комнат</span></div>
       <div class="field"><span class="firstrow-field-info">2этаж</span><span class="secondrow-field-info">из 3-x</span></div>
-      <div class="field date"><span class="firstrow-field-info">2009<sup>2</sup></span><span class="secondrow-field-info">Год постройки</span></div>
+      <div class="field date"><span class="firstrow-field-info">2009<sup></sup></span><span class="secondrow-field-info">Год постройки</span></div>
     </div>
     <h4>Условия сделки</h4>
     <p class="details-modal-body">Прямая продажа,ипотека возможна.</p>
@@ -263,7 +264,7 @@
     <h4>Условия сделки</h4>
     <p class="details-modal-body">Высота потолков -300 см.</p>
   </div>
-  <div class="modal-footer">
+  <div class="modal-footer details-modal-footer">
   	<span>поделиться</span>
   	<span>сохранить к себе</span>
   	<span>
@@ -274,6 +275,146 @@
   	</span>
   </div>
 </div>
+</div>
+</div>
+<!--Регистрация-->
+<div class="modal " id="registration" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content registration-modal-content">
+    <div class="registration-modal-header modal-header">
+    	 <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+    	 <h1><hr class="underline">Регистрация <a   class="enter-registration-modal-header" href="#">Вход</a></h1>
+    </div>
+      <div class="modal-body registration-modal-body">
+      <form class="registration-form-modal-body">
+      <p><span>Имя</span>
+      	<input class="lastname" type="text" name="lastname">
+      	</p>
+      	<p><span>Фамилия</span>
+      	<input class="firstname"  type="text" name="firstname">
+      	</p>
+      	<p><span>Телефон</span>
+      	<input class="phone" type="tel"  name="phone">
+      	</p>
+      	<p><span>Email</span>
+      	<input class="Email" type="text" name="mail">
+      	</p>
+      	<p><span>Пароль <span class="condition">минимум 8 символов</span></span>
+      	<input class="password" type="text" name="password" >
+      	</p>
+      	<p><span>Подтвердите пароль</span>
+      	<input  type="text" name="password">
+      	</p>
+      </form>
+     
+      </div>
+      <div class="modal-footer registration-modal-footer">
+      	<button class="reg-modal-footer">зарегистрироваться</button>
+      </div>
+      </div>
+   </div>
+ </div>
+ <!-- спасибо за регистрацию -->
+ <div class="modal " id="check" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content registration-modal-content">
+    <div class="registration-modal-header modal-header">
+    	 <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+    	 <h1><hr class="underline">Регистрация <a   class="enter-registration-modal-header" href="#">Вход</a></h1>
+    </div>
+      <div class="modal-body check-modal-body">
+      <p class="field1">Спасибо за регистрацию! Мы выслали вам email с подтверждением, проверьте почтовый ящик.</p>
+      <p class="field2">Не получили инструкции для подтверждения регистрации?</p>
+      </div>
+      
+      </div>
+   </div>
+ </div>
+ <!--  отправить подтверждение  -->
+  <div class="modal " id="push" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content registration-modal-content">
+    <div class="registration-modal-header modal-header">
+    	 <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+    	 <h1><hr class="underline"><span>Отправить </span>подтверждение</h1>
+    </div>
+      <div class="modal-body push-modal-body">
+      <form class="form-push">
+      <p><span>Email</span>
+      	<input class="email-push" type="text" name="mail">
+      	</p>
+      	<button class="button-push">Отправить</button>
+      	</form>
+      </div>
+      <div class="modal-footer  push-modal-footer">
+      <p><a>Войти</a></p>
+      <p><a>Зарегистрироваться</a></p>
+      <p><a>Забыли пароль?</a></p>
+      </div>
+   </div>
+ </div>
+ </div>
+ <!--вход-->
+
+<div class="modal " id="enter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content registration-modal-content enter-modal-content">
+    <div class="registration-modal-header modal-header">
+    	 <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+    	 <h1><hr class="underline"><span> </span>Вход<a   class="enter-registration-modal-header" href="#">регистрация</a></h1>
+    </div>
+      <div class=" enter-modal-body modal-body push-modal-body ">
+      <form class=" form-enter form-push ">
+      <p><span>Email</span>
+      	<input class=" email-enter email-push" type="text" name="mail">
+      	</p>
+      	<p><span>Пароль</span>
+      	<input class=" password-enter email-push" type="password" name="password">
+      	
+      	</p>
+      	<div class="checkbox-enter">
+      	<input class="check-enter" type="checkbox" name="option1" id="checkbox1" value="a2">
+
+      	<label for="checkbox1">запомнить меня</label>
+      	</div>
+      	</form>
+      </div>
+      <div class="modal-footer  enter-modal-footer">
+      <button class="button-form-enter">Войти</button>
+      <p class="field1">
+      <a>Не получили инструкции для подтверждения регистрации?</a>
+      </p>
+      <p  class="field2">
+      <a>забыли пароль?</a>
+      </p>
+      </div>
+   </div>
+ </div>
+ </div>
+<!--Забыли пароль-->
+ <div class="modal " id="forget" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"  >
+  <div class="modal-dialog" role="document">
+    <div class="forget-modal-content modal-content registration-modal-content">
+    <div class=" forget-modal-header registration-modal-header modal-header">
+    	 <button class="close cancel-button" type="button" data-dismiss="modal">x</button>
+    	 <h1><hr class="underline">Забыли пароль?</h1>
+    </div>
+      <div class="modal-body push-modal-body">
+      <form class="form-push">
+      <p><span>Email</span>
+      	<input class="email-push" type="text" name="mail">
+      	</p>
+      	<button class="button-forget button-push">Выслать инструкции</button>
+      	</form>
+      </div>
+      <div class="modal-footer  push-modal-footer">
+      <p><a>Войти</a></p>
+      <p><a>Зарегистрироваться</a></p>
+      <p><a>Не получили инструкции для подтверждения регистрации?</a></p>
+      </div>
+   </div>
+ </div>
+ </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
  <script src="js/bootstrap.js"></script>

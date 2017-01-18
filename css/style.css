@@ -613,13 +613,12 @@ footer .underline{
     font-family: "Proximanova-semibold";
     font-size: 15px;
     margin-top: 32px;
-    margin-right: -25px;
     display: inline-block;
     float: right;
 }
 
 .wrapper-catalog {
-    max-width: 925px;
+    max-width: 940px;
     margin: 0 auto;
 }
 .info-rightside-catalog .number-info-rightside-catalog{
@@ -633,6 +632,7 @@ footer .underline{
     
     margin: 2% auto;
     text-align: center;
+    padding: 0;
 }
 .searcher-catalog li{
     display:inline-block;
@@ -662,7 +662,7 @@ footer .underline{
  .buy-field,
  .room-field{
     
-    width: 170px;
+    width: 150px;
     height: 50px;
 }
 
@@ -679,7 +679,7 @@ footer .underline{
 
 
 .metro-field input{
-    width: 150px;
+    width: 165px;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -694,7 +694,7 @@ footer .underline{
 
 .price-field input{
 
-   width: 120px;
+   width: 127px;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -729,8 +729,9 @@ footer .underline{
 
 .button-searcher-catalog{
     overflow:hidden;
-    margin: 0 65px 20px 95px;
+    margin: 0 auto 20px;
     text-align: center;
+    max-width: 935px;
 }
 .button-searcher-catalog:before,
 .button-searcher-catalog:after{
@@ -802,6 +803,10 @@ footer .underline{
 
     border-right:none;
 }
+.block-offer:nth-child(n+3){
+
+    border-top:none;
+}
 
 .info-block-offer{
     display: inline-block;
@@ -820,7 +825,8 @@ footer .underline{
     
 }
 .title-info-block-offer sup{
-    font-size: 15px;
+        font-size: 13px;
+        font-family: "Proximanova-bold";
 }
 
 .description-info-block-offer{
@@ -873,6 +879,7 @@ footer .underline{
     margin: 0;
     max-width: 715px;
     width: 100%;
+    z-index: 1040;
 }
 
 .map{
@@ -934,6 +941,27 @@ footer .underline{
 
 }
 
+.modal-body .cancel-button{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 30px;
+    width: 35px;
+    opacity: 1;
+    border: none;
+}
+
+.firstrow-field-info sup{
+
+    top: -0.9em;
+    font-size: 11px;
+}
+
 .secondrow-field-info {
     display: block;
     font-family: "Proximanova-bold";
@@ -954,7 +982,7 @@ footer .underline{
     margin-bottom: 5px;
 }
 
-.modal-content .modal-footer{
+.modal-content .details-modal-footer{
     background-color:#333333;
     color:#fff;
     text-align:left;
@@ -973,4 +1001,221 @@ text-transform: uppercase;
     background-color: #333333;
     border:none;
     border-bottom: 2px solid #b28500;
+}
+
+.registration-modal-header .underline{
+
+    margin: 0 5px 0 0;
+    border: 2px solid #b28500;
+    width: 26px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.registration-modal-header h1{
+
+    font-size: 40px;
+    font-family: "Proximanova-regular";
+    margin: 0 0 20px 0;
+    color: #444444;
+}
+
+.enter-registration-modal-header{
+
+    color: #444444;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Proximanova-regular";
+    float: right;
+    padding-top: 15px;
+}
+
+.modal-dialog .registration-modal-content{
+
+        padding: 50px;
+        border:none;
+        border-radius:0;
+}
+
+.registration-modal-header .cancel-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.registration-modal-content .registration-modal-body{
+
+    padding:0;
+    margin-bottom:  20px;
+}
+
+.registration-form-modal-body p{
+
+display: inline-block;
+margin-left: 15px;
+margin-top: 20px;
+color:#858585;
+}
+
+.registration-form-modal-body span{
+    display:block;
+    font-family: "Proximanova-semibold";
+    font-size: 15px;
+}
+   .registration-form-modal-body p>input{
+    width: 264px;
+    height: 50px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.registration-form-modal-body span .condition{
+
+    float:right;
+    font-size: 13px;
+    font-family: "proximanova-bold";
+    color: #b9b9b9;
+}
+
+
+
+.registration-modal-content .registration-modal-footer{
+
+    text-align:center;
+}
+.registration-form-modal-body p:nth-child(odd){
+
+    margin-right: 40px;
+
+}
+
+.reg-modal-footer{
+
+    border: none;
+    padding: 15px 57px;
+    background-color: #b28500;
+    color: #fff;
+    font-family: "Proximanova-bold";
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.check-modal-body .field1{
+
+    display: block;
+    font-size: 22px;
+    font-family: "proximanova-regular";
+    color: #444444;
+    margin-top: 10px;
+     margin-bottom: 60px;
+
+}
+
+.check-modal-body .field2{
+    font-family: "proximanova-semibold";
+    font-size: 16px;
+    color: #444444;
+    border-bottom: 2px solid #b28500;
+    display: inline;
+}
+
+.modal-dialog .push-modal-body{
+
+    padding: 15px 0;
+}
+.push-modal-body .form-push p{
+
+    display:inline-block;
+}
+.push-modal-body .form-push span{
+
+    display: block;
+    font-family: "proximanova-semibold";
+    font-size: 15px;
+    color: #858585;
+}
+.push-modal-body .email-push {
+
+
+    border: none;
+    background-color: #f5f5f5;
+    width: 260px;
+    height: 50px;
+    outline: none;
+}
+
+.push-modal-body .button-push{
+
+
+    padding: 15px 93px;
+    font-family: "proximanova-bold";
+    background-color: #b28500;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    float:right;
+    margin-top: 20px;
+
+}
+
+.registration-modal-content .push-modal-footer{
+
+    text-align:center;
+        padding-top: 30px;
+}
+.push-modal-footer p>a{
+    color: #444444;
+    text-decoration: none;
+    font-family: "proximanova-semibold";
+    font-size: 16px;
+    border-bottom: 2px solid #b28500;
+}
+
+.enter-modal-body .form-enter p:nth-child(1){
+
+    margin-right: 85px;
+    float:left;
+}
+
+
+.form-enter .checkbox{
+    float:right;
+    width: 100%;
+    max-width: 260px;
+}
+.checkbox .check-enter{
+    margin-left: 0;
+}
+
+ .enter-modal-content .enter-modal-footer{
+    text-align: center;
+}
+
+.enter-modal-footer .button-form-enter {
+    padding: 13px 56px;
+    font-family: "proximanova-bold";
+    font-size: 15px;
+    background-color: #b28500;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.enter-modal-footer p>a {
+    color: #444444;
+    text-decoration: none;
+    font-family: "proximanova-semibold";
+    font-size: 16px;
+    border-bottom: 2px solid #b28500;
+}
+.enter-modal-footer .field1{
+
+    margin-top: 30px;
+}
+
+.forget-modal-content .button-forget{
+    padding: 15px 61px;
 }
