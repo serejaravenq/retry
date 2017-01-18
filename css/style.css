@@ -884,10 +884,17 @@ footer .underline{
 
 .map{
 
-    height:370px;
+    
+    width:100%;
+}
+.details-item-info .date{
+
+    max-width: 136px;
 }
 .gallery {
     margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 .gallery img{
 
@@ -895,9 +902,15 @@ footer .underline{
     margin: 5px;
 }
 .contacts {
-    padding-top: 5px;
+    padding: 15px 10px;
     border-top: 1px solid #eeeeee;
+     border-bottom: 1px solid #eeeeee;
 }
+
+
+.details-item-info {
+    border-bottom: 1px solid #eeeeee;
+    }
 
 .phone-contacts {
     font-family: "Proximanova-regular";
@@ -973,6 +986,8 @@ footer .underline{
     font-size: 16px;
     font-family: "proximanova-semibold";
     color: #888888;
+    padding-left:  10px;
+
 }
 
 .modal-content h4{
@@ -980,6 +995,8 @@ footer .underline{
     font-family: "Proximanova-semibold";
     color: #444444;
     margin-bottom: 5px;
+    padding: 0 10px;
+    margin-top: 20px;
 }
 
 .modal-content .details-modal-footer{
