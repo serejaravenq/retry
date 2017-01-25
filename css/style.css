@@ -246,7 +246,7 @@ background-image: url(../img/main-bg.png);
 	
 	text-align: left;
     font-size: 38px;
-    max-width:259px;
+    width:259px;
     display:inline-block;
     float:right;
     font-family: "Proximanova-regular";
@@ -452,6 +452,14 @@ background-image: url(../img/main-bg.png);
     width: 100%;
     color: #444444;
 }
+.contacts-wrapper{
+
+    width: 458px;
+}
+.contacts img{
+        float:right;
+        width: 40%;
+    }
 
 .contacts-wrapper h2{
     display:inline-block;
@@ -542,16 +550,6 @@ background-image: url(../img/main-bg.png);
 
     display:none;
 
-}
-
-.contacts .invisible-block {
-
-	display:none;
-}
-.contacts .invisible-block img{
-
-	width:100%;
-	max-width: 410px;
 }
 
 
@@ -802,8 +800,8 @@ footer .underline{
     background-color: #f5f5f5;
 }
 .wrapper-offer{
-    max-width: 934px;
-    margin: 0 auto;
+    max-width: 960px;
+    margin: 20px auto 30px;
     text-align:center;
     }
 
@@ -826,7 +824,7 @@ footer .underline{
     display: inline-block;
     padding: 20px;
     border: 1px solid #e6e6e6;
-    margin-left:-3px;
+    margin-left:-5px;
     max-width: 470px;
 }
 
@@ -845,12 +843,13 @@ footer .underline{
     max-width: 224px;
     vertical-align: top;
     text-align:left;
+    height:150px;
 
 }
 
 .title-info-block-offer {
     font-family: "Proximanova-semibold";
-    font-size: 19px;
+    font-size: 18px;
     color:#444444;
     margin:0;
     
@@ -865,10 +864,11 @@ footer .underline{
     font-family: "Proximanova-bold";
     color:#878787;
     margin:  5px 0;
+    height:100px;
 }
 .field1 {
     display: block;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .field2,.field3{
@@ -893,6 +893,14 @@ footer .underline{
     margin: 8px 0;
     font-size: 19px;
     color: #b28500;
+
+}
+.invisible-date-info-block-offer{
+    display:none;
+     font-family: "Proximanova-bold";
+    font-size: 14px;
+    margin: 0;
+    color: #cbcbcb;
 
 }
 
@@ -921,6 +929,7 @@ footer .underline{
 .details-item-info .date{
 
     max-width: 136px;
+    border-right: none;
 }
 .gallery {
     margin-bottom: 10px;
@@ -937,6 +946,11 @@ footer .underline{
     border-top: 1px solid #eeeeee;
      
 }
+.modal-dialog .modal-content-details-info{
+
+    border:none;
+    border-radius: 0px;
+}
 .modal-body .underline-modal-body{
     border: 1px solid #eeeeee;
     width: 35px;
@@ -945,7 +959,8 @@ footer .underline{
 }
 
 .details-item-info {
-    border-bottom: 1px solid #eeeeee;
+    border: 1px solid #eeeeee;
+    text-align: center;
     }
 
 .phone-contacts {
@@ -967,14 +982,14 @@ footer .underline{
 }
 
 .field {
-    padding: 15px;
-    border: 1px solid #eeeeee;
-    border-right: none;
+    padding: 15px; 
+    border-right: 1px solid #eeeeee;
     display: inline-block;
     width: 100%;
     max-width: 105px;
    
 }
+
 .info .date{
 
     max-width: 137px;
@@ -1041,26 +1056,44 @@ footer .underline{
     text-align:left;
 }
 
-.modal-footer span{
+.modal-footer a{
 text-transform: uppercase;
     font-family: "Proximanova-bold";
     font-size: 13px;
-    margin: 20px;
+    margin: 0 20px 0 5px;
     border-bottom: 2px solid #b28500;
+    color:#fff;
 }
 
-.modal-footer select{
-    text-transform:uppercase;
-    background-color: #333333;
-    border:none;
-    border-bottom: 2px solid #b28500;
+.dropdown-menu-footer,
+.save{
+    display:inline-block;
 }
+
+.dropdown-menu-footer a{
+    margin-right: 5px;
+}
+.dropdown-menu-footer a:hover{
+    color:#fff;
+    margin-right: 5px;
+}
+.dropdown-menu-footer ul{
+    top: -95px;
+    left: 75px;
+}
+.dropdown-menu-footer ul li a{
+
+    border:none;
+}
+
+
 
 .registration-modal-header .underline{
 
-    margin: 0 5px 15px 0;
+    margin: 0 5px 10px 0;
     border: 2px solid #b28500;
-    width: 25px;
+    max-width: 25px;
+    width:100%;
     display: inline-block;
     vertical-align: middle;
     border:2px solid #b28500;
@@ -1115,6 +1148,23 @@ text-transform: uppercase;
     color: #ff0000;
 }
 
+ input::-webkit-input-placeholder {
+    color:#858585;
+    font-family: "Proximanova-semibold";
+    font-size: 15px;
+    padding:10px;
+    display:none;
+
+}
+ input:-moz-placeholder {
+    color:#858585;
+    font-family: "Proximanova-semibold";
+    font-size: 15px;
+    padding:10px;
+    display:none;
+
+}
+
 .registration-form-modal-body p{
 
 display: inline-block;
@@ -1124,7 +1174,7 @@ color:#858585;
 }
 
 .registration-form-modal-body span{
-    display:block;
+    display:none;
     font-family: "Proximanova-semibold";
     font-size: 15px;
 }
@@ -1133,6 +1183,7 @@ color:#858585;
     height: 50px;
     border: none;
     background-color: #f5f5f5;
+    outline:none;
 }
 
 .registration-form-modal-body span .condition{
@@ -1190,13 +1241,16 @@ color:#858585;
 
     padding: 15px 0;
 }
+
+
+
 .push-modal-body .form-push p{
 
     display:inline-block;
 }
 .push-modal-body .form-push span{
 
-    display: block;
+    display: none ;
     font-family: "proximanova-semibold";
     font-size: 15px;
     color: #858585;
@@ -1206,27 +1260,31 @@ color:#858585;
 
     border: none;
     background-color: #f5f5f5;
-    width: 260px;
+    width: 280px;
     height: 50px;
     outline: none;
 }
 
 .push-modal-body .button-push{
 
-
-    padding: 15px 93px;
     font-family: "proximanova-bold";
     background-color: #b28500;
     color: #fff;
     font-size: 15px;
     border: none;
+    display: inline-block;
     float:right;
-    margin-top: 20px;
+    width:100%;
+    height: 50px;
+    max-width: 280px;
 
 }
 
-.registration-modal-header .cancel-button{
-    
+.modal-body .cancel-button:hover,
+.modal-body .cancel-button:focus
+{
+    outline:none;
+    opacity:1;
 }
 .registration-modal-content .push-modal-footer{
 
@@ -1239,6 +1297,10 @@ color:#858585;
     font-family: "proximanova-semibold";
     font-size: 16px;
     border-bottom: 2px solid #b28500;
+    margin: 0;
+}
+.push-modal-footer .parapgraph1{
+    display:none;
 }
 
 .enter-modal-body .form-enter p:nth-child(1){
@@ -1276,16 +1338,21 @@ color:#858585;
     color: #fff;
     margin-top: 20px;
     display:block;
+
     margin:20px auto 0;
 }
 
 
+.enter-modal-footer p{
+    margin: 15px auto;
+}
 .enter-modal-footer p>a {
     color: #444444;
     text-decoration: none;
     font-family: "proximanova-semibold";
     font-size: 16px;
     border-bottom: 2px solid #b28500;
+    margin: 0;
 }
 .enter-modal-footer .field1{
 
@@ -1293,7 +1360,7 @@ color:#858585;
 }
 
 .forget-modal-content .button-forget{
-    padding: 15px 61px;
+   
 }
 
 .tabs-wrapper{
@@ -1346,8 +1413,13 @@ color:#858585;
 .wrapperinfo-left-side-main-panel {
     text-align: center;
     border: 1px solid #eeeeee;
-    margin-bottom: 20px;
+    max-width: 360px;
+    margin: 0 auto 20px;
    
+}
+
+.wrapper-h1-main-panel {
+    margin: 40px auto;
 }
 
 .h1-main-panel{
@@ -1356,7 +1428,7 @@ color:#858585;
     font-family:"Proximanova-regular";
     color:#444444;
     text-align: center;
-    margin: 70px 0;
+    margin: 30px 0;
 }
 
 .status-main-panel {
@@ -1384,7 +1456,9 @@ color:#858585;
 .wrapperinfo-middle-side-main-panel{
     text-align: center;
     border: 1px solid #eeeeee;
-    margin-bottom: 20px;
+    max-width: 360px;
+    margin: 0 auto 20px;
+    
 
 }
 
@@ -1497,7 +1571,8 @@ color:#b28500;
 .picture-laying-over {
     vertical-align: middle;
     padding: 15px;
-    float: left;
+    float:left;
+
 }
 
 .info-rent-wrapper,
@@ -1505,6 +1580,8 @@ color:#b28500;
 .laying-hand-over-wrapper{
 display: inline-block;
 padding: 0 5px;
+margin: 0 auto;
+max-width: 280px;
 }
 
 .info-rent-wrapper h3,
@@ -1553,18 +1630,38 @@ padding: 0 5px;
 .state {
     position: absolute;
     bottom: -5px;
-    left: 110px;
+    right: 35px;
     background-color: #3dbc6b;
     font-family: "proximanova-bold";
     font-size: 14px;
     color: #fff;
     padding: 5px 10px;
 }
+.sell{
+    position: absolute;
+    bottom: -5px;
+    right: 35px;
+    background-color: #ffd24d;
+    font-family: "proximanova-bold";
+    font-size: 14px;
+    color: #333333;
+    padding: 5px 10px;
+
+}
 .wrapper-hand-over,
 .wrapper-laying-over {
     display: inline-block;
     position: relative;
     float:left;
+}
+
+.invisible-button-laying{
+    display:none;
+}
+.laying-hand-over-wrapper .monthly-payment,
+.info-hand-over-wrapper .monthly-payment{
+
+    margin-bottom: 10px;
 }
 
 .laying-over-wrapper .button-laying{
@@ -1584,6 +1681,8 @@ padding: 0 5px;
 .form-settings{
     
     margin: 40px auto;
+    max-width: 690px;
+    width:100%;
     
 }
 
@@ -1639,7 +1738,7 @@ padding: 0 5px;
 
 .wrapper-button-form-settings{
     overflow:hidden;
-    margin: 0 -45px 20px 0;
+    margin: 0 auto 20px;
     text-align: center;
     
 }
