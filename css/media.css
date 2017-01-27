@@ -28,6 +28,12 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+.type{
+	margin-left: 25px;
+}
+.check-field1{
+	margin-right: 50px;
+}
 .contacts .left-picture {
     float: none;
 }
@@ -244,7 +250,7 @@
 
 	.type-wrapper {
     display: block;
-    max-width: 50%;
+    max-width: 350px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -270,7 +276,8 @@
     padding: 0;
 }
 .type li{
-	display:block;
+	display:inline-block;
+	text-align: left;
 }
 
 
@@ -318,6 +325,7 @@
 }
 	.type{
 	padding:0;
+	margin:0;
 }
 	.registration-modal-body .form-push{
     max-width: 280px;

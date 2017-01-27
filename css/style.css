@@ -988,9 +988,9 @@ color: #fff;
 }
 
 .furniture-wrapper {
-    max-width: 350px;
-    text-align: center;
-    margin: 10px 0;
+    max-width: 710px;
+    text-align: left;
+    margin: 10px auto;
 }
 .furniture-wrapper ul li{
     color:#fff;
