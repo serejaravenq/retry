@@ -192,8 +192,14 @@ background-image: url(../img/main-bg.png);
     height: 600px;
     background-position: right;
     background-color: rgba(0, 0, 0, 0.05);
-    margin-bottom: 5%;
     
+}
+.section-services-wrapper{
+    background-image: url(../img/main-bg-services.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: right;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .section h1{
@@ -237,12 +243,9 @@ background-image: url(../img/main-bg.png);
 /*********section**********/
 
 
-.about-h2-wrapper{
-
-
-
+.about{
+    padding: 100px 0 75px;
 }
-
 .about h2{
 	
 	text-align: left;
@@ -606,13 +609,13 @@ footer .underline{
 
 	list-style: none;
     display: inline-block;
-    margin: 2% 15px 1% 0;
+    margin: 2% 10px 1% 0;
     font-weight: bold;
 }
 .footer-list li>a{
 	    color: #565656;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Proximanova-semibold";
 }
 
@@ -747,6 +750,12 @@ footer .underline{
     padding-left: 20px;
 }
 
+.managment{
+    background-color: #f3f3f3;
+    padding: 100px 0;
+}
+
+
 .price-field span{
     padding: 10px 15px;
     background-color: #555555;
@@ -754,7 +763,9 @@ footer .underline{
 .price-field .field1{
     border-right: 1px solid #555555;
 }
-
+.contacts .left-picture{
+    float:left;
+}
 .invisible-wrapper-catalog{
 
     display:none;
@@ -874,6 +885,7 @@ border-top: 2px solid #444444;
     display:inline-block;
     padding:0;
 }
+
 
 .sorting-wrapper ul li{
     display: inline-block;

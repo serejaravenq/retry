@@ -28,6 +28,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+.contacts .left-picture {
+    float: none;
+}
+
 	.contacts img{
 		float:none;
 	max-width: 513px;
