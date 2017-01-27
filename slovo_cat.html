@@ -10,7 +10,6 @@
 	<link rel='stylesheet'  href='css/fonts.css' type='text/css' media='all' />
 	<link rel="stylesheet" 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
 <body>
 <header>
  <div class="main-nav-bar">
@@ -28,24 +27,11 @@
       <strong class="navbar-brand main-title" >Купеческое слово</strong>
       <hr  class="underline" >
       </div>
-
-      
-       
           <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b> </a>
-          
-      
-      
     </div>
- 
     <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-      
-      
-   
     <ul class="nav navbar-nav navbar-right">
-    
-    
             <li><a href="#">управление</a></li>
             <li><a href="#">аренда</a></li>
             <li><a href="#">продажа</a></li>
@@ -56,7 +42,6 @@
             <li class="phone-field"><a href="#">+7(812)600 00 00</a></li>
             <li class="login"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
       </ul>      
-          
       </div> <!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -75,32 +60,148 @@
 				</div>
 				<div class="col-md-12">
 				<ul class="searcher-catalog">
-					<li class="buy-field">
-						 <select>
-						 	<option>Купить</option>
-						 	<option>Продать</option>
-						 </select>
+					<li class="dropdown buy-field">
+						<a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Купить <b class="caret"></b></a>
+						<ul class="dropdown-menu ">
+           
+            <li><a >снимаю</a></li>
+            <li><a >сдаю</a></li>
+            <li><a >закладки</a></li>
+            <li><a >настройки</a></li>
+          </ul>
 					</li>
-					<li class="room-field">
-					<select>
-						 	<option>Комнату</option>
-						 	<option>Квартиру</option>
-						 </select>
-
+					<li class="dropdown room-field"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Квартиру <b class="caret"></b></a>
+					<ul class="dropdown-menu ">
+            <li><a >снимаю</a></li>
+            <li><a >сдаю</a></li>
+            <li><a >закладки</a></li>
+            <li><a >настройки</a></li>
+          </ul>
 					</li>
-					<li class="size-field"><input type="text" value="S,M2 "></li>
-					<li class="metro-field"><input  type="text" value="Метро"></li>
-					<li class="price-field"><input class=" field1" type="text" value="От"><input type="text" value="До"><span>P</span></li>
-					
-					
-
+					<li class="size-field"><input type="text" placeholder="S, м"></li>
+					<li class="metro-field"><input  type="text" placeholder="Метро"></li>
+					<li class="price-field"><input class=" field1" type="text" placeholder="От"><input type="text" placeholder="До"><span>P</span></li>
 				</ul>
+				<div class="wrapper-additional-options">
+					<hr class="underlin-wrapper-additional-options">
+
+					<div class="additional-options">
+						<div class="area-wrapper">
+						<p>Площадь</p>
+						<ul class="area">
+						<li class="area-field">
+						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+						</li>
+						<li class="area-field">
+						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+						</li>
+						<li class="area-field">
+						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+						</li>
+						</ul>
+						
+						</div>
+						
+						<div class="stage-wrapper inv-stage-wrapper">
+						<p>Этаж</p>
+						<div class="stage">
+							<input class=" field1" type="text" placeholder=" От">
+							<input class="field2" type="text" placeholder="До">
+						</div>
+						</div>
+						
+						
+						<div class="type-wrapper">
+							<p>Тип дома</p>
+							<ul class="type">
+							<li class="check-field1"><ul>
+								<li>
+								<input id="kirpichniu" type="checkbox">
+								<label for="kirpichniu">Кирпичный</label>
+								</li>
+								<li>
+								<input id="panelniu" type="checkbox">
+								<label for="panelniu">Панельный</label>
+								</li>
+								<li>
+								<input id="monolitniu" type="checkbox">
+								<label for="monolitniu">Монолитный</label>
+								</li>
+							</ul>
+							</li>
+							<li  class="check-field2" >
+							<ul>
+								<li>
+								<input id="blochniu" type="checkbox">
+								<label for="blochniu">Блочный</label>
+								</li>
+								<li>
+								<input id="derevianniu" type="checkbox">
+								<label for="derevianniu">Деревянный</label>
+								</li>
+								<li>
+								<input id="stariu-fond" type="checkbox">
+								<label for="stariu-fond">Старый фонд</label>
+								</li>
+								</ul>
+								</li>
+							</ul>
+						</div>
+						<div class=" facilities-wrapper">
+							<p>Удобства</p>
+							<div class="dropdown facilities-field"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Любой санузел </a><b class="caret"></b>
+					<ul class="dropdown-menu ">
+            <li><a >снимаю</a></li>
+            <li><a >сдаю</a></li>
+            <li><a >закладки</a></li>
+            <li><a >настройки</a></li>
+          </ul>
+					</div>
+					<div class="year-wrapper stage-wrapper">
+						<p>Год постройки</p>
+						<div class=" year stage">
+							<input class=" field1" type="text" placeholder=" От">
+							<input class="field2" type="text" placeholder="До">
+						</div>
+						</div>
+						<div class="furniture-wrapper">
+						<ul>
+								<li>
+								<input id="mebel" type="checkbox">
+								<label for="mebel">Мебель</label>
+								</li>
+								<li>
+								<input id="Техника" type="checkbox">
+								<label for="Техника">Техника</label>
+								</li>
+								<li>
+								<input id="Лифт" type="checkbox">
+								<label for="Лифт">Лифт</label>
+								</li>
+								</ul>
+						</div>
+						<div class="sorting-wrapper">
+							<p>Cортировка по</p>
+							<ul>
+								<li>
+								<input id="date" type="radio">
+								<label for="date">Дате</label>
+								</li>
+								<li>
+								<input id="price" type="radio">
+								<label for="price">Цене</label>
+								</li>
+								</ul>
+						</div>
+					</div> 
+				
 				<p class="parametrs-searcher-catalog"><a>Дополнительные опции</a></p>
 				<p class="invisible-wrapper-catalog"><a>Задать параметры поиска</a></p>
 				<div class="button-searcher-catalog"><p><a>Найти</a></p></div>
-
+				
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>		
 </div>
@@ -197,7 +298,9 @@
 				</div>
 			</div>
 		</div>
-		</div>	
+		</div>
+		</div>
+
 	</div>
 </div>
 
@@ -387,10 +490,10 @@
       <div class=" enter-modal-body modal-body push-modal-body registration-modal-body">
       <form class=" form-enter form-push ">
       <p><span>Email</span>
-      	<input class=" email-enter email-push" type="text" name="mail">
+      	<input class=" email-enter email-push" type="text" name="mail" placeholder="Email">
       	</p>
       	<p><span>Пароль</span>
-      	<input class=" password-enter email-push" type="password" name="password">
+      	<input class=" password-enter email-push" type="password" name="password" placeholder="Пароль">
       	
       	</p>
       	<div class="checkbox-enter">

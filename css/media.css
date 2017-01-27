@@ -237,9 +237,84 @@
 	.modal-dialog .registration-modal-content{
 		height: auto;
 	}
+
+	.type-wrapper {
+    display: block;
+    max-width: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.type-wrapper p{
+	margin-left: 0;
+}
+
+.facilities-wrapper p{
+	margin-left: 0;
+	display:block;
+}
+.check-field2{
+	float:none;
+}
+.stage-wrapper {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+}
+.type ul {
+   
+    padding: 0;
+}
+.type li{
+	display:block;
+}
+
+
+.stage-wrapper p {
+    
+    margin-right: 30px;
+}
+.facilities-wrapper{
+	text-align: center;
+}
+.facilities-field{
+	margin-left:0;
+}
+.stage-wrapper .stage{
+	margin-right: 15px;
+}
+.year-wrapper p{
+	margin-right: 0;
+	margin: 0 auto;
+}
+.furniture-wrapper {
+    max-width: 260px;
+    text-align: left;
+    margin: 10px auto;
+}
+.sorting-wrapper p{
+	display: inline-block;
+	margin-left: 80px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+
+
+.area-wrapper .area {
+
+    display: inline-block;
+    padding: 0;
+    max-width: 260px;
+    margin: 0;
+}
+.area-wrapper p{
+    display: block;
+    margin: 0 auto;
+}
+	.type{
+	padding:0;
+}
 	.registration-modal-body .form-push{
     max-width: 280px;
     margin: 0 auto;
@@ -393,7 +468,7 @@
  }
 
  .registration-modal-body .registration-form-modal-body{
- 	max-width:300px;
+ 	max-width:280px;
  	margin: 0 auto;
  }
  .push-modal-header h1 span{
@@ -435,10 +510,60 @@
 .wrapper-button-form-settings:after{
 	display:none;
 }
+.form-settings span{
+	display:block;
+	width:100%;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
+
+	.additional-options {
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+	.area-wrapper{
+	text-align: left;
+}
+.area-wrapper p{
+	margin: 0;
+}
+.stage-wrapper {
+    text-align: left;
+    margin:0;
+    
+}
+.inv-stage-wrapper{
+	display:none;
+}
+
+.type-wrapper {
+    display: block;
+    max-width: 245px;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+    border-top: 1px solid #444;
+}
+.facilities-wrapper {
+    text-align: left;
+}
+
+.year-wrapper p{
+	margin:0;
+}
+.furniture-wrapper{
+	margin: 10px 0;
+}
+.furniture-wrapper ul{
+	padding: 0;
+}
+.sorting-wrapper p{
+	margin-left: 0;
+}
+
 	.push-modal-footer .paragraph1{
     display:block;
 }
@@ -446,15 +571,6 @@
 	display:none;
 }
 	
-
-.registration-modal-body .registration-form-modal-body{
- 	max-width:300px;
- 	margin:0;
- }
- .modal-dialog .registration-modal-content{
-
- 	 height:100vh;
- }
 	.tabs-section .invisiblemenu-tabs-wrapper .button-invisiblemenu-tabs-wrapper,
 	.tabs-section .invisiblemenu-tabs-wrapper .dropdown-invisiblemenu-tabs-wrapper> li> a{
 		margin-left: 20px
@@ -674,7 +790,7 @@
 }
 .form-settings input{
 	margin: 10px 0;
-	width: 270px;
+	
 }
 .input-wrapper p .condition{
 	left: 135px;
@@ -689,14 +805,6 @@
 
 	.contacts-details-info{
 		border-bottom: 1px solid #eeeeee;
-	}
-	.enter-modal-footer .button-form-enter{
-		padding:;
-	}
-	.enter-modal-footer .button-form-enter{
-		max-width:  260px;
-		width: 100%;
-		margin: 20px auto;
 	}
 
 	.enter-modal-content .enter-modal-footer{
@@ -736,6 +844,10 @@
 .registration-form-modal-body p>input{
 	max-width: 280px;
 	width: 100%;
+}
+
+.underlin-wrapper-additional-options{
+	display:none;
 }
 }
 @media only screen and (max-width : 427px) {
