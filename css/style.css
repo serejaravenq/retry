@@ -798,7 +798,7 @@ border-top: 2px solid #444444;
 
 .area-wrapper .area{
     display:inline-block;
-    margin-left: 22px;
+    margin-left: 45px;
 }
 
 .area-field input::-webkit-input-placeholder,
@@ -891,15 +891,20 @@ border-top: 2px solid #444444;
     display: inline-block;
     list-style: none;
     color: #fff;
-    margin-right: 20px;
-    margin-left: 2px;
+    
 
+}
+
+.date-sorting{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .stage-wrapper .stage{
     display:inline-block;
     background-color: #444444;
     padding: 15px 10px;
+    margin-left: 25px;
 
 }
 
@@ -908,6 +913,19 @@ border-top: 2px solid #444444;
     max-width: 55%;
     width:100%;
     text-align: left;
+}
+
+.underline-type-wrapper{
+    border:1px solid #444;
+    width:35px;
+    display:inline-block;
+    margin: 0;
+    display:none;
+}
+
+.underline-main-searcher-catalog {
+    max-width: 130px;
+    border: 1px solid #444;
 }
 
 .type-wrapper p,
@@ -968,7 +986,7 @@ border-top: 2px solid #444444;
     padding: 15px;
     max-width: 190px;
     width: 100%;
-    margin-left:65px;
+    margin-left:77px;
     text-align: left; 
 }
 
@@ -996,6 +1014,7 @@ color: #fff;
 .furniture-wrapper ul li{
     color:#fff;
     list-style: none;
+    margin-left: 10px;
 }
 
 
