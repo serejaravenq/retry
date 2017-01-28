@@ -1071,11 +1071,48 @@ color: #fff;
     }
 .offer{
     background-color: #f5f5f5;
+    
 }
+
+.object-wrapper-offer {
+    position: absolute;
+    top: 20px;
+    left: -130px;
+    max-width: 130px;
+    background-color: #333;
+    padding:15px 0 0 10px;
+}
+.object-wrapper-offer p{
+
+    font-family: "proximanova-bold";
+    font-size: 13px;
+    color: #fff;
+    text-align:left;
+    font-style: italic;
+}
+.object-wrapper-offer p span{
+    display:block;
+    color:#b28500;
+}
+
+.object-wrapper-offer .cancel-button-object-wrapper-offer{
+
+    position: absolute;
+    background-color: #f5f5f5;
+    left: -8px;
+    top: -10px;
+    opacity: 1;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+
+}
+
 .wrapper-offer{
     max-width: 960px;
     margin: 20px auto 30px;
     text-align:center;
+    position:relative;
     }
 
 .main-title-offer {
