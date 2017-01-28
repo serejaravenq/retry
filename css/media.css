@@ -323,10 +323,7 @@
     display: block;
     margin: 0 auto;
 }
-	.type{
-	padding:0;
-	margin:0;
-}
+	
 	.registration-modal-body .form-push{
     max-width: 280px;
     margin: 0 auto;
@@ -530,6 +527,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
+
+	.type{
+	padding:0;
+	margin:0;
+}
 
 	.additional-options {
     max-width: 290px;
