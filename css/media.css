@@ -28,6 +28,22 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+	.stage-wrapper .stage{
+		margin-left: 0;
+	}
+	.underline-main-searcher-catalog {
+    display:none;
+}
+	.furniture-wrapper ul li{
+		margin-left: 0;
+	}
+
+.type{
+	margin-left: 25px;
+}
+.check-field1{
+	margin-right: 50px;
+}
 .contacts .left-picture {
     float: none;
 }
@@ -244,7 +260,7 @@
 
 	.type-wrapper {
     display: block;
-    max-width: 50%;
+    max-width: 350px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -270,7 +286,8 @@
     padding: 0;
 }
 .type li{
-	display:block;
+	display:inline-block;
+	text-align: left;
 }
 
 
@@ -316,9 +333,7 @@
     display: block;
     margin: 0 auto;
 }
-	.type{
-	padding:0;
-}
+	
 	.registration-modal-body .form-push{
     max-width: 280px;
     margin: 0 auto;
@@ -518,11 +533,28 @@
 	display:block;
 	width:100%;
 }
+.type{
+	
+	padding:0;
+	margin: 0 0 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
 
+	.type{
+	padding:0;
+	margin:0;
+}
+.underline-type-wrapper{
+	display:inline-block;
+}
+
+.date-sorting{
+	margin-left: 0;
+	margin-right: 10px;
+}
 	.additional-options {
     max-width: 290px;
     margin: 0 auto;
@@ -536,7 +568,8 @@
 }
 .stage-wrapper {
     text-align: left;
-    margin:0;
+    margin:20px 0;
+    border-top: 1px solid #444;
     
 }
 .inv-stage-wrapper{
@@ -548,24 +581,31 @@
     max-width: 245px;
     width: 100%;
     text-align: left;
-    margin: 10px 0;
+    margin: 10px 0 0;
     border-top: 1px solid #444;
 }
 .facilities-wrapper {
     text-align: left;
+    max-width: 245px;
+    margin:0;
+    
 }
 
 .year-wrapper p{
 	margin:0;
 }
 .furniture-wrapper{
-	margin: 10px 0;
+	margin: 20px 0;
 }
 .furniture-wrapper ul{
 	padding: 0;
 }
+.sorting-wrapper{
+	border-top: 1px solid #444;
+}
 .sorting-wrapper p{
 	margin-left: 0;
+	max-width: 120px;
 }
 
 	.push-modal-footer .paragraph1{
