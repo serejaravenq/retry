@@ -2305,3 +2305,7 @@ display: none;
 [type="radio"]:checked + label:before {
     background-image: url('../img/radio-checked.png');
 }
+
+input::-webkit-input-placeholder {
+    padding: 0;
+}
