@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Слово</title>
+  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css"  type='text/css' media='all' />
 	<link rel='stylesheet'  href='css/style.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='css/media.css' type='text/css' media='all' />
 	<link rel='stylesheet'  href='css/fonts.css' type='text/css' media='all' />
-	<link rel="stylesheet" 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 <header>
@@ -40,8 +40,8 @@
             <li class="divider"></li>
             <li><a href="#">контакты</a></li>
             <li class="phone-field"><a href="#">+7(812)600 00 00</a></li>
-            <li class="login"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
-      </ul>      
+            <li class="login"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
+      </ul>
       </div> <!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -61,29 +61,29 @@
 				<div class="col-md-12">
 				<ul class="searcher-catalog">
 					<li class="dropdown buy-field">
-						<a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Купить <b class="caret"></b></a>
+						<a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Купить <b class="caret"></b></a>
 						<ul class="dropdown-menu ">
-           
-            <li><a >снимаю</a></li>
-            <li><a >сдаю</a></li>
-            <li><a >закладки</a></li>
-            <li><a >настройки</a></li>
+
+            <li><a href="#">снимаю</a></li>
+            <li><a href="#">сдаю</a></li>
+            <li><a href="#">закладки</a></li>
+            <li><a href="#">настройки</a></li>
           </ul>
 					</li>
-					<li class="dropdown room-field"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Квартиру <b class="caret"></b></a>
+					<li class="dropdown room-field"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Квартиру <b class="caret"></b></a>
 					<ul class="dropdown-menu ">
-            <li><a >снимаю</a></li>
-            <li><a >сдаю</a></li>
-            <li><a >закладки</a></li>
-            <li><a >настройки</a></li>
+            <li><a href="#">снимаю</a></li>
+            <li><a href="#">сдаю</a></li>
+            <li><a href="#">закладки</a></li>
+            <li><a href="#">настройки</a></li>
           </ul>
 					</li>
 					<li class="size-field"><input type="text" placeholder="S, м"></li>
 					<li class="metro-field"><input  type="text" placeholder="Метро"></li>
 					<li class="price-field"><input class=" field1" type="text" placeholder="От"><input type="text" placeholder="До"><span>P</span></li>
 				</ul>
-				<div class="wrapper-additional-options">
-					<hr class="underlin-wrapper-additional-options">
+				<div class="wrapper-additional-options collapse" id="additional-options">
+					<hr class="underline-wrapper-additional-options">
 
 					<div class="additional-options">
 						<div class="area-wrapper">
@@ -99,9 +99,9 @@
 						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
 						</li>
 						</ul>
-						
+
 						</div>
-						
+
 						<div class="stage-wrapper inv-stage-wrapper">
 						<p>Этаж</p>
 						<div class="stage">
@@ -109,15 +109,15 @@
 							<input class="field2" type="text" placeholder="До">
 						</div>
 						</div>
-						
-						
+
+
 						<div class="type-wrapper">
 							<p>Тип дома</p>
 							<ul class="type">
 							<li class="check-field1"><ul>
 								<li>
-								<input id="kirpichniu" type="checkbox">
-								<label for="kirpichniu">Кирпичный</label>
+                <input id="kirpichniu" type="checkbox">
+                <label for="kirpichniu">Кирпичный</label>
 								</li>
 								<li>
 								<input id="panelniu" type="checkbox">
@@ -149,12 +149,12 @@
 						</div>
 						<div class=" facilities-wrapper">
 							<p>Удобства</p>
-							<div class="dropdown facilities-field"><a  href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Любой санузел </a><b class="caret"></b>
+							<div class="dropdown facilities-field"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Любой санузел </a><b class="caret"></b>
 					<ul class="dropdown-menu ">
-            <li><a >снимаю</a></li>
-            <li><a >сдаю</a></li>
-            <li><a >закладки</a></li>
-            <li><a >настройки</a></li>
+            <li><a href="#">снимаю</a></li>
+            <li><a href="#">сдаю</a></li>
+            <li><a href="#">закладки</a></li>
+            <li><a href="#">настройки</a></li>
           </ul>
 					</div>
 					<div class="year-wrapper stage-wrapper">
@@ -165,20 +165,21 @@
 						</div>
 						</div>
 						<div class="furniture-wrapper">
-						<ul>
+              <!-- Никакой кирилицы в атрибутах тэгов -->
+  						<ul>
 								<li>
-								<input id="mebel" type="checkbox">
-								<label for="mebel">Мебель</label>
+								<input id="furniture" type="checkbox">
+								<label for="furniture">Мебель</label>
 								</li>
 								<li>
-								<input id="Техника" type="checkbox">
-								<label for="Техника">Техника</label>
+								<input id="equipment" type="checkbox">
+								<label for="euipment">Техника</label>
 								</li>
 								<li>
-								<input id="Лифт" type="checkbox">
-								<label for="Лифт">Лифт</label>
+								<input id="elevator" type="checkbox">
+								<label for="elevator">Лифт</label>
 								</li>
-								</ul>
+							</ul>
 						</div>
 						<div class="sorting-wrapper">
 							<p>Cортировка по</p>
@@ -193,23 +194,27 @@
 								</li>
 								</ul>
 						</div>
-					</div> 
-				
-				<p class="parametrs-searcher-catalog"><a>Дополнительные опции</a></p>
-				<p class="invisible-wrapper-catalog"><a>Задать параметры поиска</a></p>
-				<div class="button-searcher-catalog"><p><a>Найти</a></p></div>
-				
+					</div>
+
 				</div>
 			</div>
+
+      <p class="parametrs-searcher-catalog">
+        <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Дополнительные опции</a>
+      </p>
+      <p class="invisible-wrapper-catalog">
+        <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Задать параметры поиска</a>
+      </p>
+      <div class="button-searcher-catalog"><p><a href="#">Найти</a></p></div>
 		</div>
 		</div>
-	</div>		
+	</div>
 </div>
 <div class="offer">
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="main-title-offer">     
+			<div class="main-title-offer">
 				<p class="phrase-offer">Найдено <span class="number-offer">9</span> предложения</p>
 			</div>
 		</div>
@@ -226,10 +231,10 @@
 						<span class="price-info-block-offer">3 000 000 000 P</span>
 						<span class=" invisible-date-info-block-offer">31 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">31 июля</p>
 					</div>
-					
+
 				</div>
 				<div class="block-offer " data-toggle="modal" data-target="#registration">
 					<img src="img/picture2-offer.png" alt="#">
@@ -240,7 +245,7 @@
 						<span class="price-info-block-offer">6 666 666 P</span>
 						<span class=" invisible-date-info-block-offer">30 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">30 июля</p>
 					</div>
 				</div>
@@ -253,7 +258,7 @@
 						<span class="price-info-block-offer">3 000 000 000 P</span>
 						<span class=" invisible-date-info-block-offer">30 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">30 июля</p>
 					</div>
 				</div>
@@ -266,7 +271,7 @@
 						<span class="price-info-block-offer">93 000 000 P</span>
 						<span class=" invisible-date-info-block-offer">30 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">30 июля</p>
 					</div>
 				</div>
@@ -279,7 +284,7 @@
 						<span class="price-info-block-offer">7 000 000 P</span>
 						<span class=" invisible-date-info-block-offer">30 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">30 июля</p>
 					</div>
 				</div>
@@ -292,7 +297,7 @@
 						<span class="price-info-block-offer">9 660 000 P</span>
 						<span class=" invisible-date-info-block-offer">30 июля</span>
 					</p>
-					
+
 					<p class="date-info-block-offer">29 июля</p>
 					</div>
 				</div>
@@ -320,15 +325,15 @@
 	</div>
 	<div class="col-md-7">
 		<ul class="footer-list ">
-			
-			<li><a>Каталог</a></li>
-			<li><a>Вопросы</a></li>
-			<li><a>Условия использования</a></li>
-			<li><a>Карта сайта</a></li>
-			<li><a> Войти</a></li>
+
+			<li><a href="#">Каталог</a></li>
+			<li><a href="#">Вопросы</a></li>
+			<li><a href="#">Условия использования</a></li>
+			<li><a href="#">Карта сайта</a></li>
+			<li><a href="#"> Войти</a></li>
 		</ul>
 	</div>
-	
+
 </div>
 </div>
 </footer>
@@ -339,9 +344,9 @@
 <div class="modal fade " id="details-item" tabindex="-1" role="dialog" aria-labelledby="details-item"  >
   <div class="modal-dialog" role="document">
     <div class="modal-content modal-content-details-info">
-      
-             
-        
+
+
+
       <div class="modal-body">
       <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
         <img  class="map" alt="#" src="img/map.png">
@@ -357,7 +362,7 @@
         	<span class="phone-contacts">+7 922 222 22 00</span>
         	<span class="name-contacts">John Jackson The Third &ndash; <span class="status-name-contacts">менеджер</span></span>
         </p>
-      
+
       <div class="details-item-info">
       <div class="field"><span class="firstrow-field-info">60м<sup>2</sup></span><span class="secondrow-field-info">Общая</span></div>
       <div class="field"><span class="firstrow-field-info">40м<sup>2</sup></span><span class="secondrow-field-info">Жилая</span></div>
@@ -376,15 +381,15 @@
     <p class="details-modal-body">Высота потолков -300 см.</p>
   </div>
   <div class="modal-footer details-modal-footer">
-  	<img alt="#" src="img/icon1-footer.png"><a>поделиться</a>
-  	<div class="save"><img alt="#" src="img/icon2-footer.png"><a>сохранить к себе</a></div>
-  	<div class="dropdown dropdown-menu-footer"><img alt="#" src="img/icon3-footer.png"><a class="dropdown-toggle" data-toggle="dropdown">еще</a><span class="caret" ></span>
+  	<img alt="#" src="img/icon1-footer.png"><a href="#">поделиться</a>
+  	<div class="save"><img alt="#" src="img/icon2-footer.png"><a href="#">сохранить к себе</a></div>
+  	<div class="dropdown dropdown-menu-footer"><img alt="#" src="img/icon3-footer.png"><a href="#" class="dropdown-toggle" data-toggle="dropdown">еще</a><span class="caret" ></span>
   	<ul class="dropdown-menu ">
-           
-            <li><a >снимаю</a></li>
-            <li><a >сдаю</a></li>
-            <li><a >закладки</a></li>
-            <li><a >настройки</a></li>
+
+            <li><a href="#">снимаю</a></li>
+            <li><a href="#">сдаю</a></li>
+            <li><a href="#">закладки</a></li>
+            <li><a href="#">настройки</a></li>
           </ul>
   	</div>
   </div>
@@ -398,7 +403,7 @@
     <div class="registration-modal-header modal-header">
     	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
     	 <hr class="underline">
-    	 <a   class="enter-registration-modal-header" href="#">Вход</a>
+    	 <a class="enter-registration-modal-header" href="#">Вход</a>
     	 <h1>Регистрация </h1>
     </div>
       <div class="modal-body registration-modal-body">
@@ -424,7 +429,7 @@
       </form>
 
 
-     
+
       </div>
       <div class="modal-footer registration-modal-footer">
       	<button class="reg-modal-footer">зарегистрироваться</button>
@@ -438,7 +443,7 @@
     <div class="modal-content registration-modal-content">
     <div class="registration-modal-header modal-header">
     	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <a   class="enter-registration-modal-header" href="#">Вход</a>
+    	 <a class="enter-registration-modal-header" href="#">Вход</a>
     	 <hr class="underline">
     	 <h1>Регистрация </h1>
     </div>
@@ -447,7 +452,7 @@
       <hr class="undrline underline-modal-body">
       <p class="field2">Не получили инструкции для подтверждения регистрации?</p>
       </div>
-      
+
       </div>
    </div>
  </div>
@@ -469,22 +474,22 @@
       	</form>
       </div>
       <div class="modal-footer  push-modal-footer registration-modal-footer">
-      <p><a>Войти</a></p>
-      <p><a>Зарегистрироваться</a></p>
-      <p><a>Забыли пароль?</a></p>
+      <p><a href="#">Войти</a></p>
+      <p><a href="#">Зарегистрироваться</a></p>
+      <p><a href="#">Забыли пароль?</a></p>
       </div>
    </div>
  </div>
  </div>
  <!--вход-->
 
-<div class="modal " id="enter" tabindex="-1" role="dialog" aria-labelledby="enter"  >
+<div class="modal" id="enter" tabindex="-1" role="dialog" aria-labelledby="enter"  >
   <div class="modal-dialog" role="document">
     <div class="modal-content registration-modal-content enter-modal-content">
     <div class="registration-modal-header modal-header">
     	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
     	 <hr class="underline">
-    	 <a   class="enter-registration-modal-header" href="#">регистрация</a>
+    	 <a class="enter-registration-modal-header" href="#">регистрация</a>
     	 <h1>Вход</h1>
     </div>
       <div class=" enter-modal-body modal-body push-modal-body registration-modal-body">
@@ -494,7 +499,7 @@
       	</p>
       	<p><span>Пароль</span>
       	<input class=" password-enter email-push" type="password" name="password" placeholder="Пароль">
-      	
+
       	</p>
       	<div class="checkbox-enter">
       	<input class="check-enter" type="checkbox" name="option1" id="checkbox1" value="a2">
@@ -506,10 +511,10 @@
       <div class="modal-footer  enter-modal-footer registration-modal-footer">
       <button class="button-form-enter">Войти</button>
       <p class="field1">
-      <a>Не получили инструкции для подтверждения регистрации?</a>
+      <a href="#"Не получили инструкции для подтверждения регистрации?</a>
       </p>
       <p  class="field2">
-      <a>забыли пароль?</a>
+      <a href="#">забыли пароль?</a>
       </p>
       </div>
    </div>
@@ -533,10 +538,10 @@
       	</form>
       </div>
       <div class="modal-footer  push-modal-footer registration-modal-footer">
-      <p class="paragraph1"><a>Не получили инструкции для подтверждения регистрации?</a></p>
-      <p><a>Войти</a></p>
-      <p><a>Зарегистрироваться</a></p>
-      <p class="paragraph4"><a>Не получили инструкции для подтверждения регистрации?</a></p>
+      <p class="paragraph1"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
+      <p><a href="#">Войти</a></p>
+      <p><a href="#">Зарегистрироваться</a></p>
+      <p class="paragraph4"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
       </div>
    </div>
  </div>
