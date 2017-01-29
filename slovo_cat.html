@@ -114,36 +114,37 @@
 						<div class="type-wrapper">
 							<p>Тип дома</p>
 							<ul class="type">
-							<li class="check-field1"><ul>
-								<li>
-                <input id="kirpichniu" type="checkbox">
-                <label for="kirpichniu">Кирпичный</label>
-								</li>
-								<li>
-								<input id="panelniu" type="checkbox">
-								<label for="panelniu">Панельный</label>
-								</li>
-								<li>
-								<input id="monolitniu" type="checkbox">
-								<label for="monolitniu">Монолитный</label>
-								</li>
-							</ul>
-							</li>
-							<li  class="check-field2" >
-							<ul>
-								<li>
-								<input id="blochniu" type="checkbox">
-								<label for="blochniu">Блочный</label>
-								</li>
-								<li>
-								<input id="derevianniu" type="checkbox">
-								<label for="derevianniu">Деревянный</label>
-								</li>
-								<li>
-								<input id="stariu-fond" type="checkbox">
-								<label for="stariu-fond">Старый фонд</label>
-								</li>
-								</ul>
+  							<li class="check-field1">
+                  <ul>
+    								<li>
+                      <input id="brick" type="checkbox">
+                      <label for="brick">Кирпичный</label>
+    								</li>
+    								<li>
+      								<input id="panel" type="checkbox">
+      								<label for="panel">Панельный</label>
+    								</li>
+    								<li>
+      								<input id="monolithic" type="checkbox">
+      								<label for="monolithic">Монолитный</label>
+    								</li>
+    							</ul>
+  							</li>
+  							<li  class="check-field2" >
+    							<ul>
+    								<li>
+      								<input id="block" type="checkbox">
+      								<label for="block">Блочный</label>
+    								</li>
+    								<li>
+      								<input id="wooden" type="checkbox">
+      								<label for="wooden">Деревянный</label>
+    								</li>
+    								<li>
+      								<input id="old_fund" type="checkbox">
+      								<label for="old_fund">Старый фонд</label>
+    								</li>
+  								</ul>
 								</li>
 							</ul>
 						</div>
@@ -171,16 +172,16 @@
               <!-- Никакой кирилицы в атрибутах тэгов -->
   						<ul>
 								<li>
-								<input id="furniture" type="checkbox">
-								<label for="furniture">Мебель</label>
+  								<input id="furniture" type="checkbox">
+  								<label for="furniture">Мебель</label>
 								</li>
 								<li>
-								<input id="equipment" type="checkbox">
-								<label for="euipment">Техника</label>
+  								<input id="equipment" type="checkbox">
+  								<label for="euipment">Техника</label>
 								</li>
 								<li>
-								<input id="elevator" type="checkbox">
-								<label for="elevator">Лифт</label>
+  								<input id="elevator" type="checkbox">
+  								<label for="elevator">Лифт</label>
 								</li>
 							</ul>
 						</div>
@@ -188,12 +189,12 @@
 							<p>Cортировка по</p>
 							<ul>
 								<li class="date-sorting">
-								<input id="date" type="radio">
-								<label for="date">Дате</label>
+  								<input id="date" name="filter" type="radio">
+                  <label for="date">Дате</label>
 								</li>
 								<li class="price-sorting">
-								<input id="price" type="radio">
-								<label for="price">Цене</label>
+  								<input id="price" name="filter" type="radio">
+  								<label for="price">Цене</label>
 								</li>
 								</ul>
 						</div>
@@ -510,9 +511,10 @@
 
       	</p>
       	<div class="checkbox-enter">
-      	<input class="check-enter" type="checkbox" name="option1" id="checkbox1" value="a2">
+        	<input class="check-enter" type="checkbox" name="option1" id="checkbox1" value="a2">
+          <label for="checkbox1"></label>
 
-      	<label for="checkbox1">запомнить меня</label>
+        	<label for="checkbox1">запомнить меня</label>
       	</div>
       	</form>
       </div>

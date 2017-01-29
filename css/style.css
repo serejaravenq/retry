@@ -896,7 +896,7 @@ footer .underline{
     display: inline-block;
     list-style: none;
     color: #fff;
-    
+
 
 }
 
@@ -992,7 +992,7 @@ footer .underline{
     max-width: 190px;
     width: 100%;
     margin-left:77px;
-    text-align: left; 
+    text-align: left;
 }
 
 .facilities-field  a,
@@ -1076,7 +1076,7 @@ color: #fff;
     }
 .offer{
     background-color: #f5f5f5;
-    
+
 }
 
 .object-wrapper-offer {
@@ -2261,4 +2261,47 @@ display: none;
     color:#fff;
     background-color: #333333;
 
+}
+
+/* Custom inputs */
+[type="checkbox"],
+[type="radio"] {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="checkbox"] + label,
+[type="radio"] + label {
+    position: relative;
+    padding-left: 35px;
+    line-height: 30px;
+    user-select: none;
+}
+
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background-color: initial;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+[type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty.png');
+}
+
+[type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked.png');
+}
+
+[type="radio"] + label:before {
+    background-image: url('../img/radio-empty.png');
+}
+
+[type="radio"]:checked + label:before {
+    background-image: url('../img/radio-checked.png');
 }
