@@ -1074,15 +1074,9 @@ color: #fff;
     color: #fff;
     font-size: 15px;
     }
-
 .offer{
     background-color: #f5f5f5;
-<<<<<<< HEAD
-    
-    
-=======
 
->>>>>>> 00462c7303b002f465d28ea7f7ae7abbf306de29
 }
 
 .object-wrapper-offer {
@@ -2310,8 +2304,4 @@ display: none;
 
 [type="radio"]:checked + label:before {
     background-image: url('../img/radio-checked.png');
-}
-
-input::-webkit-input-placeholder {
-    padding: 0;
 }
