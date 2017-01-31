@@ -21,7 +21,7 @@ header .main-nav-bar nav{
     height: 70px;
 }
 .navbar .collapse{
-	width:100%;
+	
    
 }
 
@@ -154,11 +154,9 @@ header .main-nav-bar nav{
     position: relative;
 
     list-style: none;
-    padding: 10px 25px;
+    padding: 10px 37px;
     border: 2px solid #b28500;
     border-right: none;
-    padding: 10px 20px;
-
     font-weight: bold;
     text-transform: none;
     color: #444444;
@@ -211,7 +209,7 @@ background-image: url(../img/main-bg.png);
 .section h1{
 	display: inline-block;
     margin: 12% 0 0 31px;
-    font-size: 54px;
+    font-size: 61px;
     color: #b28500;
     font-family: "Proximanova-regular";
 }
@@ -258,18 +256,13 @@ background-image: url(../img/main-bg.png);
 .about h2{
 
 	text-align: left;
-    font-size: 38px;
-    width:265px;
+    font-size: 40px;
+    width:90%;
     display:inline-block;
     float:right;
     font-family: "Proximanova-regular";
     color: #444444;
 
-}
-.about-wrapper-h2
- {
-    text-align: right;
-    margin: 0 -25px 0 0;
 }
 
 .about .about-h2-wrapper .underline{
@@ -283,31 +276,27 @@ background-image: url(../img/main-bg.png);
 
 .description-wrapper-about{
 
-        display: inline-block;
-        max-width: 416px;
-        margin-left: 6%;
-        margin-top:6%;
+       
+        margin: 30px 0 30px 120px;
+       
 }
 .about .description-wrapper-about .underline{
 
-    margin: 20px 0 40px;
+    margin: 40px 0;
     display: block;
     max-width: 40px;
     width: 100%;
 }
 
 .about .commentaries{
-	display: inline-block;
-    font-style: italic;
+	font-style: italic;
     color: #b28500;
     text-align: right;
     font-size: 13px;
-    width: 100%;
-    max-width: 194px;
+    width: 122%;
     font-family: "Proximanova-bold";
-    margin-left: -6%;
-    vertical-align: text-bottom;
-    margin-bottom: 115px;
+    margin-left: 60px;
+    margin-top: 235px;
 
 }
 
@@ -328,29 +317,28 @@ background-image: url(../img/main-bg.png);
     font-family: "Proximanova-semibold";
 }
 
-
-
-
  .about .underline{
 
 	margin: 40px 5px 0 0;
     display: inline-block;
     vertical-align: top;
-    width:22px;
+    width:7%;
+    max-width: 28px;
 
 }
 
 .about-picture{
 
 
-    margin: 5% 0 0 6%;
+   float:right;
     width:100%;
     max-width: 500px;
 }
-.comments-about{
+.about .comments-about{
 
-    line-height: 482px;
-    float:left;
+    margin: 0;
+    display:none;
+    
 }
 
 
@@ -378,29 +366,36 @@ background-image: url(../img/main-bg.png);
 
 .services-wrapper {
     width: 100%;
-    margin: 70px auto;
+    margin: 70px 0;
+    max-width: 420px;
 }
+
 .services-wrapper h2 {
 
    font-family: "Proximanova-regular";
     font-size: 40px;
     color: #444444;
-    display: inline-block
+    display: inline-block;
+    margin-top: 0;
 }
 
 .services-wrapper img {
 
 	width:100%;
-	max-width: 417px;
+	max-width: 420px;
     height:auto;
     display:block;
 
 }
 .wrapper-leftside-footer {
-    max-width: 360px;
+    
     width:100%;
     margin: 0 auto;
-    float :right;
+    
+}
+
+.footer-list{
+    padding: 0;
 }
 
 .description-services {
@@ -417,7 +412,8 @@ background-image: url(../img/main-bg.png);
     margin: -3px 5px 15px 0;
     display: inline-block;
     vertical-align: middle;
-    width:25px;
+    width:7%;
+    max-width: 28px;
 }
 
 .services-wrapper h2 .underline{
@@ -442,6 +438,7 @@ background-image: url(../img/main-bg.png);
 	display:block;
     width: 100%;
     color: #444444;
+    max-width: 435px;
 }
 
 .services-wrapper h3{
@@ -461,12 +458,18 @@ background-image: url(../img/main-bg.png);
     max-width:420px;
     margin-top:15px;
 }
+.underline-services-wrapper{
+    display:none;
+}
 
 .services-wrapper h3 .underline{
     margin: 0;
     display:block;
     width: 100%;
     color: #444444;
+}
+.services-wrapper .manage{
+    float:right;
 }
 .contacts-wrapper{
 
@@ -489,11 +492,10 @@ background-image: url(../img/main-bg.png);
 .contacts-wrapper .underline{
 
 	margin: 0 5px 12px 0;
-	display: inline-block;
 	vertical-align:middle;
     display:inline-block;
-    max-width: 22px;
-    width:100%;
+    max-width: 28px;
+    width:7%;
 }
 
 .contacts-wrapper p{
@@ -623,13 +625,13 @@ footer .underline{
 
 	list-style: none;
     display: inline-block;
-    margin: 2% 10px 1% 0;
+    margin: 2% 15px 1% 0;
     font-weight: bold;
 }
 .footer-list li>a{
 	color: #565656;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Proximanova-semibold";
 }
 

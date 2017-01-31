@@ -3,7 +3,28 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+	.collapse .navbar-nav .login .dropdown{
+		padding: 10px 17px;
+	}
+	.about h2{
+		font-size: 38px;
+	}
+
+	.about .commentaries{
+		margin-left: -70px;
+		width: 150%;
+	}
+
+	.description-wrapper-about {
+    margin: 25px 0 30px 0px;
+	}
 	
+	.footer-list li>a{
+		font-size: 13px;
+	}
+	.footer-list li{
+		margin: 2% 10px 1% 0;
+	}
 }
 
 @media only screen and (max-width : 1024px) {
@@ -32,7 +53,8 @@
 		margin-left: 0;
 	}
 
-	
+
+
 	.underline-main-searcher-catalog {
     display:none;
 }
@@ -140,6 +162,7 @@
     display:inline-block;
     margin:20px 0;
     text-align:left;
+    max-width: 200px;
 
 }
 
@@ -150,13 +173,14 @@
 .description-wrapper-about{
 	max-width: 500px;
     display: block;
-    margin: 6% auto 0;
+    margin: 10px auto 0;
     
 }
 
 .about-picture{
 	display: block;
 	margin: 0 auto;
+	float:none;
 }
 
 .contacts-wrapper img{
@@ -181,7 +205,7 @@
 
 .services-wrapper{
 	max-width: 500px;
-	margin: 10px auto 30px;
+	margin: 10px auto 10px;
 }
 .about-wrapper-h2{
 	max-width: 500px;
@@ -197,12 +221,17 @@
 }
 .footer-list{
 
-	max-width: 580px;
+	max-width: 510px;
 	margin: 0 auto;
 }
+
+.footer-list li>a{
+	font-size: 16px;
+}
+
 .services-wrapper img{
     	max-width: 500px;
-    	margin: 10px 0;
+    	
     }
 
 /*******slovo-index***/
@@ -564,19 +593,31 @@
 }
 .navbar-default .navbar-nav>li{
 	margin: 0 70px 0;
+	width: 150px;
 }
 
 .main-nav-bar .navbar-default .navbar-nav>li>a{
 	padding: 5px 0;
 }
 .navbar .collapse{
-	width:120%;
+	
 	 border-bottom: 1px solid #e7e7e7;
 }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px) {
+
+
+ .underline-services-wrapper{
+
+ 	margin-top: 15px;
+    border-top: 1px solid #e6e6e6;
+    margin-bottom: 25px;
+    display: block;
+
+}
+
 
 .main-map .main-map-desktop{
 	display:none;
@@ -597,7 +638,7 @@
 .main-map .info-main-map{
 	max-width: 280px;
 	text-align: center;
-	right: 7%;
+	right: calc(50% - 140px);
 }
 
 .main-map .info-main-map .phone-info-main-map{
@@ -619,6 +660,7 @@
 .contacts .img-hide-desktop{
 	display:block;
 	height:270px;
+	margin-top: 20px;
 }	
 
 
@@ -712,7 +754,17 @@ padding: 20px 0;
 	
 	.about .underline{
 		margin: 35px 5px 0 0;
+		width: 20px;
 	}
+
+	.services-wrapper .underline{
+		width: 20px;
+	}
+
+	.contacts-wrapper .underline{
+		width:20px;
+	}
+
 	.section h1{
 		display:none;
 	}
@@ -756,8 +808,11 @@ padding: 20px 0;
 		text-align: center;
 	}
 
-.services-wrapper{
-	max-width: 500px
+.services .services-wrapper{
+
+	margin: 0 auto 20px;
+	max-width: 500px;
+
 }
 .about h2 {
     font-size: 30px;
@@ -885,6 +940,7 @@ padding: 20px 0;
 	.services-wrapper h2 {
      padding-top: 0;
      font-size: 30px;
+     margin: 30px 0 20px;
 }
 	
 	.rent-wrapper,
@@ -984,6 +1040,7 @@ padding: 20px 0;
    .navbar .container-fluid .navbar-header .main-title{
 
 		font-size: 20px;
+		margin: 20px 0 0 0;
 	}
 
 }
