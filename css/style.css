@@ -1150,8 +1150,6 @@ color: #fff;
     display: inline-block;
     padding: 20px;
     border: 1px solid #e6e6e6;
-    margin-left: -5px;
-    max-width: 470px;
     width: 100%;
     cursor: pointer;
 }
