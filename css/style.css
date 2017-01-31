@@ -18,11 +18,12 @@ header .main-nav-bar nav{
 	border:none;
 }
 .navbar-header {
-    height: 70px;
+    padding-bottom: 10px;
+
 }
 .navbar .collapse{
-	
-   
+
+
 }
 
 .underline{
@@ -36,7 +37,7 @@ header .main-nav-bar nav{
 
 .main-nav-bar .navbar-default .navbar-nav>.phone-field>a {
  color:#b28500;
- 
+
 }
 
 .navbar-default .navbar-nav>li{
@@ -241,7 +242,7 @@ background-image: url(../img/main-bg.png);
 
 .contacts .img-hide-desktop{
     display:none;
-}   
+}
 .section-details .underline{
 
 	margin: -2px 0 0 0;
@@ -276,9 +277,9 @@ background-image: url(../img/main-bg.png);
 
 .description-wrapper-about{
 
-       
+
         margin: 30px 0 30px 120px;
-       
+
 }
 .about .description-wrapper-about .underline{
 
@@ -338,7 +339,7 @@ background-image: url(../img/main-bg.png);
 
     margin: 0;
     display:none;
-    
+
 }
 
 
@@ -388,10 +389,10 @@ background-image: url(../img/main-bg.png);
 
 }
 .wrapper-leftside-footer {
-    
+
     width:100%;
     margin: 0 auto;
-    
+
 }
 
 .footer-list{
@@ -1526,7 +1527,7 @@ text-transform: uppercase;
     font-family:"Proximanova-semibold";
     font-size:16px;
     color:#333333;
-    
+
 }
 .town-info-main-map{
     margin: 30px 0 0;

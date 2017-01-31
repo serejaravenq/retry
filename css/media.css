@@ -18,7 +18,7 @@
 	.description-wrapper-about {
     margin: 25px 0 30px 0px;
 	}
-	
+
 	.footer-list li>a{
 		font-size: 13px;
 	}
@@ -107,12 +107,12 @@
 }
 
 .collapse .navbar-nav .login .dropdown{
-	
+
 	padding: 6px 13px;
 	font-size: 12px;
 	margin-right: -20px;
 	margin-top: 5px;
-}	
+}
 	.main-nav-bar .navbar-default .navbar-nav>li>a{
 		padding-right: 9px;
 		font-size: 12px;
@@ -145,7 +145,7 @@
 
 .about h2{
 
-	
+
 	float:none;
 }
 
@@ -174,7 +174,7 @@
 	max-width: 500px;
     display: block;
     margin: 10px auto 0;
-    
+
 }
 
 .about-picture{
@@ -197,7 +197,7 @@
 }
 
 .contacts-wrapper{
-	
+
     margin: 25px auto;
     max-width: 513px;
     width: 100%;
@@ -214,7 +214,7 @@
 }
 
 .wrapper-leftside-footer {
-    
+
     margin: 0 auto;
     max-width: 415px;
     float:none;
@@ -231,7 +231,7 @@
 
 .services-wrapper img{
     	max-width: 500px;
-    	
+
     }
 
 /*******slovo-index***/
@@ -260,7 +260,7 @@
 		border:none;
 		padding: 15px 0;
 		border-top: 1px solid #e5e5e5;
-		
+
 	}
 	.description-info-block-offer{
 		height:auto;
@@ -320,7 +320,7 @@
     max-width: 300px;
 }
 .type ul {
-   
+
     padding: 0;
 }
 .type li{
@@ -330,7 +330,7 @@
 
 
 .stage-wrapper p {
-    
+
     margin-right: 30px;
 }
 .facilities-wrapper{
@@ -386,7 +386,7 @@
     display: block;
     margin: 0 auto;
 }
-	
+
 	.registration-modal-body .form-push{
     max-width: 280px;
     margin: 0 auto;
@@ -462,7 +462,7 @@
     width: 100%;
     max-width: 234px;
 }
-	
+
 
 .footer-list{
 	padding:0;
@@ -485,7 +485,7 @@
 	}
 
 	.about .section-details .underline{
-		
+
 		margin: -1px 0 0 0;
 		max-width: 100%
 	}
@@ -497,14 +497,14 @@
 	.description-wrapper-about,
 	.about-wrapper-h2{
 	    max-width: 500px;
-	
+
     }
-    
+
 
 /*******slovo-index***/
 .field{
  	border:none;
- 	
+
  }
 
 .info .date{
@@ -529,7 +529,7 @@
 	border:none;
 	margin-bottom:  15px;
 }
- 
+
  .upload-wrapper{
  	width: 100%;
  }
@@ -587,7 +587,7 @@
 	width:100%;
 }
 .type{
-	
+
 	padding:0;
 	margin: 0 0 10px;
 }
@@ -599,9 +599,15 @@
 .main-nav-bar .navbar-default .navbar-nav>li>a{
 	padding: 5px 0;
 }
+.navbar-header {
+  border-bottom: 1px solid #e7e7e7;
+}
 .navbar .collapse{
-	
+	border-top: none;
 	 border-bottom: 1px solid #e7e7e7;
+}
+.navbar .collapsing {
+  border-top: none;
 }
 }
 
@@ -661,7 +667,7 @@
 	display:block;
 	height:270px;
 	margin-top: 20px;
-}	
+}
 
 
 .about{
@@ -696,7 +702,7 @@ padding: 20px 0;
     text-align: left;
     margin:20px 0;
     border-top: 1px solid #444;
-    
+
 }
 .inv-stage-wrapper{
 	display:none;
@@ -714,7 +720,7 @@ padding: 20px 0;
     text-align: left;
     max-width: 245px;
     margin:0;
-    
+
 }
 
 .year-wrapper p{
@@ -740,7 +746,7 @@ padding: 20px 0;
 .push-modal-footer .paragraph4{
 	display:none;
 }
-	
+
 	.tabs-section .invisiblemenu-tabs-wrapper .button-invisiblemenu-tabs-wrapper,
 	.tabs-section .invisiblemenu-tabs-wrapper .dropdown-invisiblemenu-tabs-wrapper> li> a{
 		margin-left: 20px
@@ -751,7 +757,7 @@ padding: 20px 0;
 		background-position: right 105px;
 		margin:0;
 	}
-	
+
 	.about .underline{
 		margin: 35px 5px 0 0;
 		width: 20px;
@@ -775,7 +781,7 @@ padding: 20px 0;
 		color:#f3f3f3;
 	}
 
-	
+
 	.footer-title{
 
 		display:block;
@@ -785,7 +791,7 @@ padding: 20px 0;
 	footer .underline {
 		display:none;
 	}
-	
+
 	.invisible-block{
 		display:none;
 	}
@@ -799,7 +805,7 @@ padding: 20px 0;
 		margin: 0 5px 10px 0;
 	}
 
-	
+
 	.social-icons{
 
 		width:100%;
@@ -846,7 +852,7 @@ padding: 20px 0;
 }
 
 .invisible-wrapper-catalog >a{
-	
+
     color: #fff;
     font-family: "Proximanova-semibold";
     font-size: 16px;
@@ -865,7 +871,7 @@ padding: 20px 0;
 
 	display:none;
 }
- 
+
  .registration-modal-content .registration-modal-footer{
 
     border-top: none;
@@ -880,7 +886,7 @@ padding: 20px 0;
 
 .registration-modal-header h1{
 	font-size:  30px;
-	
+
 }
 
 .modal-dialog .registration-modal-content{
@@ -919,7 +925,7 @@ padding: 20px 0;
 
 .registration-form-modal-body span .condition {
      width: 140px;
- 
+
     left: 127px;
     top: -14px;
 }
@@ -942,7 +948,7 @@ padding: 20px 0;
      font-size: 30px;
      margin: 30px 0 20px;
 }
-	
+
 	.rent-wrapper,
 	.hand-over-wrapper{
 		border:none;
@@ -957,12 +963,12 @@ padding: 20px 0;
 	.sectionwrapper-hand-over{
 		border:none;
 	}
-	
+
 .input-wrapper .invisible-block{
 
     display:block;
 }
-.input-wrapper .invisible-block h3{ 
+.input-wrapper .invisible-block h3{
     font-size: 20px;
     font-family: "proximanova-semibold";
     padding-top: 20px;
@@ -975,12 +981,12 @@ padding: 20px 0;
 }
 .form-settings input{
 	margin: 10px 0;
-	
+
 }
 .input-wrapper p .condition{
 	left: 135px;
     width: 146px;
-    
+
 }
 
 .searcher-catalog{
@@ -1011,7 +1017,7 @@ padding: 20px 0;
 	}
 	.wrapper-button-form-settings:before,
 .wrapper-button-form-settings:after{
-	
+
 	display:none;
 }
 .contacts-wrapper form textarea{
@@ -1036,7 +1042,7 @@ padding: 20px 0;
 }
 }
 @media only screen and (max-width : 427px) {
-	
+
    .navbar .container-fluid .navbar-header .main-title{
 
 		font-size: 20px;
@@ -1049,15 +1055,15 @@ padding: 20px 0;
 
 @media only screen and (max-width : 375px) {
 
-	
+
 	.navbar-header .dropdown{
 
 		 padding: 10px 20px;
-		 
+
 	}
 
-	
-	
+
+
 }
 
 /*******slovo-index***/
