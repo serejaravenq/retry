@@ -25,6 +25,47 @@
 	.footer-list li{
 		margin: 2% 10px 1% 0;
 	}
+	.block-offer{
+	padding: 14px;
+}
+
+.info-block-offer{
+	padding-left: 10px;
+}
+.searcher-catalog li{
+	margin: 10px 8px 5px 0;
+}
+.area-field{
+	margin: 10px 8px 10px 0;
+}
+.area-wrapper .area{
+	margin-left: 95px;
+}
+.stage-wrapper .stage{
+	margin-left: 0;
+}
+
+.type-wrapper{ 
+margin-left: 15px;
+max-width: 515px;
+}
+.facilities-field{
+	margin-left: 95px;
+}
+
+.type{
+	max-width: 390px;
+	margin-left: 45px;
+}
+.year-wrapper{
+	margin-left: 55px;
+}
+.furniture-wrapper{
+	max-width: 610px;
+}
+.sorting-wrapper ul{
+	margin-left: 15px;
+}
 }
 
 @media only screen and (max-width : 1024px) {
@@ -42,6 +83,7 @@
 	margin-right:  5px;
 }
 
+
 }
 
 
@@ -49,9 +91,147 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
+.searcher-catalog{
+		max-width: 280px;
+		border-top: 1px solid #444;
+	}
+	.searcher-catalog .buy-field{
+	width: 100%;
+}
+
+.button-searcher-catalog  {
+
+	max-width: 280px;
+	width:100%;
+    	
+    }
+.button-searcher-catalog > p{
+	display:block;
+}
+
+.button-searcher-catalog:before, 
+.button-searcher-catalog:after{
+	display:none;
+}
+.underline-wrapper-additional-options{
+	display:none;
+}
+
+.underline-type-wrapper{
+	display:inline-block;
+}
+
+.sorting-wrapper ul li{
+	margin-left: 0;
+	margin-right: 10px;
+	display:block;
+}
+
+.stage-wrapper .stage{
+
+	max-width: 280px;
+	width:100%;
+}
+
+.stage-wrapper input{
+width:115px;
+}
+
+.facilities-field{
+	max-width:280px;
+}
+.underline-main-catalog{
+	width: 280px;
+}
+
+.searcher-catalog .room-field{
+
+	max-width: 170px;
+	width: 100%;
+	margin-right: 0;
+}
+
+.searcher-catalog .size-field{
+
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+
+.searcher-catalog .metro-field{
+
+	max-width: 280px;
+	width:100%;
+}
+
+.searcher-catalog .price-field{
+	margin-right: 0;
+}
+
+.searcher-catalog .price-field input {
+    width: 117px;
+}
+
+.area-wrapper .area {
+
+    display: inline-block;
+    padding: 0;
+    max-width: 280px;
+    margin: 0;
+}
+
+.type-wrapper {
+    display: block;
+    max-width: 280px;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0 0;
+    border-top: 1px solid #444;
+}
+
+.facilities-wrapper {
+    text-align: left;
+    max-width: 280px;
+    margin:0;
+
+}
+
+
+.area .area-field .field1{
+
+	width: 131px;
+}
+
+
+	.area .area-field{
+	margin-right: 0;
+}
+
 	.stage-wrapper .stage{
 		margin-left: 0;
 	}
+ .main-title-offer {
+ 	border-bottom:none;
+ }
+
+	.offer{
+		height:auto;
+	}
+	
+
+	.hide-in{
+		display:none;
+	}
+
+.block-offer .mobile-img{
+    display:block;
+    max-width: 280px;
+    padding-bottom: 5px;
+    height:210px;
+}
+.block-offer img{
+	display:none;
+}
 
 
 
@@ -60,6 +240,7 @@
 }
 	.furniture-wrapper ul li{
 		margin-left: 0;
+		margin-bottom: 10px;
 	}
 
 	.main-map .info-main-map{
@@ -68,7 +249,7 @@
 	}
 
 .type{
-	margin-left: 25px;
+	margin-left: 0;
 }
 .check-field1{
 	margin-right: 50px;
@@ -88,6 +269,7 @@
 	.invisible-date-info-block-offer{
     display:inline-block;
     float:right;
+    padding-top: 5px;
 }
 
 .tabs-section .invisiblemenu-tabs-wrapper{
@@ -223,6 +405,7 @@
 
 	max-width: 510px;
 	margin: 0 auto;
+	text-align: left;
 }
 
 .footer-list li>a{
@@ -238,6 +421,7 @@
 
 	.block-offer img{
 		width:100%;
+		max-width: 200px;
 	}
 
 	.info-block-offer{
@@ -258,9 +442,10 @@
 }
 	.block-offer{
 		border:none;
-		padding: 15px 0;
+		padding: 20px 0;
 		border-top: 1px solid #e5e5e5;
-
+		max-width: 400px;
+		margin: 0 auto;
 	}
 	.description-info-block-offer{
 		height:auto;
@@ -296,13 +481,6 @@
 		height: auto;
 	}
 
-	.type-wrapper {
-    display: block;
-    max-width: 350px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}
 .type-wrapper p{
 	margin-left: 0;
 }
@@ -333,9 +511,7 @@
 
     margin-right: 30px;
 }
-.facilities-wrapper{
-	text-align: center;
-}
+
 .facilities-field{
 	margin-left:0;
 }
@@ -346,14 +522,56 @@
 	margin-right: 0;
 	margin: 0 auto;
 }
+
+.year-wrapper p{
+	margin:0;
+}
+
+.furniture-wrapper ul{
+	padding: 0;
+}
+.sorting-wrapper{
+	border-top: 1px solid #444;
+}
+.sorting-wrapper p{
+	
+	max-width: 120px;
+	margin:0;
+	display:block;
+}
 .furniture-wrapper {
     max-width: 260px;
     text-align: left;
-    margin: 10px auto;
+    margin: 20px  0;
 }
 .sorting-wrapper p{
-	display: inline-block;
-	margin-left: 80px;
+	display: block;
+	margin-left: 0;
+}
+.sorting-wrapper ul{
+	margin-left: 0;
+}
+
+.additional-options {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+	.area-wrapper{
+	text-align: left;
+	border-top: 1px solid #444;
+}
+.area-wrapper p{
+	margin: 0;
+}
+.stage-wrapper {
+    text-align: left;
+    margin:20px 0;
+    border-top: 1px solid #444;
+
+}
+.area-wrapper .area{
+	margin-left: 0;
 }
 }
 /* Small Devices, Tablets */
@@ -372,13 +590,8 @@
 	margin: 0;
 }
 
-.area-wrapper .area {
 
-    display: inline-block;
-    padding: 0;
-    max-width: 260px;
-    margin: 0;
-}
+
 .wrapper-leftside-footer{
 	margin: 0 auto 20px;
 }
@@ -517,17 +730,16 @@
 
 }
 .block-offer img{
-	border-top:1px solid #e6e6e6;
+	
 	padding-top: 25px;
+	border-top: 1px solid #e5e5e5;
 }
-.block-offer:nth-child(odd){
 
-    border-right:none;
-}
 .block-offer{
-	padding: 0;
-	border:none;
+	padding: 0 20px;
 	margin-bottom:  15px;
+	max-width: 300px;
+	border:none;
 }
 
  .upload-wrapper{
@@ -679,66 +891,17 @@ padding: 20px 0;
 	padding:0;
 	margin:0;
 }
-.underline-type-wrapper{
-	display:inline-block;
-}
-
-.date-sorting{
-	margin-left: 0;
-	margin-right: 10px;
-}
-	.additional-options {
-    max-width: 290px;
-    margin: 0 auto;
-}
-
-	.area-wrapper{
-	text-align: left;
-}
-.area-wrapper p{
-	margin: 0;
-}
-.stage-wrapper {
-    text-align: left;
-    margin:20px 0;
-    border-top: 1px solid #444;
-
-}
+	
 .inv-stage-wrapper{
 	display:none;
 }
 
-.type-wrapper {
-    display: block;
-    max-width: 245px;
-    width: 100%;
-    text-align: left;
-    margin: 10px 0 0;
-    border-top: 1px solid #444;
-}
-.facilities-wrapper {
-    text-align: left;
-    max-width: 245px;
-    margin:0;
 
+.underline-wrapper-additional-options{
+	display:none;
 }
 
-.year-wrapper p{
-	margin:0;
-}
-.furniture-wrapper{
-	margin: 20px 0;
-}
-.furniture-wrapper ul{
-	padding: 0;
-}
-.sorting-wrapper{
-	border-top: 1px solid #444;
-}
-.sorting-wrapper p{
-	margin-left: 0;
-	max-width: 120px;
-}
+
 
 	.push-modal-footer .paragraph1{
     display:block;
@@ -830,17 +993,19 @@ padding: 20px 0;
     display: none;
 
 }
-.price-field input {
-    width: 82px;
-}
-.wrapper-catalog{
-	border-bottom: 1px solid #444444;
-}
+
+
+
 .name-wrapper-catalog{
-	font-size: 34px;
+	font-size: 25px;
 }
 .info-rightside-catalog{
-	margin-top: 27px;
+	margin-top: 20px;
+}
+
+.catalog .underline{
+	margin:  0 0 10px 0;
+	width:20px;
 }
 
 .invisible-wrapper-catalog{
@@ -862,10 +1027,7 @@ padding: 20px 0;
 .parametrs-searcher-catalog{
 	display:none;
 }
-.button-searcher-catalog  {
 
-    	display:none;
-    }
 
 .modal-footer .save{
 
@@ -989,10 +1151,11 @@ padding: 20px 0;
 
 }
 
-.searcher-catalog{
-		text-align: left;
-		display:none;
-	}
+
+.searcher-catalog .buy-field{
+
+width:100%;
+}
 
 	.contacts-details-info{
 		border-bottom: 1px solid #eeeeee;
@@ -1020,6 +1183,8 @@ padding: 20px 0;
 
 	display:none;
 }
+
+
 .contacts-wrapper form textarea{
 	max-width: 410px;
 

@@ -397,6 +397,7 @@ background-image: url(../img/main-bg.png);
 
 .footer-list{
     padding: 0;
+    text-align:right;
 }
 
 .description-services {
@@ -667,7 +668,7 @@ footer .underline{
 }
 
 .wrapper-catalog {
-    max-width: 940px;
+
     margin: 0 auto;
 }
 .info-rightside-catalog .number-info-rightside-catalog{
@@ -705,7 +706,6 @@ footer .underline{
 .searcher-catalog{
 
     margin: 2% auto;
-    text-align: center;
     padding: 0;
 }
 .searcher-catalog li{
@@ -716,7 +716,7 @@ footer .underline{
     padding:15px;
     font-size: 15px;
     color:#fff;
-    margin: 10px 10px 5px 0;
+    margin: 10px 58px 5px 0;
     height:50px;
     text-align: left;
 
@@ -742,7 +742,7 @@ footer .underline{
 
 
 .metro-field input{
-    width: 165px;
+    width: 170px;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -753,6 +753,7 @@ footer .underline{
 .searcher-catalog .price-field{
 
     padding: 15px 6px 15px 0;
+    margin-right: 0;
 }
 
 .price-field input{
@@ -788,7 +789,7 @@ footer .underline{
     display:none;
 }
 .underline-wrapper-additional-options{
-    border-top: 2px solid #444444;
+    border-top: 1px solid #444444;
     max-width: 950px;
     margin: 20px auto;
 }
@@ -797,9 +798,9 @@ footer .underline{
     outline:none;
 }
 .area-wrapper {
-    max-width: 950px;
+    
     margin: 0 auto;
-    text-align: center;
+    
 }
 
 .area-wrapper p{
@@ -815,7 +816,8 @@ footer .underline{
 
 .area-wrapper .area{
     display:inline-block;
-    margin-left: 45px;
+    margin-left: 145px;
+    padding:0;
 }
 
 .area-field input::-webkit-input-placeholder,
@@ -835,10 +837,15 @@ footer .underline{
 }
 .area-field{
         display: inline-block;
-    padding: 15px 10px;
+    padding: 15px 12px;
     background-color: #444444;
-    margin: 10px 10px 10px 0;
+    margin: 10px 84px 10px 0;
 }
+.area-field:nth-child(3){
+
+margin-right:0;
+}
+
 .area-field .field1,
 .stage-wrapper .field1{
     border-right: 1px solid #555555;
@@ -862,12 +869,12 @@ footer .underline{
     border: none;
     width: 100px;
     color:#fff;
+    padding-left: 10px;
 }
 .stage-wrapper{
     display: inline-block;
     max-width: 43%;
     width: 100%;
-    text-align: center;
     margin: 20px 0;
 }
 .stage-wrapper input
@@ -878,6 +885,7 @@ footer .underline{
     border: none;
     width: 75px;
     color:#fff;
+    padding-left: 5px;
 }
 .stage-wrapper p,
 .sorting-wrapper p {
@@ -901,6 +909,7 @@ footer .underline{
 .sorting-wrapper ul{
     display:inline-block;
     padding:0;
+    margin-left: 65px;
 }
 
 
@@ -921,15 +930,15 @@ footer .underline{
     display:inline-block;
     background-color: #444444;
     padding: 15px 10px;
-    margin-left: 25px;
+    margin-left: 50px;
 
 }
 
 .type-wrapper {
     display: inline-block;
-    max-width: 55%;
+    max-width: 590px;
     width:100%;
-    text-align: left;
+    margin-left: 55px;
 }
 
 .underline-type-wrapper{
@@ -952,14 +961,15 @@ footer .underline{
     display: inline-block;
     font-family: "proximanova-semibold";
     font-size: 15px;
-    margin-left: 10px;
     padding: 15px 0;
 }
 .type{
     display:inline-block;
     vertical-align: top;
-    max-width: 400px;
+    max-width: 455px;
     width:100%;
+    padding:0;
+    margin-left: 55px;
 }
 .type li{
     display:inline-block;
@@ -984,16 +994,22 @@ footer .underline{
     float: right;
 }
 
+.year-wrapper{
+    margin-left: 140px;
+}
+
 .year-wrapper p{
     max-width:110px;
     width:100%;
-    margin-right:20px;
-    margin-left: 30px;
+    margin-right:10px;
+    
+  }
+  .year-wrapper .year{
+    margin-left: 0
   }
 
 .facilities-wrapper {
-    text-align: left;
-    max-width: 930px;
+    
     margin: 20px auto;
 }
 
@@ -1003,7 +1019,7 @@ footer .underline{
     padding: 15px;
     max-width: 190px;
     width: 100%;
-    margin-left:77px;
+    margin-left:145px;
     text-align: left;
 }
 
@@ -1028,15 +1044,32 @@ color: #fff;
     text-align: left;
     margin: 10px auto;
 }
+
+.furniture-wrapper ul{
+    padding:0;
+}
+
 .furniture-wrapper ul li{
     color:#fff;
     list-style: none;
-    margin-left: 10px;
+    
 }
 
+.underline-main-catalog {
+    border-top: 1px solid #444;
+    width: 150px;
+}
+.done {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Proximanova-bold";
+    border-bottom: 2px solid #b28500;
+    max-width: 55px;
+    margin: 0 auto 10px;
+}
 
 .parametrs-searcher-catalog {
-    margin: 3% 0;
+    margin: 0 0 30px;
     text-align: center;
 }
  .parametrs-searcher-catalog > a {
@@ -1088,7 +1121,7 @@ color: #fff;
     }
 .offer{
     background-color: #f5f5f5;
-
+    height:700px;
 }
 
 .object-wrapper-offer {
@@ -1134,6 +1167,7 @@ color: #fff;
 
 .main-title-offer {
     margin-top: 3%;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .phrase-offer {
@@ -1147,35 +1181,35 @@ color: #fff;
 }
 
 .block-offer {
-    display: inline-block;
+    
     padding: 20px;
     border: 1px solid #e6e6e6;
-    width: 100%;
     cursor: pointer;
 }
 
 .block-offer:nth-child(odd){
 
     border-right:none;
+    border-top:none;
 }
-.block-offer:nth-child(n+3){
+
+.block-offer:nth-child(even){
 
     border-top:none;
 }
 
 .info-block-offer{
     display: inline-block;
-    padding-left: 20px;
-    max-width: 224px;
+    padding-left: 15px;
     vertical-align: top;
-    text-align:left;
+    text-align: left;
     height:150px;
 
 }
 
 .title-info-block-offer {
     font-family: "Proximanova-semibold";
-    font-size: 18px;
+    font-size: 20px;
     color:#444444;
     margin:0;
 
@@ -1194,12 +1228,12 @@ color: #fff;
 }
 .field1 {
     display: block;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .field2,.field3{
     display:block;
-    font-size: 13px;
+    font-size: 14px;
 }
 .figure {
     border: 2px solid #ff0000;
@@ -1212,12 +1246,15 @@ color: #fff;
     border-radius: 50px;
     margin-right: 5px;
 }
+.block-offer .mobile-img{
+    display:none;
+}
 
 .price-info-block-offer{
 
     font-family: "Proximanova-semibold";
     margin: 8px 0;
-    font-size: 19px;
+    font-size: 20px;
     color: #b28500;
 
 }
@@ -1229,6 +1266,7 @@ color: #fff;
     color: #cbcbcb;
 
 }
+
 
 .date-info-block-offer{
 
