@@ -15,6 +15,16 @@
 		width: 150%;
 	}
 
+	.contacts-wrapper {
+
+	margin-left: 7%;
+	}
+
+	.stage-wrapper p{
+
+		margin-right: 75px;
+	}
+
 	.description-wrapper-about {
     margin: 25px 0 30px 0px;
 	}
@@ -33,29 +43,30 @@
 	padding-left: 10px;
 }
 .searcher-catalog li{
-	margin: 10px 8px 5px 0;
+	margin: 10px 3% 5px 0;
 }
 .area-field{
-	margin: 10px 8px 10px 0;
+	margin: 10px 7% 10px 0;
 }
 .area-wrapper .area{
-	margin-left: 95px;
+	margin-left: 12%;
+	max-width: 758px;
 }
 .stage-wrapper .stage{
 	margin-left: 0;
 }
 
 .type-wrapper{ 
-margin-left: 15px;
-max-width: 515px;
+margin-left: 45px;
+max-width: 485px;
 }
 .facilities-field{
 	margin-left: 95px;
 }
 
 .type{
-	max-width: 390px;
-	margin-left: 45px;
+	max-width: 395px;
+	margin-left: 20px;
 }
 .year-wrapper{
 	margin-left: 55px;
@@ -91,149 +102,49 @@ max-width: 515px;
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
 
-.searcher-catalog{
-		max-width: 280px;
-		border-top: 1px solid #444;
-	}
-	.searcher-catalog .buy-field{
-	width: 100%;
+.parametrsearch-tabs-wrapper{
+    display:block;
 }
-
-.button-searcher-catalog  {
-
-	max-width: 280px;
-	width:100%;
-    	
-    }
-.button-searcher-catalog > p{
-	display:block;
-}
-
-.button-searcher-catalog:before, 
-.button-searcher-catalog:after{
+.leftside-laying-over{
 	display:none;
 }
-.underline-wrapper-additional-options{
-	display:none;
-}
-
-.underline-type-wrapper{
-	display:inline-block;
-}
-
-.sorting-wrapper ul li{
-	margin-left: 0;
-	margin-right: 10px;
-	display:block;
-}
-
-.stage-wrapper .stage{
-
-	max-width: 280px;
-	width:100%;
-}
-
-.stage-wrapper input{
-width:115px;
-}
-
-.facilities-field{
-	max-width:280px;
-}
-.underline-main-catalog{
-	width: 280px;
-}
-
-.searcher-catalog .room-field{
-
-	max-width: 170px;
-	width: 100%;
-	margin-right: 0;
-}
-
-.searcher-catalog .size-field{
-
-	margin-left: 15px;
-	margin-right: 0;
-}
-
-
-.searcher-catalog .metro-field{
-
-	max-width: 280px;
-	width:100%;
-}
-
 .searcher-catalog .price-field{
-	margin-right: 0;
+	width: 25%;
+}
+.area-wrapper .area{
+	margin-left: 13%;
+	max-width: 557px;
 }
 
-.searcher-catalog .price-field input {
-    width: 117px;
+.stage-wrapper p{
+
+	margin-right: 55px;
 }
+.type ul{
 
-.area-wrapper .area {
-
-    display: inline-block;
-    padding: 0;
-    max-width: 280px;
-    margin: 0;
+	padding:0;
 }
-
-.type-wrapper {
-    display: block;
-    max-width: 280px;
-    width: 100%;
-    text-align: left;
-    margin: 10px 0 0;
-    border-top: 1px solid #444;
+.type-wrapper{
+	margin-left: 35px;
+	max-width:371px;
 }
-
-.facilities-wrapper {
-    text-align: left;
-    max-width: 280px;
-    margin:0;
-
+.searcher-catalog li{
+	margin: 10px 1% 5px 0;
 }
-
-
-.area .area-field .field1{
-
-	width: 131px;
+.price-field input {
+    width: 38%;
 }
-
-
-	.area .area-field{
-	margin-right: 0;
+.area-field .field2{
+	width: 29%;
 }
-
-	.stage-wrapper .stage{
-		margin-left: 0;
-	}
- .main-title-offer {
- 	border-bottom:none;
- }
-
 	.offer{
 		height:auto;
 	}
 	
 
-	.hide-in{
-		display:none;
-	}
-
-.block-offer .mobile-img{
-    display:block;
-    max-width: 280px;
-    padding-bottom: 5px;
-    height:210px;
-}
 .block-offer img{
 	display:none;
 }
-
-
 
 	.underline-main-searcher-catalog {
     display:none;
@@ -249,10 +160,11 @@ width:115px;
 	}
 
 .type{
-	margin-left: 0;
+	margin-left: 15px;
+	max-width: 286px;
 }
 .check-field1{
-	margin-right: 50px;
+	margin-right: 20px;
 }
 .contacts .left-picture {
     float: none;
@@ -266,20 +178,12 @@ width:115px;
     display: block;
 	}
 
-	.invisible-date-info-block-offer{
-    display:inline-block;
-    float:right;
-    padding-top: 5px;
-}
+	
 
 .tabs-section .invisiblemenu-tabs-wrapper{
 	display: block;
 }
 
-.date-info-block-offer{
-
-	display:none;
-}
 .tabs-navi{
 	display:none;
 }
@@ -419,17 +323,28 @@ width:115px;
 
 /*******slovo-index***/
 
-	.block-offer img{
-		width:100%;
-		max-width: 200px;
+	.info-block-offer{
+		padding-left: 5px;
+		width: 48%;
+		height:auto;
+	}
+	.price-info-block-offer{
+		font-size: 15px;
+	}
+	.description-info-block-offer .field2,
+	.description-info-block-offer .field3{
+
+		font-size: 11px;
 	}
 
-	.info-block-offer{
-		padding-left: 0;
-		margin-top: 5px;
-		max-width: 100%;
-		width: 100%;
-		height:auto;
+	.description-info-block-offer .field1{
+
+		font-size: 14px;
+	}
+
+	.title-info-block-offer{
+
+		font-size: 15px;
 	}
 
 	.date-info-block-offer{
@@ -441,10 +356,9 @@ width:115px;
     border-top: 1px solid #e5e5e5;
 }
 	.block-offer{
-		border:none;
-		padding: 20px 0;
+		
+		padding: 10px;
 		border-top: 1px solid #e5e5e5;
-		max-width: 400px;
 		margin: 0 auto;
 	}
 	.description-info-block-offer{
@@ -458,6 +372,7 @@ width:115px;
 		display:block;
 		float:none;
 	}
+
 
 	.form-settings{
 		text-align: center;
@@ -481,35 +396,98 @@ width:115px;
 		height: auto;
 	}
 
-.type-wrapper p{
-	margin-left: 0;
-}
-
 .facilities-wrapper p{
 	margin-left: 0;
-	display:block;
+	
+}
+.year-wrapper{
+	margin-left: 50px;
+	max-width: 335px;
 }
 .check-field2{
 	float:none;
 }
-.stage-wrapper {
-    display: block;
-    margin: 20px auto;
-    max-width: 300px;
+.facilities-field{
+	margin-left: 90px;
+	max-width: 160px;
 }
+.furniture-wrapper{
+	max-width: 395px;
+}
+
+.sorting-wrapper ul{
+	margin-left: 13px;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+.invisible-date-info-block-offer{
+    display:inline-block;
+    float:right;
+    padding-top: 5px;
+}
+
+.push-modal-header span{
+	display:inline-block;
+}
+
+.push-modal-header h2{
+
+	display:none;
+}
+
+.enter-modal-footer .button-form-enter{
+	max-width: 100%;
+}
+
+.checkbox-enter label{
+
+margin: 0 0 5px 0;
+}
+
+.info-rent-wrapper .date-payment{
+	margin-bottom: 10px;
+}
+
+.date-info-block-offer{
+
+	display:none;
+}
+
 .type ul {
 
     padding: 0;
 }
+
+.dropdown-menu-footer{
+	float:right;
+}
+.dropdown-menu-footer ul{
+
+	top:-110px;
+	left: -90px;
+}
+
+.registration-form-modal-body p{
+
+	width: 100%;
+}
+
+
 .type li{
-	display:inline-block;
+	display:block;
 	text-align: left;
+	margin:0;
 }
 
 
 .stage-wrapper p {
 
     margin-right: 30px;
+    display:block;
+    max-width: 100%;
 }
 
 .facilities-field{
@@ -540,7 +518,7 @@ width:115px;
 	display:block;
 }
 .furniture-wrapper {
-    max-width: 260px;
+    max-width: 100%;
     text-align: left;
     margin: 20px  0;
 }
@@ -553,7 +531,7 @@ width:115px;
 }
 
 .additional-options {
-    max-width: 280px;
+    
     margin: 0 auto;
 }
 
@@ -568,14 +546,166 @@ width:115px;
     text-align: left;
     margin:20px 0;
     border-top: 1px solid #444;
+    display:block;
+    max-width: 100%;
 
 }
 .area-wrapper .area{
 	margin-left: 0;
 }
+
+.area-wrapper .area {
+
+    display: block;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
+
+.type-wrapper {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0 0;
+    border-top: 1px solid #444;
+}
+
+.facilities-wrapper {
+
+    text-align: left;
+    margin:0;
+
+}
+.type-wrapper p{
+	margin-left: 0;
+	display:block;
+}
+
+.area .area-field .field1{
+
+	width: 42%;
+}
+
+.area .area-field .field2{
+	width: 42%;
+}
+.area-field span{
+	margin-top: -10px;
+	float:right;
+}
+
+	.area .area-field{
+	margin-right: 0;
+	display:block;
+	height: 50px;
+	padding: 15px 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+	.searcher-catalog{
+		
+		border-top: 1px solid #444;
+	}
+
+	.searcher-catalog .buy-field{
+	width: 100%;
+	margin: 10px 0 5px;
+	max-width: 100%;
+}
+
+.button-searcher-catalog  {
+
+	max-width: 280px;
+	width:100%;
+    	
+    }
+.button-searcher-catalog > p{
+	display:block;
+}
+
+.button-searcher-catalog:before, 
+.button-searcher-catalog:after{
+	display:none;
+}
+.underline-wrapper-additional-options{
+	display:none;
+}
+
+.underline-type-wrapper{
+	display:inline-block;
+}
+
+.sorting-wrapper ul li{
+	margin-left: 0;
+	margin-right: 10px;
+	display:block;
+}
+
+.stage-wrapper .stage{
+
+	
+	width:100%;
+	margin-left: 0;
+	max-width: 100%;
+	margin-right: 0;
+}
+
+.stage-wrapper input{
+width: 42%;
+}
+
+.facilities-field{
+	max-width:100%;
+}
+.underline-main-catalog{
+	width: 100%;
+}
+
+.searcher-catalog .room-field{
+
+	
+	width: 75%;
+	margin-right: 0;
+	max-width: 100%;
+}
+
+
+.searcher-catalog .size-field{
+
+	float:right;
+	width:20%;
+	margin-right: 0;
+	max-width: 100%;
+}
+
+
+.searcher-catalog .metro-field{
+
+	display:block;
+	width:100%;
+	margin: 10px 0 5px;
+	max-width: 100%;
+}
+
+.searcher-catalog .price-field{
+	margin-right: 0;
+	width: 100%;
+	display:block;
+	max-width: 100%;
+}
+
+.searcher-catalog .price-field input {
+    width: 42%;
+}
+.price-field span{
+	
+	margin-top: -10px;
+	display:inline-block;
+	float:right;
+}
+
 
 .main-map .info-main-map{
 
@@ -598,14 +728,24 @@ width:115px;
 .area-wrapper p{
     display: block;
     margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+.reg-modal-footer{
+	max-width :100%;
 }
 
 	.registration-modal-body .form-push{
-    max-width: 280px;
+    max-width: 100%;
     margin: 0 auto;
+}
+.push-modal-body .form-push p{
+	max-width: 100%;
+	width: 100%;
 }
 .push-modal-body .button-push{
 	float:none;
+	max-width: 100%;
 }
 
 
@@ -717,7 +857,14 @@ width:115px;
 /*******slovo-index***/
 .field{
  	border:none;
+ 	padding: 5px 0 0;
+ 	width: 49%;
+ 	max-width: 100%;
+ 	
 
+ }
+ .details-item-info .date{
+ 	max-width: 110px;
  }
 
 .info .date{
@@ -731,14 +878,13 @@ width:115px;
 }
 .block-offer img{
 	
-	padding-top: 25px;
+	padding: 20px 0;
 	border-top: 1px solid #e5e5e5;
 }
 
 .block-offer{
 	padding: 0 20px;
 	margin-bottom:  15px;
-	max-width: 300px;
 	border:none;
 }
 
@@ -749,13 +895,21 @@ width:115px;
  .hand-over-wrapper,
 .laying-over-wrapper{
  	height:auto;
+ 	border:none;
+ 	border-bottom: 1px solid #eee;
  }
 
  .registration-modal-body .registration-form-modal-body{
- 	max-width:280px;
+ 	max-width:100%;
  	margin: 0 auto;
  }
- .push-modal-header h1 span{
+
+ .registration-form-modal-body p>input
+ { 
+  	width: 100%;
+ }
+
+ .push-modal-header h2 span{
  	display:none;
  }
  .picture-rent,
@@ -802,6 +956,7 @@ width:115px;
 
 	padding:0;
 	margin: 0 0 10px;
+	max-width: 100%;
 }
 .navbar-default .navbar-nav>li{
 	margin: 0 70px 0;
@@ -820,6 +975,47 @@ width:115px;
 }
 .navbar .collapsing {
   border-top: none;
+}
+.info-block-offer{
+	padding-left: 0;
+	padding-top: 0;
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width: 280px;
+}
+.title-info-block-offer {
+    font-size: 20px;
+    }
+
+ .price-info-block-offer{
+ 	font-size: 20px;
+ }
+
+ .title-info-block-offer {
+    font-size: 20px;
+}
+.description-info-block-offer .field2,
+.description-info-block-offer .field3{
+	font-size: 14px;
+}
+.main-title-offer{
+
+	border-bottom: none;
+}
+
+.description-info-block-offer .field1{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.block-offer .mobile-img{
+	display:block;
+	width: 100%;
+	max-width: 280px;
+	padding: 20px 0;
+	border-top: 1px solid #e5e5e5;
+	margin: 0 auto;
 }
 }
 
@@ -1041,12 +1237,12 @@ padding: 20px 0;
 
 .enter-registration-modal-header{
 	font-size: 16px;
-	padding-top: 10px;
+	padding-top: 9px;
     font-family: "proximanova-bold";
     color: #b28500;
 }
 
-.registration-modal-header h1{
+.registration-modal-header h2{
 	font-size:  30px;
 
 }
@@ -1159,6 +1355,7 @@ width:100%;
 
 	.contacts-details-info{
 		border-bottom: 1px solid #eeeeee;
+		padding:  5px 0 0;
 	}
 
 	.enter-modal-content .enter-modal-footer{

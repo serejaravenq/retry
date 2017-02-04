@@ -203,6 +203,7 @@ background-image: url(../img/main-bg.png);
     background-image: url(../img/main-bg-services.jpg);
     background-repeat: no-repeat;
     height: 600px;
+    background-size: 100%;
     background-position: right;
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -476,7 +477,7 @@ background-image: url(../img/main-bg.png);
 .contacts-wrapper{
 
     width: 458px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .contacts img{
         float:right;
@@ -489,6 +490,11 @@ background-image: url(../img/main-bg.png);
 	font-size: 38px;
 	font-family: "Proximanova-regular";
     color: #444444;
+}
+
+.contacts-wrapper-services{
+    width: 100%;
+    margin-left: 20%;
 }
 
 .contacts-wrapper .underline{
@@ -543,6 +549,7 @@ background-image: url(../img/main-bg.png);
     background-color: #b28500;
     color: #fff;
     border: none;
+    margin-bottom: 0;
 }
 
 .contacts-wrapper  form textarea{
@@ -716,10 +723,24 @@ footer .underline{
     padding:15px;
     font-size: 15px;
     color:#fff;
-    margin: 10px 58px 5px 0;
+    margin: 10px 5% 5px 0;
     height:50px;
     text-align: left;
 
+}
+.buy-field{
+    width: 14%;
+    max-width: 150px;
+}
+ 
+.room-field{
+    width: 14%;
+    max-width: 150px;
+ }
+
+.size-field {
+    width: 9%;
+    max-width: 90px;
 }
 
  .buy-field,
@@ -728,9 +749,13 @@ footer .underline{
     width: 150px;
     height: 50px;
 }
+.metro-field{
+    width: 18%;
+    max-width: 200px;
+}
 
 .size-field input{
-    width: 60px;
+    width: 100%;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -742,7 +767,7 @@ footer .underline{
 
 
 .metro-field input{
-    width: 170px;
+    width: 100%;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -754,11 +779,13 @@ footer .underline{
 
     padding: 15px 6px 15px 0;
     margin-right: 0;
+    width: 27%;
+    max-width: 300px;
 }
 
 .price-field input{
 
-   width: 127px;
+   width: 42%;
     color: #fff;
     height: 24px;
     display: inline-block;
@@ -770,13 +797,15 @@ footer .underline{
 
 .managment{
     background-color: #f3f3f3;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 
 .price-field span{
     padding: 10px 15px;
     background-color: #555555;
+    float:right;
+    margin-top: -10px;
 }
 .price-field .field1{
     border-right: 1px solid #555555;
@@ -837,9 +866,12 @@ footer .underline{
 }
 .area-field{
         display: inline-block;
-    padding: 15px 12px;
+    padding: 15px 0;
     background-color: #444444;
-    margin: 10px 84px 10px 0;
+    margin: 10px 83px 10px 0;
+    width:28%;
+    max-width: 250px;
+    height: 50px;
 }
 .area-field:nth-child(3){
 
@@ -851,13 +883,15 @@ margin-right:0;
     border-right: 1px solid #555555;
 }
 .area-field .field2{
-    width:80px;
+    width:36%;
 }
 .area-field span{
     color: #fff;
-    padding: 15px;
+    padding: 10px 15px;
     font-family: "proximanova-semibold";
     font-size: 15px;
+    float:right;
+    margin-top: -10px;
 }
 
 .area-field input
@@ -867,7 +901,7 @@ margin-right:0;
     font-family: "proximanova-semibold";
     background-color: #444444;
     border: none;
-    width: 100px;
+    width: 42%;
     color:#fff;
     padding-left: 10px;
 }
@@ -883,7 +917,7 @@ margin-right:0;
     font-family: "proximanova-semibold";
     background-color: #444444;
     border: none;
-    width: 75px;
+    width: 42%;
     color:#fff;
     padding-left: 5px;
 }
@@ -931,6 +965,8 @@ margin-right:0;
     background-color: #444444;
     padding: 15px 10px;
     margin-left: 50px;
+    height: 50px;
+    max-width: 150px;
 
 }
 
@@ -1065,7 +1101,7 @@ color: #fff;
     font-family: "Proximanova-bold";
     border-bottom: 2px solid #b28500;
     max-width: 55px;
-    margin: 0 auto 10px;
+    margin: 0 auto;
 }
 
 .parametrs-searcher-catalog {
@@ -1121,7 +1157,7 @@ color: #fff;
     }
 .offer{
     background-color: #f5f5f5;
-    height:700px;
+    padding-bottom: 30px;
 }
 
 .object-wrapper-offer {
@@ -1185,6 +1221,7 @@ color: #fff;
     padding: 20px;
     border: 1px solid #e6e6e6;
     cursor: pointer;
+    position:relative;
 }
 
 .block-offer:nth-child(odd){
@@ -1204,6 +1241,7 @@ color: #fff;
     vertical-align: top;
     text-align: left;
     height:150px;
+    width: 49%;
 
 }
 
@@ -1224,7 +1262,7 @@ color: #fff;
     font-family: "Proximanova-bold";
     color:#878787;
     margin:  5px 0;
-    height:100px;
+    
 }
 .field1 {
     display: block;
@@ -1247,9 +1285,12 @@ color: #fff;
     margin-right: 5px;
 }
 .block-offer .mobile-img{
-    display:none;
+    display:inline-block;
+    max-width: 280px;
+    padding-bottom: 5px;
+    height:auto;
+    width: 50%;
 }
-
 .price-info-block-offer{
 
     font-family: "Proximanova-semibold";
@@ -1274,6 +1315,8 @@ color: #fff;
     font-size: 14px;
     margin: 0;
     color: #cbcbcb;
+    position:absolute;
+    bottom: 7%;
 }
 
 
@@ -1297,17 +1340,17 @@ color: #fff;
 }
 .gallery {
     margin-bottom: 10px;
-    text-align: center;
     margin-top: 10px;
 }
 .gallery img{
 
-    max-width: 100px;
-    margin: 5px;
+    max-width: 105px;
+    margin: 5px 5px 5px 0;
 }
 .contacts-details-info {
-    padding: 15px 10px;
+    padding: 5px 0 0;
     border-top: 1px solid #eeeeee;
+    margin-bottom: 5px;
 
 }
 .modal-dialog .modal-content-details-info{
@@ -1319,12 +1362,12 @@ color: #fff;
     border: 1px solid #eeeeee;
     width: 35px;
     display: block;
-    margin: 20px 11px;
+    margin: 5px 10px;
 }
 
 .details-item-info {
     border: 1px solid #eeeeee;
-    text-align: center;
+    margin-bottom: 10px;
     }
 
 .phone-contacts {
@@ -1346,11 +1389,12 @@ color: #fff;
 }
 
 .field {
-    padding: 15px;
+    padding: 5px 15px ;
     border-right: 1px solid #eeeeee;
     display: inline-block;
     width: 100%;
     max-width: 105px;
+    height: 65px;
 
 }
 
@@ -1401,7 +1445,8 @@ color: #fff;
     font-size: 16px;
     font-family: "proximanova-semibold";
     color: #888888;
-    padding-left:  10px;
+    padding-left:  0;
+    margin: 0;
 
 }
 
@@ -1409,15 +1454,16 @@ color: #fff;
     font-size: 20px;
     font-family: "Proximanova-semibold";
     color: #444444;
-    margin-bottom: 5px;
-    padding: 0 10px;
-    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
 }
 
 .modal-content .details-modal-footer{
     background-color:#333333;
     color:#fff;
     text-align:left;
+    padding:10px 15px;
 }
 
 .modal-footer a{
@@ -1454,7 +1500,7 @@ text-transform: uppercase;
 
 .registration-modal-header .underline{
 
-    margin: 0 5px 10px 0;
+    margin: 0 5px 15px 0;
     border: 2px solid #b28500;
     max-width: 25px;
     width:100%;
@@ -1463,7 +1509,7 @@ text-transform: uppercase;
     border:2px solid #b28500;
 }
 
-.registration-modal-header h1{
+.registration-modal-header h2{
 
     font-size: 40px;
     font-family: "Proximanova-regular";
@@ -1479,7 +1525,7 @@ text-transform: uppercase;
     font-size: 22px;
     font-family: "Proximanova-regular";
     float: right;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .modal-dialog .registration-modal-content{
@@ -1496,6 +1542,7 @@ text-transform: uppercase;
     top: 20px;
     opacity: 1;
     font-size: 18px;
+    outline:none;
 }
 
 .registration-modal-content .registration-modal-body{
@@ -1653,6 +1700,7 @@ color:#858585;
     border: none;
     background-color: #f5f5f5;
     outline:none;
+    padding-left: 10px;
 }
 
 .registration-form-modal-body span .condition{
@@ -1678,6 +1726,13 @@ color:#858585;
     display:none;
 }
 
+.push-modal-header span{
+    font-family: "Proximanova-regular";
+    font-size: 30px;
+    color:#444;
+    display:none;
+}
+
 .reg-modal-footer{
 
        border: none;
@@ -1691,6 +1746,7 @@ color:#858585;
     height: 50px;
     max-width: 280px;
     width: 100%;
+    text-transform: none;
 
 }
 
@@ -1723,7 +1779,7 @@ color:#858585;
 .push-modal-body .form-push p{
 
     display:inline-block;
-    max-width: 280px;
+    max-width: 260px;
     width:100%;
 }
 .push-modal-body .form-push span{
@@ -1741,6 +1797,7 @@ color:#858585;
     width: 100%;
     height: 50px;
     outline: none;
+    padding-left: 10px;
 }
 
 .push-modal-body .button-push{
@@ -1776,6 +1833,7 @@ color:#858585;
     font-size: 16px;
     border-bottom: 2px solid #b28500;
     margin: 0;
+    text-transform: none;
 }
 .push-modal-footer .parapgraph1{
     display:none;
@@ -1806,6 +1864,7 @@ color:#858585;
 
  .enter-modal-content .enter-modal-footer{
     text-align: center;
+    padding:0;
 }
 
 .enter-modal-footer .button-form-enter {
@@ -1819,10 +1878,17 @@ color:#858585;
     width: 100%;
     margin: 20px auto;
     height: 50px;
-
-
+    border:none;
+    outline:none;
+    text-transform: none;
 }
+.push-modal
 
+.checkbox-enter label {
+    max-width: 150px;
+    display: block;
+    margin: 0 0 5px 345px;
+}
 
 .enter-modal-footer p{
     margin: 15px auto;
@@ -1834,6 +1900,7 @@ color:#858585;
     font-size: 16px;
     border-bottom: 2px solid #b28500;
     margin: 0;
+    text-transform: none;
 }
 .enter-modal-footer .field1{
 
@@ -2029,22 +2096,39 @@ color:#b28500;
     width: 35px;
 }
 
-.sectionwrapper-hand-over,
-.rent-wrapper,
-.sectionwrapper-laying-over {
+.border-wrapper {
+    border: 1px solid #eeeeee;
     max-width: 530px;
     margin: 40px auto;
-    border: 1px solid #eeeeee;
+   
 }
-.rent-wrapper{
-    height: 218px;
+
+.leftside-laying-over {
+    margin :50px 0;
+}
+
+.leftside-laying-over label{
+
+    font-family: "Proximanova-bold";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.rent-wrapper {
+    max-width: 100%;
+    border-bottom: 1px solid #eeeeee;
+     height: 218px;
+    max-width: 530px;
 }
 
 .hand-over-wrapper,
 .laying-over-wrapper{
     border-bottom:  1px solid #eeeeee;
     position:relative;
+    max-width: 530px;
     height:218px;
+    margin: 0;
 }
 
 .picture-rent,
@@ -2129,6 +2213,90 @@ max-width: 280px;
     padding: 5px 10px;
 
 }
+
+.leftside-laying-over{
+
+    margin: 50px 0;
+}
+
+.leftside-laying-over .checkbox-enter{
+    margin: 5px 0;
+}
+
+.checkbox-enter-laying-orange{
+
+    background-color: #ffd24d;
+    height: 30px;
+    margin: 10px 0;
+    max-width: 100px;
+}
+.checkbox-enter-laying-orange label{
+
+    text-transform: none;
+    font-family: "Proximanova-bold";
+    font-size: 14px;
+}
+
+.checkbox-enter-laying-green {
+    background-color: #3dbc6b;
+    height: 30px;
+    margin: 5px 0;
+    max-width: 90px;
+
+}   
+
+.checkbox-enter-laying-green label {
+    text-transform: none;
+    font-family: "Proximanova-bold";
+    font-size: 14px;
+    color:#fff;
+}
+
+.parametrsearch-tabs-wrapper{
+    display:none;
+}
+
+.parametrsearch-tabs-wrapper a {
+    font-family: "Proximanova-regular";
+    font-size: 15px;
+    text-transform: none;
+    width: 100%;
+    border-bottom: 1px solid #b28500;
+}
+
+.parametrsearch-tabs-wrapper ul {
+    width: 100%;
+}
+.parametrsearch-tabs-wrapper ul .checkbox-enter{
+
+margin : 10px 10px;
+}
+
+.parametrsearch-tabs-wrapper .caret{
+
+    float:right;
+    margin-top: 5px;
+    color:#444;
+}
+.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying{
+
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying .checkbox-enter-laying-orange {
+    margin: 15px 20px 15px 10px;
+    max-width: 100px;
+    width: 100%;
+    display: inline-block;
+}
+.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying .checkbox-enter-laying-green {
+
+    max-width: 90px;
+    width: 100%;
+    display:inline-block;
+}
+
 .wrapper-hand-over,
 .wrapper-laying-over {
     display: inline-block;
@@ -2450,3 +2618,26 @@ display: none;
 [type="radio"]:checked + label:before {
     background-image: url('../img/radio-checked.png');
 }
+.checkbox-enter [type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-modal.png');
+}
+
+.checkbox-enter [type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-modal.png');
+}
+
+.checkbox-enter-laying-orange [type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-laying-orange.png');
+}
+
+.checkbox-enter-laying-orange [type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-laying-orange.png');
+}
+.checkbox-enter-laying-green [type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-laying-green.png');
+}
+
+.checkbox-enter-laying-green [type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-laying-green.png');
+}
+
