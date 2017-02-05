@@ -732,7 +732,7 @@ footer .underline{
     width: 14%;
     max-width: 150px;
 }
- 
+
 .room-field{
     width: 14%;
     max-width: 150px;
@@ -827,9 +827,9 @@ footer .underline{
     outline:none;
 }
 .area-wrapper {
-    
+
     margin: 0 auto;
-    
+
 }
 
 .area-wrapper p{
@@ -1038,14 +1038,14 @@ margin-right:0;
     max-width:110px;
     width:100%;
     margin-right:10px;
-    
+
   }
   .year-wrapper .year{
     margin-left: 0
   }
 
 .facilities-wrapper {
-    
+
     margin: 20px auto;
 }
 
@@ -1088,7 +1088,7 @@ color: #fff;
 .furniture-wrapper ul li{
     color:#fff;
     list-style: none;
-    
+
 }
 
 .underline-main-catalog {
@@ -1217,7 +1217,7 @@ color: #fff;
 }
 
 .block-offer {
-    
+
     padding: 20px;
     border: 1px solid #e6e6e6;
     cursor: pointer;
@@ -1262,7 +1262,7 @@ color: #fff;
     font-family: "Proximanova-bold";
     color:#878787;
     margin:  5px 0;
-    
+
 }
 .field1 {
     display: block;
@@ -2103,7 +2103,7 @@ color:#b28500;
     border: 1px solid #eeeeee;
     max-width: 530px;
     margin: 40px auto;
-   
+
 }
 
 .leftside-laying-over {
@@ -2246,7 +2246,7 @@ max-width: 280px;
     margin: 5px 0;
     max-width: 90px;
 
-}   
+}
 
 .checkbox-enter-laying-green label {
     text-transform: none;
@@ -2609,42 +2609,44 @@ display: none;
     background-position: center center
 }
 
-[type="checkbox"] + label:before {
-    background-image: url('../img/checkbox-empty.png');
+.checkbox-dark[type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-dark.png');
 }
 
-[type="checkbox"]:checked + label:before {
-    background-image: url('../img/checkbox-checked.png');
+.checkbox-dark[type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-dark.png');
 }
 
-[type="radio"] + label:before {
-    background-image: url('../img/radio-empty.png');
+.checkbox-light[type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-light.png');
 }
 
-[type="radio"]:checked + label:before {
-    background-image: url('../img/radio-checked.png');
-}
-.checkbox-enter [type="checkbox"] + label:before {
-    background-image: url('../img/checkbox-empty-modal.png');
+.checkbox-light[type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-light.png');
 }
 
-.checkbox-enter [type="checkbox"]:checked + label:before {
-    background-image: url('../img/checkbox-checked-modal.png');
+.checkbox-orange[type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-orange.png');
 }
 
-.checkbox-enter-laying-orange [type="checkbox"] + label:before {
-    background-image: url('../img/checkbox-empty-laying-orange.png');
+.checkbox-orange[type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-orange.png');
 }
 
-.checkbox-enter-laying-orange [type="checkbox"]:checked + label:before {
-    background-image: url('../img/checkbox-checked-laying-orange.png');
-}
-.checkbox-enter-laying-green [type="checkbox"] + label:before {
-    background-image: url('../img/checkbox-empty-laying-green.png');
+.checkbox-green[type="checkbox"] + label:before {
+    background-image: url('../img/checkbox-empty-green.png');
 }
 
-.checkbox-enter-laying-green [type="checkbox"]:checked + label:before {
-    background-image: url('../img/checkbox-checked-laying-green.png');
+.checkbox-green[type="checkbox"]:checked + label:before {
+    background-image: url('../img/checkbox-checked-green.png');
+}
+
+.radio-dark[type="radio"] + label:before {
+    background-image: url('../img/radio-empty-dark.png');
+}
+
+.radio-dark[type="radio"]:checked + label:before {
+    background-image: url('../img/radio-checked-dark.png');
 }
 
 
