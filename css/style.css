@@ -1332,6 +1332,7 @@ color: #fff;
 
 
     width:100%;
+    height:330px;
 }
 .details-item-info .date{
 
@@ -1394,7 +1395,7 @@ color: #fff;
     display: inline-block;
     width: 100%;
     max-width: 105px;
-    height: 65px;
+    height: 60px;
 
 }
 
@@ -1689,10 +1690,10 @@ margin-top: 20px;
 color:#858585;
 }
 
-.registration-form-modal-body span{
-    display:none;
+.registration-form-modal-body label{
     font-family: "Proximanova-semibold";
     font-size: 15px;
+    display:inline-block;
 }
    .registration-form-modal-body p>input{
     width: 264px;
@@ -1701,14 +1702,20 @@ color:#858585;
     background-color: #f5f5f5;
     outline:none;
     padding-left: 10px;
+    display:block;
 }
 
-.registration-form-modal-body span .condition{
+.registration-form-modal-body span .condition {
 
     float:right;
     font-size: 13px;
     font-family: "proximanova-bold";
     color: #b9b9b9;
+}
+.condition {
+    font-family: "proximanova-bold";
+    float: right;
+    margin-top: 2px;
 }
 
 
@@ -1769,22 +1776,18 @@ color:#858585;
     display: inline;
 }
 
-.modal-dialog .push-modal-body{
-
+.modal-dialog .push-modal-body {
     padding: 15px 0;
 }
 
 
 
-.push-modal-body .form-push p{
-
+.push-modal-body .form-push p {
     display:inline-block;
     max-width: 260px;
     width:100%;
 }
-.push-modal-body .form-push span{
-
-    display: none ;
+.push-modal-body .form-push label {
     font-family: "proximanova-semibold";
     font-size: 15px;
     color: #858585;
@@ -2251,7 +2254,7 @@ max-width: 280px;
     font-size: 14px;
     color:#fff;
 }
-
+/*parametrsearch*/
 .parametrsearch-tabs-wrapper{
     display:none;
 }
@@ -2260,8 +2263,8 @@ max-width: 280px;
     font-family: "Proximanova-regular";
     font-size: 15px;
     text-transform: none;
-    width: 100%;
     border-bottom: 1px solid #b28500;
+    display:inline-block;
 }
 
 .parametrsearch-tabs-wrapper ul {
@@ -2278,24 +2281,25 @@ margin : 10px 10px;
     margin-top: 5px;
     color:#444;
 }
-.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying{
+.parametrsearch-tabs-wrapper ul .wrapper-checkbox-enter-laying{
 
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 
-.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying .checkbox-enter-laying-orange {
+.parametrsearch-tabs-wrapper .checkbox-enter-laying-orange {
     margin: 15px 20px 15px 10px;
     max-width: 100px;
     width: 100%;
     display: inline-block;
 }
-.parametrsearch-tabs-wrapper .parametrsearch-tabs-wrapper .wrapper-checkbox-enter-laying .checkbox-enter-laying-green {
+.parametrsearch-tabs-wrapper .checkbox-enter-laying-green {
 
     max-width: 90px;
     width: 100%;
     display:inline-block;
 }
+/*parametrsearch end*/
 
 .wrapper-hand-over,
 .wrapper-laying-over {
@@ -2359,9 +2363,7 @@ margin : 10px 10px;
     margin: 0 auto;
     float: right;
 }
-.input-wrapper p span{
-     display:none;
-}
+
  .form-settings p p{
     font-family: "proximanova-semibold";
     font-size: 15px;
@@ -2383,7 +2385,7 @@ margin : 10px 10px;
     color: #b9b9b9;
 }
 
-.form-settings span {
+.form-settings label {
     font-family: "proximanova-bold";
     font-size: 13px;
     color: #b9b9b9;
@@ -2443,6 +2445,10 @@ margin : 10px 10px;
 .input-wrapper .condition{
     margin: 0;
     display: inline-block;
+    font-family: "proximanova-bold";
+    color: #b9b9b9;
+    float: right;
+    margin-top: 3px;
 }
 
 .file-upload input[type="file"]{
@@ -2641,3 +2647,26 @@ display: none;
     background-image: url('../img/checkbox-checked-laying-green.png');
 }
 
+
+/*notification*/
+
+.notification {
+    margin-top: 70px;
+}
+
+    .notification p {
+    font-family: "Proximanova-semibold";
+    font-size: 15px;
+    color: #858585;
+    margin-bottom:20px;
+    }
+
+    .notification .checkbox-enter {
+    font-family: "Proximanova-semibold";
+    text-transform: none;
+    margin: 10px 0;
+    }
+
+        .notification .checkbox-enter label{
+            line-height:25px;
+        }

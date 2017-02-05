@@ -141,7 +141,7 @@
     </div>
   </div>
   <div id="rent" class="tab-pane fade">
-  <div class="col-md-7 col-md-offset-3">
+  <div class="col-md-7 col-md-offset-3 tab-wrapper-mobile">
    <div class="border-wrapper">
     <div class="rent-wrapper">
     <img class="picture-rent" alt="#" src="img/picture2-offer.png"><div class="info-rent-wrapper">
@@ -160,7 +160,7 @@
   </div>
   <div id="hand-over" class="tab-pane fade">
   <div class="sectionwrapper-hand-over">
-  <div class="col-md-7 col-md-offset-3">
+  <div class="col-md-7 col-md-offset-3 tab-wrapper-mobile">
   <div class="border-wrapper">
     <div class="hand-over-wrapper">
     <div class="wrapper-hand-over">
@@ -221,22 +221,20 @@
   <div id="laying" class="tab-pane fade">
     <div class="sectionwrapper-laying-over">
     <ul class="dropdown parametrsearch-tabs-wrapper ">
-         <li class="dropdown"> <a  href="#" class="dropdown-toggle button-invisiblemenu-tabs-wrapper" data-toggle="dropdown">
-           главная
-            <span class="caret" ></span>
+         <li class="dropdown"> <a  href="#" class="dropdown-toggle  parametrsearch-tabs-wrapper" data-toggle="dropdown">
+           Закрыть параметры поиска
           </a>
+           <span class="caret" ></span>
           <ul class="dropdown-menu  ">
 
-            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="room" value="a2">
+            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="1" value="a2">
           <label for="room">Комната</label></li>
-            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="room" value="a2">
+            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="2" value="a2">
           <label for="room">Комната</label></li>
-            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="room" value="a2">
+            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="3" value="a2">
           <label for="room">Комната</label></li>
-            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="room" value="a2">
+            <li class="checkbox-enter"><input class="check-enter" type="checkbox" name="option1" id="4" value="a2">
           <label for="room">Комната</label></li>
-          
-              
         <li class="checkbox-enter-laying-orange">
           <input class="check-enter" type="checkbox" name="option1" id="surrender" value="a2">
           <label for="surrender">Сдается</label>
@@ -244,16 +242,9 @@
         <li class="checkbox-enter-laying-green">
           <input class="check-enter" type="checkbox" name="option1" id="sell" value="a2">
           <label for="sell">Продан</label>
-        </li>
-        
-          </li>
-          </ul>
+        </ul>
         </li>
       </ul>
-        
-      </ul>
-
-      </div>
     <div class="col-md-2 leftside-laying-over">
             <div class="checkbox-enter">
           <input class="check-enter" type="checkbox" name="option1" id="room" value="a2">
@@ -283,7 +274,7 @@
         </div>
     
     </div>
-<div class="col-md-7 col-md-offset-1">
+<div class="col-md-7 col-md-offset-1 tab-wrapper-mobile">
 
     <div class="border-wrapper">
     <div class="laying-over-wrapper">
@@ -365,38 +356,57 @@
      <div class="invisible-block"><h3>Данные</h3></div>
      <hr class="underline underline-main-panel">
      <p>
-     <span>Имя<span class="obligatory">*</span></span>
-      <input class="lastname" type="text" name="lastname" placeholder="Имя">
+     <label>Имя<span class="obligatory">*</span></label>
+      <input class="lastname" type="text" name="lastname">
       </p>
       <p>
-      <span>Фамилия</span>
-      <input class="firstname"  type="text" name="firstname" placeholder="Фамилия">
+      <label>Фамилия</label>
+      <input class="firstname"  type="text" name="firstname">
       </p>
       <p>
-      <span>Email<span class="obligatory">*</span></span>
-      <input class="Email" type="text" name="mail" placeholder="Email">
+      <label>Email<span class="obligatory">*</span></label>
+      <input class="Email" type="text" name="mail">
       </p>
       <p>
-      <span>Телефон</span>
-      <input class="phone" type="tel"  name="phone" placeholder="Телефон">
+      <label>Телефон</label>
+      <input class="phone" type="tel"  name="phone">
       </p>
       <p>
-      <span>Пароль<span class="obligatory">*</span><span class="condition">минимум 8 символов</span></span>
-      <input class="password" type="text" name="password" placeholder="Пароль">
+      <label>Пароль<span class="obligatory">*</span></label><span class="condition">минимум 8 символов</span>
+      <input class="password" type="text" name="password" >
       </p>
       <p>
-      <span>Подтвердите пароль<span class="obligatory">*</span></span>
-      <input class="password" type="text" name="password" placeholder="Подтвердите пароль">
+      <label>Подтвердите пароль<span class="obligatory">*</span></label>
+      <input class="password" type="text" name="password" >
       </p>
       <p>
-      <span>Текущий пароль<span class="obligatory">*</span></span>
-      <input class="password" type="text" name="password" placeholder="Текущий пароль">
+      <label>Текущий пароль<span class="obligatory">*</span></label>
+      <input class="password" type="text" name="password" >
       <p>
       <span class="undercomments">Необходимо ввести текущий пароль при смене личных данных</span>
       </div>
      </form>
    </div>
-   <div class="col-md-3"></div>
+   <div class="col-md-3 col-md-offset-1 notification">
+   <p>Оповещения</p>
+      <div class="checkbox-enter">
+      <input class="check-enter" type="checkbox" name="option1" id="change-status-my-object" value="a2">
+      <label for="change-status-my-object">Смена статуса моего объекта</label>
+      </div>
+      <div class="checkbox-enter">
+      <input class="check-enter" type="checkbox" name="option1" id="change-status-object-laying" value="a2">
+      <label for="change-status-object-laying">Смена статуса моего объекта в закладках</label>
+      </div>
+      <div class="checkbox-enter">
+      <input class="check-enter" type="checkbox" name="option1" id="buy" value="a2">
+      <label for="buy">Оплата</label>
+      </div>
+      <div class="checkbox-enter">
+      <input class="check-enter" type="checkbox" name="option1" id="manager" value="a2">
+      <label for="manager">Визит менеджера</label>
+      </div>
+
+   </div>
    <div class="col-md-12">
    <div class="wrapper-button-form-settings">
      <button class="button-form-settings">Обновить</button>
