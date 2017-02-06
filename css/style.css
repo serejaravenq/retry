@@ -1694,6 +1694,7 @@ color:#858585;
     font-family: "Proximanova-semibold";
     font-size: 15px;
     display:inline-block;
+    width: 100%;
 }
    .registration-form-modal-body p>input{
     width: 264px;
@@ -2043,6 +2044,7 @@ color:#858585;
     padding: 0 15px;
     width: 100%;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .write-off-wrapper .field1 span{
@@ -2055,7 +2057,7 @@ color:#ff2626;
     font-size: 14px;
     font-family: "proximanova-bold";
     font-style: italic;
-    padding: 0 15px;
+    padding: 0 15px 5px;
     color: #a2a2a2;
      border-bottom: 1px solid #eeeeee;
 }
@@ -2073,6 +2075,7 @@ color:#ff2626;
     padding: 0 15px;
     width: 100%;
     text-align: left;
+    margin-bottom: 0;
 }
 
 .payments-wrapper .field1 span{
@@ -2123,6 +2126,9 @@ color:#b28500;
     border-bottom: 1px solid #eeeeee;
      height: 218px;
     max-width: 530px;
+}
+.underline-rent-wrapper {
+    display:block;
 }
 
 .hand-over-wrapper,
@@ -2197,14 +2203,21 @@ max-width: 280px;
 
 .state {
     position: absolute;
-    bottom: -5px;
+    bottom: -15px;
     right: 35px;
     background-color: #3dbc6b;
     font-family: "proximanova-bold";
     font-size: 14px;
     color: #fff;
     padding: 5px 10px;
+    width: 95px;
+
 }
+.wrapper-laying-over .state{
+
+    width: 75px;
+}
+
 .sell{
     position: absolute;
     bottom: -5px;
@@ -2260,11 +2273,12 @@ max-width: 280px;
 }
 
 .parametrsearch-tabs-wrapper a {
-    font-family: "Proximanova-regular";
+    font-family: "Proximanova-semibold";
     font-size: 15px;
     text-transform: none;
-    border-bottom: 1px solid #b28500;
+    border-bottom: 2px solid #b28500;
     display:inline-block;
+    line-height: 15px;
 }
 
 .parametrsearch-tabs-wrapper ul {
@@ -2389,6 +2403,7 @@ margin : 10px 10px;
     font-family: "proximanova-bold";
     font-size: 13px;
     color: #b9b9b9;
+    width: 100%;
 
 }
 
