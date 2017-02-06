@@ -1,574 +1,535 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Слово</title>
-  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css"  type='text/css' media='all' />
-	<link rel='stylesheet'  href='css/style.css' type='text/css' media='all' />
-	<link rel='stylesheet'  href='css/media.css' type='text/css' media='all' />
-	<link rel='stylesheet'  href='css/fonts.css' type='text/css' media='all' />
-</head>
-<body>
-<header>
- <div class="main-nav-bar">
-	<nav class="navbar navbar-default " >
-  <div class="container-fluid">
-    <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="wrapper-main-title">
-        <a href="index.html" class="navbar-brand main-title">Купеческое слово</a>
-        <hr  class="underline" >
-      </div>
-          <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b> </a>
-    </div>
-    <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-right">
-            <li><a href="slovo_service.html">управление</a></li>
-            <li><a href="slovo_cab.html">аренда</a></li>
-            <li><a href="slovo_cat.html">продажа</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Q&A</a></li>
-            <li class="divider"></li>
-            <li><a href="#">контакты</a></li>
-            <li class="phone-field"><a href="#">+7(812)600 00 00</a></li>
-            <li class="login"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
-      </ul>
-      </div> <!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
-</header>
-
-<div class="catalog">
-	<div class ="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="wrapper-catalog">
-				<hr class="underline">
-					<h2 class= "name-wrapper-catalog">Каталог</h2>
-					<p class="info-rightside-catalog"><span class ="hide-info-right-side-catalog">В нашем каталоге</span><span class="number-info-rightside-catalog">8340</span>позициий </p>
-
-				</div>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-12 col-sm-12">
-				<ul class="searcher-catalog">
-					<li class="dropdown buy-field">
-						<a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Купить <b class="caret"></b></a>
-						<ul class="dropdown-menu ">
-
-            <li><a href="#">снимаю</a></li>
-            <li><a href="#">сдаю</a></li>
-            <li><a href="#">закладки</a></li>
-            <li><a href="#">настройки</a></li>
-          </ul>
-					</li>
-					<li class="dropdown room-field"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Квартиру <b class="caret"></b></a>
-					<ul class="dropdown-menu ">
-            <li><a href="#">снимаю</a></li>
-            <li><a href="#">сдаю</a></li>
-            <li><a href="#">закладки</a></li>
-            <li><a href="#">настройки</a></li>
-          </ul>
-					</li>
-					<li class="size-field"><input type="text" placeholder="S, м"></li>
-					<li class="metro-field"><input  type="text" placeholder="Метро"></li>
-					<li class="price-field"><input class=" field1" type="text" placeholder="От"><input type="text" placeholder="До"><span>P</span></li>
-				</ul>
-				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-12 col-sm-12 wrapper-additional-options collapse" id="additional-options">
-
-
-					<hr class="underline-wrapper-additional-options">
-
-					<div class="additional-options">
-						<div class="area-wrapper">
-						<p>Площадь</p>
-						<ul class="area">
-						<li class="area-field">
-						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
-						</li>
-						<li class="area-field">
-						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
-						</li>
-						<li class="area-field">
-						<input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
-						</li>
-						</ul>
-
-						</div>
-
-						<div class="stage-wrapper inv-stage-wrapper">
-						<p>Этаж</p>
-						<div class="stage">
-							<input class=" field1" type="text" placeholder=" От">
-							<input class="field2" type="text" placeholder="До">
-						</div>
-						</div>
-
-
-						<div class="type-wrapper">
-							<p>Тип дома</p>
-							<ul class="type">
-  							<li class="check-field1">
-                  <ul>
-    								<li>
-                      <input class="checkbox-dark" id="brick" type="checkbox">
-                      <label for="brick">Кирпичный</label>
-    								</li>
-    								<li>
-      								<input class="checkbox-dark" id="panel" type="checkbox">
-      								<label for="panel">Панельный</label>
-    								</li>
-    								<li>
-      								<input class="checkbox-dark" id="monolithic" type="checkbox">
-      								<label for="monolithic">Монолитный</label>
-    								</li>
-    							</ul>
-  							</li>
-  							<li class="check-field2">
-    							<ul>
-    								<li>
-      								<input class="checkbox-dark" id="block" type="checkbox">
-      								<label for="block">Блочный</label>
-    								</li>
-    								<li>
-      								<input class="checkbox-dark" id="wooden" type="checkbox">
-      								<label for="wooden">Деревянный</label>
-    								</li>
-    								<li>
-      								<input class="checkbox-dark" id="old_fund" type="checkbox">
-      								<label for="old_fund">Старый фонд</label>
-    								</li>
-  								</ul>
-								</li>
-							</ul>
-						</div>
-						<hr class="underline-type-wrapper">
-						<div class=" facilities-wrapper">
-							<p>Удобства</p>
-							<div class="dropdown facilities-field"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Любой санузел <b class="caret"></b></a>
-					<ul class="dropdown-menu ">
-            <li><a href="#">снимаю</a></li>
-            <li><a href="#">сдаю</a></li>
-            <li><a href="#">закладки</a></li>
-            <li><a href="#">настройки</a></li>
-          </ul>
-					</div>
-					<div class="year-wrapper stage-wrapper">
-						<p>Год постройки</p>
-						<div class=" year stage">
-							<input class=" field1" type="text" placeholder=" От">
-							<input class="field2" type="text" placeholder="До">
-						</div>
-						</div>
-						<hr class="underline-type-wrapper">
-
-						<div class="furniture-wrapper">
-              <!-- Никакой кирилицы в атрибутах тэгов -->
-  						<ul>
-								<li>
-  								<input class="checkbox-dark" id="furniture" type="checkbox">
-  								<label for="furniture">Мебель</label>
-								</li>
-								<li>
-  								<input class="checkbox-dark" id="equipment" type="checkbox">
-  								<label for="equipment">Техника</label>
-								</li>
-								<li>
-  								<input class="checkbox-dark" id="elevator" type="checkbox">
-  								<label for="elevator">Лифт</label>
-								</li>
-							</ul>
-						</div>
-						<div class="sorting-wrapper">
-							<p>Cортировка по</p>
-							<ul>
-								<li class="date-sorting">
-  								<input class="radio-dark" id="date" name="filter" type="radio" checked>
-                  <label for="date">Дате</label>
-								</li>
-								<li class="price-sorting">
-  								<input class="radio-dark" id="price" name="filter" type="radio">
-  								<label for="price">Цене</label>
-								</li>
-								</ul>
-						</div>
-						</div>
-					</div>
-					<hr class="underline-main-catalog">
-					<p class="done"> Скрыть</p>
-				</div>
-
-
-
-			</div>
-
-      <p class="parametrs-searcher-catalog">
-        <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Дополнительные опции</a>
-      </p>
-      <p class="invisible-wrapper-catalog">
-        <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Задать параметры поиска</a>
-      </p>
-      <div class="button-searcher-catalog"><p><a href="#">Найти</a></p></div>
-
-		</div>
-		</div>
-	</div>
-<div class="offer">
-<div class="container">
-	<div class="row">
-		<div class="col-md-12 main-title-offer">
-
-				<p class="phrase-offer">Найдено <span class="number-offer">9</span> предложения</p>
-
-		</div>
-		</div>
-		<div class="row">
-				<div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#details-item">
-
-					<img class="mobile-img" src="img/picture1-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Квартира, 2 ком., 66м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">Балтийская ул., 21,к.9</span>
-						<span class="field2"><span class="figure"></span>Балтийская, 20 мин.пешком</span>
-						<span class="field3"><span class="figure"></span>Нарвская, 10 мин.пешком</span>
-						<span class="price-info-block-offer">3 000 000 000 P</span>
-						<span class=" invisible-date-info-block-offer">31 июля</span>
-					</p>
-
-					<p class="date-info-block-offer">31 июля</p>
-					</div>
-				</div>
-				<div class="col-md-6 block-offer col-sm-6" data-toggle="modal" data-target="#registration">
-
-					<img class="mobile-img" src="img/picture2-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Квартира, 8 ком., 696м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">Станционный пр., 12</span>
-						<span class="price-info-block-offer">6 666 666 P</span>
-						<span class=" invisible-date-info-block-offer">30 июля</span>
-					</p>
-					<p class="date-info-block-offer">30 июля</p>
-					</div>
-				</div>
-			</div>
-		<!--<div class="col-md-12">
-			<div class="wrapper-offer">
-			<div class="object-wrapper-offer">
-			<button class="close cancel-button-object-wrapper-offer" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-				<p><span>Нажмите</span> на интересующий вас объект</p>
-			</div>-->
-				<div class="row">
-					<div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#check">
-
-					<img class="mobile-img" src="img/picture3-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Квартира, 2 ком., 50м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">Краснопутиловская ул., 46A</span>
-						<span class="price-info-block-offer">3 000 000 000 P</span>
-						<span class=" invisible-date-info-block-offer">30 июля</span>
-					</p>
-					<p class="date-info-block-offer">30 июля</p>
-					</div>
-				</div>
-				<div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#enter">
-					<img class="mobile-img" src="img/picture1-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Квартира, 2 ком., 60м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">Краснопутиловская ул., 46А</span>
-						<span class="price-info-block-offer">93 000 000 P</span>
-						<span class=" invisible-date-info-block-offer">30 июля</span>
-					</p>
-					<p class="date-info-block-offer">30 июля</p>
-					</div>
-				</div>
-				</div>
-				<div class="row">
-				<div class="block-offer  col-md-6 col-sm-6" data-toggle="modal" data-target="#forget">
-					<img class="mobile-img" src="img/picture2-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Дом, 2 ком., 166м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">ул.Красного текстильщика, 46A</span>
-						<span class="price-info-block-offer">7 000 000 P</span>
-						<span class=" invisible-date-info-block-offer">30 июля</span>
-					</p>
-					<p class="date-info-block-offer">30 июля</p>
-					</div>
-				</div>
-				<div class="block-offer  col-md-6 col-sm-6" data-toggle="modal" data-target="#push">
-					<img class="mobile-img" src="img/picture3-offer-mobile.png" alt="#">
-					<div class="info-block-offer">
-					<p class="title-info-block-offer">Квартира, 2 ком., 96м<sup>2</sup></p>
-					<p class="description-info-block-offer">
-						<span class="field1">Краснопутиловская ул. 46А</span>
-						<span class="price-info-block-offer">9 660 000 P</span>
-						<span class=" invisible-date-info-block-offer">30 июля</span>
-					</p>
-					<p class="date-info-block-offer">29 июля</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-
-<footer>
-<div class="container">
-<div class="row">
-
-	<div class="col-md-5">
-	<div class="wrapper-leftside-footer "><p class="footer-title">Купеческое слово,2017</p><hr  class="underline"  >
-	<div class="social-icons">
-	<i class="fa fa-facebook" aria-hidden="true"></i>
-	<i class="fa fa-vk" aria-hidden="true"></i>
-	<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
-	<i class="fa fa-twitter" aria-hidden="true"></i>
-	</div>
-	</div>
-	</div>
-	<div class="col-md-7">
-		<ul class="footer-list ">
-
-			<li><a href="#">Каталог</a></li>
-			<li><a href="#">Вопросы</a></li>
-			<li><a href="#">Условия использования</a></li>
-			<li><a href="#">Карта сайта</a></li>
-			<li><a href="#"> Войти</a></li>
-		</ul>
-	</div>
-
-</div>
-</div>
-</footer>
-
-
-<!-- Modal -->
-
-<div class="modal fade " id="details-item" tabindex="-1" role="dialog" aria-labelledby="details-item"  >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content modal-content-details-info">
-
-
-
-      <div class="modal-body">
-      <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-        <img  class="map" alt="#" src="img/map.png">
-        <div class="gallery">
-        	<img  alt="#" src="img/picture1-modal.png">
-        	<img  alt="#" src="img/picture2-modal.png">
-        	<img  alt="#" src="img/picture3-modal.png">
-        	<img  alt="#" src="img/picture4-modal.png">
-        	<img  alt="#" src="img/picture5-modal.png">
-        	<img  alt="#" src="img/picture6-modal.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Слово</title>
+        <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.min.css"  type='text/css' media='all' />
+        <link rel='stylesheet'  href='css/style.css' type='text/css' media='all' />
+        <link rel='stylesheet'  href='css/media.css' type='text/css' media='all' />
+        <link rel='stylesheet'  href='css/fonts.css' type='text/css' media='all' />
+    </head>
+    <body>
+        <header>
+            <div class="main-nav-bar">
+                <nav class="navbar navbar-default " >
+                    <div class="container-fluid">
+                        <!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывании -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	                            <span class="sr-only">Toggle navigation</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+                            </button>
+                            <div class="wrapper-main-title">
+                                <a href="index.html" class="navbar-brand main-title">Купеческое слово</a>
+                                <hr  class="underline" >
+                            </div>
+                            <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b> </a>
+                        </div>
+                        <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="slovo_service.html">управление</a></li>
+                                <li><a href="slovo_cab.html">аренда</a></li>
+                                <li><a href="slovo_cat.html">продажа</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Q&A</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">контакты</a></li>
+                                <li class="phone-field"><a href="#">+7(812)600 00 00</a></li>
+                                <li class="login"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </header>
+        <div class="catalog">
+            <div class ="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="wrapper-catalog">
+                            <hr class="underline">
+                            <h2 class= "name-wrapper-catalog">Каталог</h2>
+                            <p class="info-rightside-catalog"><span class ="hide-info-right-side-catalog">В нашем каталоге</span><span class="number-info-rightside-catalog">8340</span>позициий </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <ul class="searcher-catalog">
+                            <li class="dropdown buy-field">
+                                <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Купить <b class="caret"></b></a>
+                                <ul class="dropdown-menu ">
+                                    <li><a href="#">снимаю</a></li>
+                                    <li><a href="#">сдаю</a></li>
+                                    <li><a href="#">закладки</a></li>
+                                    <li><a href="#">настройки</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown room-field">
+                                <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Квартиру <b class="caret"></b></a>
+                                <ul class="dropdown-menu ">
+                                    <li><a href="#">снимаю</a></li>
+                                    <li><a href="#">сдаю</a></li>
+                                    <li><a href="#">закладки</a></li>
+                                    <li><a href="#">настройки</a></li>
+                                </ul>
+                            </li>
+                            <li class="size-field"><input type="text" placeholder="S, м"></li>
+                            <li class="metro-field"><input  type="text" placeholder="Метро"></li>
+                            <li class="price-field"><input class=" field1" type="text" placeholder="От"><input type="text" placeholder="До"><span>P</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 wrapper-additional-options collapse" id="additional-options">
+                        <hr class="underline-wrapper-additional-options">
+                        <div class="additional-options">
+                            <div class="area-wrapper">
+                                <p>Площадь</p>
+                                <ul class="area">
+                                    <li class="area-field">
+                                        <input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+                                    </li>
+                                    <li class="area-field">
+                                        <input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+                                    </li>
+                                    <li class="area-field">
+                                        <input class=" field1" type="text" placeholder=" Общая от"><input class="field2" type="text" placeholder="До"><span>м<sup>2</sup></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="stage-wrapper inv-stage-wrapper">
+                                <p>Этаж</p>
+                                <div class="stage">
+                                    <input class=" field1" type="text" placeholder=" От">
+                                    <input class="field2" type="text" placeholder="До">
+                                </div>
+                            </div>
+                            <div class="type-wrapper">
+                                <p>Тип дома</p>
+                                <ul class="type">
+                                    <li class="check-field1">
+                                        <ul>
+                                            <li>
+                                                <input class="checkbox-dark" id="brick" type="checkbox">
+                                                <label for="brick">Кирпичный</label>
+                                            </li>
+                                            <li>
+                                                <input class="checkbox-dark" id="panel" type="checkbox">
+                                                <label for="panel">Панельный</label>
+                                            </li>
+                                            <li>
+                                                <input class="checkbox-dark" id="monolithic" type="checkbox">
+                                                <label for="monolithic">Монолитный</label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="check-field2">
+                                        <ul>
+                                            <li>
+                                                <input class="checkbox-dark" id="block" type="checkbox">
+                                                <label for="block">Блочный</label>
+                                            </li>
+                                            <li>
+                                                <input class="checkbox-dark" id="wooden" type="checkbox">
+                                                <label for="wooden">Деревянный</label>
+                                            </li>
+                                            <li>
+                                                <input class="checkbox-dark" id="old_fund" type="checkbox">
+                                                <label for="old_fund">Старый фонд</label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="underline-type-wrapper">
+                            <div class=" facilities-wrapper">
+                                <p>Удобства</p>
+                                <div class="dropdown facilities-field">
+                                    <a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Любой санузел <b class="caret"></b></a>
+                                    <ul class="dropdown-menu ">
+                                        <li><a href="#">снимаю</a></li>
+                                        <li><a href="#">сдаю</a></li>
+                                        <li><a href="#">закладки</a></li>
+                                        <li><a href="#">настройки</a></li>
+                                    </ul>
+                                </div>
+                                <div class="year-wrapper stage-wrapper">
+                                    <p>Год постройки</p>
+                                    <div class=" year stage">
+                                        <input class=" field1" type="text" placeholder=" От">
+                                        <input class="field2" type="text" placeholder="До">
+                                    </div>
+                                </div>
+                                <hr class="underline-type-wrapper">
+                                <div class="furniture-wrapper">
+                                    <!-- Никакой кирилицы в атрибутах тэгов -->
+                                    <ul>
+                                        <li>
+                                            <input class="checkbox-dark" id="furniture" type="checkbox">
+                                            <label for="furniture">Мебель</label>
+                                        </li>
+                                        <li>
+                                            <input class="checkbox-dark" id="equipment" type="checkbox">
+                                            <label for="equipment">Техника</label>
+                                        </li>
+                                        <li>
+                                            <input class="checkbox-dark" id="elevator" type="checkbox">
+                                            <label for="elevator">Лифт</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="sorting-wrapper">
+                                    <p>Cортировка по</p>
+                                    <ul>
+                                        <li class="date-sorting">
+                                            <input class="radio-dark" id="date" name="filter" type="radio" checked>
+                                            <label for="date">Дате</label>
+                                        </li>
+                                        <li class="price-sorting">
+                                            <input class="radio-dark" id="price" name="filter" type="radio">
+                                            <label for="price">Цене</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="underline-main-catalog">
+                        <p class="done"> Скрыть</p>
+                    </div>
+                </div>
+                <p class="parametrs-searcher-catalog">
+                    <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Дополнительные опции</a>
+                </p>
+                <p class="invisible-wrapper-catalog">
+                    <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Задать параметры поиска</a>
+                </p>
+                <div class="button-searcher-catalog">
+                    <p><a href="#">Найти</a></p>
+                </div>
+            </div>
         </div>
-        <p class="contacts-details-info">
-        	<span class="phone-contacts">+7 922 222 22 00</span>
-        	<span class="name-contacts">John Jackson The Third &ndash; <span class="status-name-contacts">менеджер</span></span>
-        </p>
-
-      <div class="details-item-info">
-      <div class="field"><span class="firstrow-field-info">60м<sup>2</sup></span><span class="secondrow-field-info">Общая</span></div>
-      <div class="field"><span class="firstrow-field-info">40м<sup>2</sup></span><span class="secondrow-field-info">Жилая</span></div>
-      <div class="field"><span class="firstrow-field-info">8м<sup>2</sup></span><span class="secondrow-field-info">Кухня</span></div>
-      <div class="field"><span class="firstrow-field-info">2</span><span class="secondrow-field-info">Комнат</span></div>
-      <div class="field"><span class="firstrow-field-info">2этаж</span><span class="secondrow-field-info">из 3-x</span></div>
-      <div class="field date"><span class="firstrow-field-info">2009<sup></sup></span><span class="secondrow-field-info">Год постройки</span></div>
-    </div>
-    <h4>Условия сделки</h4>
-    <p class="details-modal-body">Прямая продажа, ипотека возможна.</p>
-    <hr class="underline underline-modal-body">
-    <h4>Квартира</h4>
-    <p class="details-modal-body">Несколько санузлов, Несколько санузлов, Несколько санузлов. </p>
-    <hr class="underline underline-modal-body">
-    <h4>Условия сделки</h4>
-    <p class="details-modal-body">Высота потолков &mdash; 300 см.</p>
-  </div>
-  <div class="modal-footer details-modal-footer">
-  	<img alt="#" src="img/icon1-footer.png"><a href="#">поделиться</a>
-  	<div class="save"><img alt="#" src="img/icon2-footer.png"><a href="#">сохранить к себе</a></div>
-  	<div class="dropdown dropdown-menu-footer"><img alt="#" src="img/icon3-footer.png"><a href="#" class="dropdown-toggle" data-toggle="dropdown">еще</a><span class="caret" ></span>
-  	<ul class="dropdown-menu ">
-
-            <li><a href="#">снимаю</a></li>
-            <li><a href="#">сдаю</a></li>
-            <li><a href="#">закладки</a></li>
-            <li><a href="#">настройки</a></li>
-          </ul>
-  	</div>
-  </div>
-</div>
-</div>
-</div>
-<!--Регистрация-->
-<div class="modal " id="registration" tabindex="-1" role="dialog" aria-labelledby="registration"  >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content registration-modal-content">
-    <div class="registration-modal-header modal-header">
-    	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <hr class="underline">
-    	 <a class="enter-registration-modal-header" href="#">Вход</a>
-    	 <h2>Регистрация </h2>
-    </div>
-      <div class="modal-body registration-modal-body">
-      <form class="registration-form-modal-body">
-      <p><label>Имя<span class="obligatory">*</span></label>
-      	<input class="lastname" type="text" name="lastname">
-      	</p>
-      	<p><label>Фамилия</label>
-      	<input class="firstname"  type="text" name="firstname">
-      	</p>
-      	<p><label>Телефон</label>
-      	<input class="phone" type="tel"  name="phone">
-      	</p>
-      	<p><label>Email<span class="obligatory">*</span></label>
-      	<input class="Email" type="text" name="mail">
-      	</p>
-      	<p><label>Пароль<span class="obligatory">*</span><span class="condition">минимум 8 символов</span></label> 
-      	<input class="password" type="text" name="password">
-      	</p>
-      	<p><label>Подтвердите пароль<span class="obligatory">*</span></label>
-      	<input  type="text" name="password">
-      	</p>
-      </form>
-
-
-
-      </div>
-      <div class="modal-footer registration-modal-footer">
-      	<button class="reg-modal-footer">Зарегистрироваться</button>
-      </div>
-      </div>
-   </div>
- </div>
- <!-- спасибо за регистрацию -->
- <div class="modal " id="check" tabindex="-1" role="dialog" aria-labelledby="check"  >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content registration-modal-content">
-    <div class="registration-modal-header modal-header">
-    	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <a class="enter-registration-modal-header" href="#">Вход</a>
-    	 <hr class="underline">
-    	 <h2>Регистрация </h2>
-    </div>
-      <div class="modal-body check-modal-body registration-modal-body">
-      <p class="field1">Спасибо за регистрацию! Мы выслали вам email с подтверждением, проверьте почтовый ящик.</p>
-      <hr class="undrline underline-modal-body">
-      <p class="field2">Не получили инструкции для подтверждения регистрации?</p>
-      </div>
-
-      </div>
-   </div>
- </div>
- <!--  отправить подтверждение  -->
-  <div class="modal " id="push" tabindex="-1" role="dialog" aria-labelledby="push"  >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content registration-modal-content push-modal-content">
-    <div class="registration-modal-header modal-header push-modal-header">
-    	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <hr class="underline">
-    	 <h2>Отправить подтверждение</h2>
-    	 <span> Подтвержедние</span>
-    </div>
-      <div class="modal-body push-modal-body registration-modal-body">
-      <form class="form-push">
-      <p><label>Email<span class="obligatory">*</span></label>
-      	<input class="email-push" type="text" name="mail">
-      	</p>
-      	<button class="button-push">Отправить</button>
-      	</form>
-      </div>
-      <div class="modal-footer  push-modal-footer registration-modal-footer">
-      <p><a href="#">Войти</a></p>
-      <p><a href="#">Зарегистрироваться</a></p>
-      <p><a href="#">Забыли пароль?</a></p>
-      </div>
-   </div>
- </div>
- </div>
- <!--вход-->
-
-<div class="modal" id="enter" tabindex="-1" role="dialog" aria-labelledby="enter">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content registration-modal-content enter-modal-content">
-    <div class="registration-modal-header modal-header">
-    	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <hr class="underline">
-    	 <a class="enter-registration-modal-header" href="#">Регистрация</a>
-    	 <h2>Вход</h2>
-    </div>
-      <div class=" enter-modal-body modal-body push-modal-body registration-modal-body">
-      <form class=" form-enter form-push">
-      <p><label>Email</label>
-      	<input class=" email-enter email-push" type="text" name="mail">
-      	</p>
-      	<p><label>Пароль</label>
-      	<input class=" password-enter email-push" type="password" name="password">
-
-      	</p>
-      	<div class="checkbox-enter">
-        	<input class="check-enter checkbox-light" type="checkbox" name="option1" id="checkbox1" value="a2">
-
-        	<label for="checkbox1">Запомнить меня</label>
-      	</div>
-      	</form>
-      </div>
-      <div class="modal-footer  enter-modal-footer registration-modal-footer">
-      <button class="button-form-enter">Войти</button>
-      <p class="field1">
-      <a href="#">Не получили инструкции для подтверждения регистрации?</a>
-      </p>
-      <p  class="field2">
-      <a href="#">Забыли пароль?</a>
-      </p>
-      </div>
-   </div>
- </div>
- </div>
-<!--Забыли пароль-->
- <div class="modal " id="forget" tabindex="-1" role="dialog" aria-labelledby="forget"  >
-  <div class="modal-dialog" role="document">
-    <div class="forget-modal-content modal-content registration-modal-content">
-    <div class=" forget-modal-header registration-modal-header modal-header">
-    	 <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
-    	 <hr class="underline">
-    	 <h2>Забыли пароль?</h2>
-    </div>
-      <div class="modal-body push-modal-body registration-modal-body">
-      <form class="form-push">
-      <p><label>Email<span class="obligatory">*</span></label>
-      	<input class="email-push" type="text" name="mail">
-      	</p>
-      	<button class="button-forget button-push">Выслать инструкции</button>
-      	</form>
-      </div>
-      <div class="modal-footer  push-modal-footer registration-modal-footer">
-      <p class="paragraph1"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
-      <p><a href="#">Войти</a></p>
-      <p><a href="#">Зарегистрироваться</a></p>
-      <p class="paragraph4"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
-      </div>
-   </div>
- </div>
- </div>
-
-<script src="http://code.jquery.com/jquery-latest.js"></script>
- <script src="js/bootstrap.js"></script>
-</body>
+        </div>
+        <div class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 main-title-offer">
+                        <p class="phrase-offer">Найдено <span class="number-offer">9</span> предложения</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#details-item">
+                        <img class="mobile-img" src="img/picture1-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Квартира, 2 ком., 66м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">Балтийская ул., 21,к.9</span>
+                                <span class="field2"><span class="figure"></span>Балтийская, 20 мин.пешком</span>
+                                <span class="field3"><span class="figure"></span>Нарвская, 10 мин.пешком</span>
+                                <span class="price-info-block-offer">3 000 000 000 P</span>
+                                <span class=" invisible-date-info-block-offer">31 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">31 июля</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 block-offer col-sm-6" data-toggle="modal" data-target="#registration">
+                        <img class="mobile-img" src="img/picture2-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Квартира, 8 ком., 696м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">Станционный пр., 12</span>
+                                <span class="price-info-block-offer">6 666 666 P</span>
+                                <span class=" invisible-date-info-block-offer">30 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">30 июля</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#check">
+                        <img class="mobile-img" src="img/picture3-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Квартира, 2 ком., 50м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">Краснопутиловская ул., 46A</span>
+                                <span class="price-info-block-offer">3 000 000 000 P</span>
+                                <span class=" invisible-date-info-block-offer">30 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">30 июля</p>
+                        </div>
+                    </div>
+                    <div class="block-offer col-md-6 col-sm-6" data-toggle="modal" data-target="#enter">
+                        <img class="mobile-img" src="img/picture1-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Квартира, 2 ком., 60м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">Краснопутиловская ул., 46А</span>
+                                <span class="price-info-block-offer">93 000 000 P</span>
+                                <span class=" invisible-date-info-block-offer">30 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">30 июля</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="block-offer  col-md-6 col-sm-6" data-toggle="modal" data-target="#forget">
+                        <img class="mobile-img" src="img/picture2-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Дом, 2 ком., 166м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">ул.Красного текстильщика, 46A</span>
+                                <span class="price-info-block-offer">7 000 000 P</span>
+                                <span class=" invisible-date-info-block-offer">30 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">30 июля</p>
+                        </div>
+                    </div>
+                    <div class="block-offer  col-md-6 col-sm-6" data-toggle="modal" data-target="#push">
+                        <img class="mobile-img" src="img/picture3-offer-mobile.png" alt="#">
+                        <div class="info-block-offer">
+                            <p class="title-info-block-offer">Квартира, 2 ком., 96м<sup>2</sup></p>
+                            <p class="description-info-block-offer">
+                                <span class="field1">Краснопутиловская ул. 46А</span>
+                                <span class="price-info-block-offer">9 660 000 P</span>
+                                <span class=" invisible-date-info-block-offer">30 июля</span>
+                            </p>
+                            <p class="date-info-block-offer">29 июля</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="wrapper-leftside-footer ">
+                            <p class="footer-title">Купеческое слово,2017</p>
+                            <hr  class="underline"  >
+                            <div class="social-icons">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-vk" aria-hidden="true"></i>
+                                <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <ul class="footer-list ">
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Вопросы</a></li>
+                            <li><a href="#">Условия использования</a></li>
+                            <li><a href="#">Карта сайта</a></li>
+                            <li><a href="#"> Войти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Modal -->
+        <div class="modal fade " id="details-item" tabindex="-1" role="dialog" aria-labelledby="details-item"  >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-details-info">
+                    <div class="modal-body">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <img  class="map" alt="#" src="img/map.png">
+                        <div class="gallery">
+                            <img  alt="#" src="img/picture1-modal.png">
+                            <img  alt="#" src="img/picture2-modal.png">
+                            <img  alt="#" src="img/picture3-modal.png">
+                            <img  alt="#" src="img/picture4-modal.png">
+                            <img  alt="#" src="img/picture5-modal.png">
+                            <img  alt="#" src="img/picture6-modal.png">
+                        </div>
+                        <p class="contacts-details-info">
+                            <span class="phone-contacts">+7 922 222 22 00</span>
+                            <span class="name-contacts">John Jackson The Third &ndash; <span class="status-name-contacts">менеджер</span></span>
+                        </p>
+                        <div class="details-item-info">
+                            <div class="field"><span class="firstrow-field-info">60м<sup>2</sup></span><span class="secondrow-field-info">Общая</span></div>
+                            <div class="field"><span class="firstrow-field-info">40м<sup>2</sup></span><span class="secondrow-field-info">Жилая</span></div>
+                            <div class="field"><span class="firstrow-field-info">8м<sup>2</sup></span><span class="secondrow-field-info">Кухня</span></div>
+                            <div class="field"><span class="firstrow-field-info">2</span><span class="secondrow-field-info">Комнат</span></div>
+                            <div class="field"><span class="firstrow-field-info">2этаж</span><span class="secondrow-field-info">из 3-x</span></div>
+                            <div class="field date"><span class="firstrow-field-info">2009<sup></sup></span><span class="secondrow-field-info">Год постройки</span></div>
+                        </div>
+                        <h4>Условия сделки</h4>
+                        <p class="details-modal-body">Прямая продажа, ипотека возможна.</p>
+                        <hr class="underline underline-modal-body">
+                        <h4>Квартира</h4>
+                        <p class="details-modal-body">Несколько санузлов, Несколько санузлов, Несколько санузлов. </p>
+                        <hr class="underline underline-modal-body">
+                        <h4>Условия сделки</h4>
+                        <p class="details-modal-body">Высота потолков &mdash; 300 см.</p>
+                    </div>
+                    <div class="modal-footer details-modal-footer">
+                        <img alt="#" src="img/icon1-footer.png"><a href="#">поделиться</a>
+                        <div class="save"><img alt="#" src="img/icon2-footer.png"><a href="#">сохранить к себе</a></div>
+                        <div class="dropdown dropdown-menu-footer">
+                            <img alt="#" src="img/icon3-footer.png"><a href="#" class="dropdown-toggle" data-toggle="dropdown">еще</a><span class="caret" ></span>
+                            <ul class="dropdown-menu ">
+                                <li><a href="#">снимаю</a></li>
+                                <li><a href="#">сдаю</a></li>
+                                <li><a href="#">закладки</a></li>
+                                <li><a href="#">настройки</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Регистрация-->
+        <div class="modal " id="registration" tabindex="-1" role="dialog" aria-labelledby="registration"  >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content registration-modal-content">
+                    <div class="registration-modal-header modal-header">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <hr class="underline">
+                        <a class="enter-registration-modal-header" href="#">Вход</a>
+                        <h2>Регистрация </h2>
+                    </div>
+                    <div class="modal-body registration-modal-body">
+                        <form class="registration-form-modal-body">
+                            <p><label>Имя<span class="obligatory">*</span></label>
+                                <input class="lastname" type="text" name="lastname">
+                            </p>
+                            <p><label>Фамилия</label>
+                                <input class="firstname"  type="text" name="firstname">
+                            </p>
+                            <p><label>Телефон</label>
+                                <input class="phone" type="tel"  name="phone">
+                            </p>
+                            <p><label>Email<span class="obligatory">*</span></label>
+                                <input class="Email" type="text" name="mail">
+                            </p>
+                            <p><label>Пароль<span class="obligatory">*</span><span class="condition">минимум 8 символов</span></label> 
+                                <input class="password" type="text" name="password">
+                            </p>
+                            <p><label>Подтвердите пароль<span class="obligatory">*</span></label>
+                                <input  type="text" name="password">
+                            </p>
+                        </form>
+                    </div>
+                    <div class="modal-footer registration-modal-footer">
+                        <button class="reg-modal-footer">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- спасибо за регистрацию -->
+        <div class="modal " id="check" tabindex="-1" role="dialog" aria-labelledby="check"  >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content registration-modal-content">
+                    <div class="registration-modal-header modal-header">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <a class="enter-registration-modal-header" href="#">Вход</a>
+                        <hr class="underline">
+                        <h2>Регистрация </h2>
+                    </div>
+                    <div class="modal-body check-modal-body registration-modal-body">
+                        <p class="field1">Спасибо за регистрацию! Мы выслали вам email с подтверждением, проверьте почтовый ящик.</p>
+                        <hr class="undrline underline-modal-body">
+                        <p class="field2">Не получили инструкции для подтверждения регистрации?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  отправить подтверждение  -->
+        <div class="modal " id="push" tabindex="-1" role="dialog" aria-labelledby="push"  >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content registration-modal-content push-modal-content">
+                    <div class="registration-modal-header modal-header push-modal-header">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <hr class="underline">
+                        <h2>Отправить подтверждение</h2>
+                        <span> Подтвержедние</span>
+                    </div>
+                    <div class="modal-body push-modal-body registration-modal-body">
+                        <form class="form-push">
+                            <p><label>Email<span class="obligatory">*</span></label>
+                                <input class="email-push" type="text" name="mail">
+                            </p>
+                            <button class="button-push">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer  push-modal-footer registration-modal-footer">
+                        <p><a href="#">Войти</a></p>
+                        <p><a href="#">Зарегистрироваться</a></p>
+                        <p><a href="#">Забыли пароль?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--вход-->
+        <div class="modal" id="enter" tabindex="-1" role="dialog" aria-labelledby="enter">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content registration-modal-content enter-modal-content">
+                    <div class="registration-modal-header modal-header">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <hr class="underline">
+                        <a class="enter-registration-modal-header" href="#">Регистрация</a>
+                        <h2>Вход</h2>
+                    </div>
+                    <div class=" enter-modal-body modal-body push-modal-body registration-modal-body">
+                        <form class=" form-enter form-push">
+                            <p><label>Email</label>
+                                <input class=" email-enter email-push" type="text" name="mail">
+                            </p>
+                            <p><label>Пароль</label>
+                                <input class=" password-enter email-push" type="password" name="password">
+                            </p>
+                            <div class="checkbox-enter">
+                                <input class="check-enter checkbox-light" type="checkbox" name="option1" id="checkbox1" value="a2">
+                                <label for="checkbox1">Запомнить меня</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer  enter-modal-footer registration-modal-footer">
+                        <button class="button-form-enter">Войти</button>
+                        <p class="field1">
+                            <a href="#">Не получили инструкции для подтверждения регистрации?</a>
+                        </p>
+                        <p class="field2">
+                            <a href="#">Забыли пароль?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Забыли пароль-->
+        <div class="modal " id="forget" tabindex="-1" role="dialog" aria-labelledby="forget"  >
+            <div class="modal-dialog" role="document">
+                <div class="forget-modal-content modal-content registration-modal-content">
+                    <div class=" forget-modal-header registration-modal-header modal-header">
+                        <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
+                        <hr class="underline">
+                        <h2>Забыли пароль?</h2>
+                    </div>
+                    <div class="modal-body push-modal-body registration-modal-body">
+                        <form class="form-push">
+                            <p><label>Email<span class="obligatory">*</span></label>
+                                <input class="email-push" type="text" name="mail">
+                            </p>
+                            <button class="button-forget button-push">Выслать инструкции</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer  push-modal-footer registration-modal-footer">
+                        <p class="paragraph1"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
+                        <p><a href="#">Войти</a></p>
+                        <p><a href="#">Зарегистрироваться</a></p>
+                        <p class="paragraph4"><a href="#">Не получили инструкции для подтверждения регистрации?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
 </html>
