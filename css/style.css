@@ -1052,11 +1052,12 @@ footer .underline {
     bottom: 7%;
 }
 .modal .modal-dialog {
-    float: right;
     margin: 0;
     max-width: 715px;
     width: 100%;
     z-index: 1040;
+    position: absolute;
+    right: 0px;
 }
 .map {
     width: 100%;
@@ -1087,7 +1088,7 @@ footer .underline {
     border: 1px solid #eeeeee;
     width: 35px;
     display: block;
-    margin: 5px 10px;
+    margin: 5px 0px;
 }
 .details-item-info {
     border: 1px solid #eeeeee;
@@ -2176,4 +2177,8 @@ input:-moz-placeholder {
 }
 .notification .checkbox-enter label {
     line-height: 25px;
+}
+
+.contacts-details-info {
+    border-bottom: none;
 }
