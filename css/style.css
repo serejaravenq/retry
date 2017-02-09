@@ -1631,7 +1631,7 @@ textarea::-moz-placeholder, input:-moz-placeholder {
     color: #b28500;
 }
 .balance-wrapper {
-    border: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
 .write-off {
     font-family: "Proximanova-semibold";
