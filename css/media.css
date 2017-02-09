@@ -595,7 +595,7 @@
         width: 100%;
     }
     .push-modal-body .button-push {
-        float: none;
+        margin-left: 0px;
         max-width: 100%;
     }
     .details-item-info {
@@ -650,14 +650,7 @@
         width: 100%;
         max-width: 234px;
     }
-    .footer-list {
-        padding: 0;
-        margin-left: 3%;
-    }
     .invisible-section {
-        display: none;
-    }
-    .footer-list {
         display: none;
     }
     .about .section-details {
@@ -948,6 +941,11 @@
     }
     footer .underline {
         display: none;
+    }
+    .footer-list li {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
     }
     .invisible-block {
         display: none;

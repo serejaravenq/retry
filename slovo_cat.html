@@ -36,10 +36,10 @@
                                 <li><a href="slovo_cab.html">аренда</a></li>
                                 <li><a href="slovo_cat.html">продажа</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#">Q&A</a></li>
+                                <li><a href="#">Вопросы</a></li>
                                 <li class="divider"></li>
                                 <li><a href="#">контакты</a></li>
-                                <li class="phone-field"><a href="#">+7(812)600 00 00</a></li>
+                                <li class="phone-field"><a href="tel:8-812-600-00-00">+7 ( 812 ) 600 00 00</a></li>
                                 <li class="login"><a href="#" class="dropdown dropdown-toggle" data-toggle="dropdown">Войти <b class="caret"></b></a></li>
                             </ul>
                         </div>
@@ -202,11 +202,14 @@
                             </div>
                         </div>
                         <hr class="underline-main-catalog">
-                        <p class="done"> Скрыть</p>
+                        <p class="parametrs-searcher-catalog hide-options">
+                            <a href="#additional-options" class="hide-link" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options" >Скрыть</a>
+                        </p>
+
                     </div>
                 </div>
-                <p class="parametrs-searcher-catalog">
-                    <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Дополнительные опции</a>
+                <p class="parametrs-searcher-catalog show-options">
+                    <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options" >Дополнительные опции</a>
                 </p>
                 <p class="invisible-wrapper-catalog">
                     <a href="#additional-options" role="button" data-toggle="collapse" href="#additional-options" aria-controls="additional-options">Задать параметры поиска</a>
@@ -372,15 +375,6 @@
                     <div class="modal-footer details-modal-footer">
                         <img alt="#" src="img/icon1-footer.png"><a href="#">поделиться</a>
                         <div class="save"><img alt="#" src="img/icon2-footer.png"><a href="#">сохранить к себе</a></div>
-                        <div class="dropdown dropdown-menu-footer">
-                            <img alt="#" src="img/icon3-footer.png"><a href="#" class="dropdown-toggle" data-toggle="dropdown">еще</a><span class="caret" ></span>
-                            <ul class="dropdown-menu ">
-                                <li><a href="#">снимаю</a></li>
-                                <li><a href="#">сдаю</a></li>
-                                <li><a href="#">закладки</a></li>
-                                <li><a href="#">настройки</a></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -449,11 +443,12 @@
                         <button class="close cancel-button" type="button" data-dismiss="modal"><img alt="#" src="img/cance-icon.png"></button>
                         <hr class="underline">
                         <h2>Отправить подтверждение</h2>
-                        <span> Подтвержедние</span>
+                        <span> Подтверждение</span>
                     </div>
                     <div class="modal-body push-modal-body registration-modal-body">
                         <form class="form-push">
-                            <p><label>Email<span class="obligatory">*</span></label>
+                            <p>
+                                <label>Email<span class="obligatory">*</span></label>
                                 <input class="email-push" type="text" name="mail">
                             </p>
                             <button class="button-push">Отправить</button>
@@ -531,5 +526,14 @@
         </div>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            $("#additional-options").on('show.bs.collapse', function() {
+                $('.hide-options').show();
+                $('.show-options').hide();
+            }).on('hide.bs.collapse', function() {
+                $('.hide-options').hide();
+                $('.show-options').show();
+            });
+        </script>
     </body>
 </html>
