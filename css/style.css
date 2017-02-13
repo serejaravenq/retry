@@ -19,6 +19,9 @@ header .main-nav-bar nav {
     background-color: #f5f5f5;
     border: none;
 }
+h3 a {
+    color: #444444;
+}
 .navbar-header {
     padding-bottom: 15px;
 }
